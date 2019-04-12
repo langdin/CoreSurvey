@@ -24,7 +24,6 @@ const routes: Routes = [
   {path: 'take-survey', component: TakeSurveyComponent, data: {title: 'Take Survey'}},
   {path: 'contact', component: ContactComponent, data: {title: 'Contact'}},
 
-
   {path: 'survey-list', component: SurveyListComponent, data: {title: 'Survey List'}},
   {path: 'survey-list/add', component: SurveyDetailsComponent, data: {title: 'Add Survey'}},
   {path: 'survey-list/edit/:id', component: SurveyDetailsComponent, data: {title: 'Edit Survey'}},

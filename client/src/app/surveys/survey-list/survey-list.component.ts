@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SurveyListService } from 'src/app/services/survey-list.service';
 import { Survey } from 'src/app/models/survey';
 import { FlashMessagesService } from 'angular2-flash-messages';
 import { Router } from '@angular/router';
@@ -12,7 +13,7 @@ export class SurveyListComponent implements OnInit {
   surveys: Survey[];
 
   constructor(
-    // service,
+    private surveyListService: SurveyListService,
     private flashMessage: FlashMessagesService,
     private router: Router
   ) { }
@@ -29,13 +30,13 @@ export class SurveyListComponent implements OnInit {
   }
 
   public displaySurveyList(): void {
-    /*this.Service.getList().subscribe(data => {
+    this.surveyListService.getSurveyList().subscribe(data => {
       if (data.success) {
         console.log(data);
         this.surveys = data.surveyList;
       } else {
         this.flashMessage.show('User must be logged in', {cssClass: 'alert-danger', timeOut: 3000});
       }
-    });*/
+    });
    }
 }
