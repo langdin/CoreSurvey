@@ -10,6 +10,7 @@ let answerModel = require('../models/answer');
 module.exports.answerQuestions = (req, res, next) => {
 
     let newAnswer = answerModel({
+        "surveyId":req.body.surveyId,
         "answer1": req.body.question1,
         "answer2": req.body.question2,
         "answer3": req.body.question3,
