@@ -5,8 +5,6 @@ import { ContactListService } from 'src/app/services/contact-list.service';
 import { FlashMessagesService } from 'angular2-flash-messages';
 import { Router } from '@angular/router';
 import { AuthService } from 'src/app/services/auth.service';
-import { userInfo } from 'os';
-
 
 @Component({
   selector: 'app-my-info',
@@ -26,7 +24,7 @@ export class MyInfoComponent implements OnInit {
 
   ngOnInit() {
     this.user = new User();
-    
+
 
   }
 

@@ -18,6 +18,7 @@ import { TakeSurveyComponent } from './pages/take-survey/take-survey.component';
 import { SurveyListComponent } from './surveys/survey-list/survey-list.component';
 import { SurveyDetailsComponent } from './surveys/survey-details/survey-details.component';
 import { SurveyDeleteComponent } from './surveys/survey-delete/survey-delete.component';
+import { DetailComponent } from './surveys/detail/detail.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent, data: {title: 'Home'}},
@@ -26,6 +27,7 @@ const routes: Routes = [
   {path: 'contact', component: ContactComponent, data: {title: 'Contact'}},
 
   {path: 'survey-list', component: SurveyListComponent, data: {title: 'Survey List'}},
+  {path: 'survey-list/detail/:id', component: DetailComponent, data: {title: 'Survey Detail'}},
   {path: 'survey-list/add', component: SurveyDetailsComponent, data: {title: 'Add Survey'}},
   {path: 'survey-list/edit/:id', component: SurveyDetailsComponent, data: {title: 'Edit Survey'}},
   {path: 'survey-list/delete/:id', component: SurveyDeleteComponent, data: {title: 'Delete Survey'}},
