@@ -8,12 +8,19 @@
         <tr>
           <th class="text-center">Name</th>
           <th class="text-center">Description</th>
+          <th class="text-center"></th>
         </tr>
 
         <!-- Repeatable Template Row -->
         <tr *ngFor="let survey of surveys">
           <td class="text-center">{{ survey.name }}</td>
           <td class="text-center">{{ survey.description }}</td>
+          <td class="text-center">
+            <a routerLink="/take-survey-detail/{{ survey._id }}" class="btn btn-outline-primary"
+              ><i class="fas fa-pencil-alt"></i>
+              Take Survey
+            </a>
+          </td>
         </tr>
       </table>
     </div>

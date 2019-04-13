@@ -54,7 +54,7 @@ export class SurveyListComponent implements OnInit {
         console.log(data.surveyList);
         this.searchSurvey = data.surveyList;
         this.searchSurvey.forEach(survey => {
-          if (survey.userEmail === this.current.email)
+          if (survey.userId === this.current._id)
             this.surveys.push(survey);
         });
       } else {
