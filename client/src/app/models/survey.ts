@@ -10,5 +10,5 @@ export class Survey {
   question5: string;
   startDate: Date;
   endDate: Date;
-  userId: string;
+  surveyId:string;
 }
