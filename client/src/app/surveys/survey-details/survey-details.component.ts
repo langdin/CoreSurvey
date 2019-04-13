@@ -52,7 +52,7 @@ export class SurveyDetailsComponent implements OnInit {
     switch (this.title) {
       case 'Add Survey':
       this.survey.userEmail = this.current.email;
-      this.survey.surveyId = Md5.hashStr(this.current.email).toString();
+      this.survey.surveyId = Md5.hashStr(this.survey.name).toString()+Md5.hashStr(this.survey.description).toString()+Md5.hashStr(this.survey.question1).toString();
         this.surveyListService.addSurvey(this.survey).subscribe(data => {
           if (data.success) {
             this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});
