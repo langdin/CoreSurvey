@@ -1,1 +1,22 @@
-<app-base-page></app-base-page>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-offset-3 col-md-12">
+      <h1>Surveys</h1>
+      <br />
+      <table class="table table-bordered table-striped table-hover">
+        <!-- Header Row-->
+        <tr>
+          <th class="text-center">Name</th>
+          <th class="text-center">Description</th>
+        </tr>
+
+        <!-- Repeatable Template Row -->
+        <tr *ngFor="let survey of surveys">
+          <td class="text-center">{{ survey.name }}</td>
+          <td class="text-center">{{ survey.description }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

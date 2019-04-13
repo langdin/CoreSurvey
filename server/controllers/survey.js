@@ -4,6 +4,7 @@ let jwt = require('jsonwebtoken');
 
 // create a reference to the db schema
 let surveyModel = require('../models/survey');
+let userModel = require('../models/user');
 
 module.exports.displaySurveyList = (req, res, next) =>{
     surveyModel.find((err, surveyList) => {
@@ -21,8 +22,9 @@ module.exports.displayAddPage = (req, res, next) => {
 }
 
 module.exports.processAddPage = (req, res, next) => {
-    
+
     let newSurvey = surveyModel({
+        "userEmail": req.body.userEmail,
         "name": req.body.name,
         "description": req.body.description,
         "question1": req.body.question1,
@@ -38,7 +40,6 @@ module.exports.processAddPage = (req, res, next) => {
             res.end(err);
         }
         else {
-            console.log(req.body.userid);
             res.json({success: true, msg: 'Successfully Added New Survey'});
         }
     });

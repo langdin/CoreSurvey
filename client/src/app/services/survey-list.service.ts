@@ -39,7 +39,7 @@ export class SurveyListService {
 
   public addSurvey(survey: Survey): Observable<any> {
     this.loadToken();
-    return this.http.post<any>(this.endpoint + 'add' , survey, this.httpOptions);
+    return this.http.post<any>(this.endpoint + 'add', survey, this.httpOptions);
   }
 
   public editSurvey(survey: Survey): Observable<any> {

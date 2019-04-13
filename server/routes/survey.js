@@ -1,8 +1,6 @@
 let express = require('express');
 let router = express.Router();
-
 let jwt = require('jsonwebtoken');
-
 let passport = require('passport');
 
 let surveyController = require('../controllers/survey');
@@ -15,7 +13,7 @@ function requireAuth(req, res, next) {
     next();
 }
 
-/* GET Contact List page - READ Operation */
+/* GET Survey List page - READ Operation */
 router.get('/', passport.authenticate('jwt', {session: false}), surveyController.displaySurveyList);
 
 /* GET Route for the Add page 

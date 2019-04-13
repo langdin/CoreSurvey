@@ -14,6 +14,7 @@ export class SurveyDetailsComponent implements OnInit {
   title: string;
   survey: Survey;
   current: User;
+  user: User;
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -28,7 +29,7 @@ export class SurveyDetailsComponent implements OnInit {
     this.current = JSON.parse(localStorage.getItem('user'));
 
     this.activatedRoute.params.subscribe(params => {
-      this.survey._id = params.id;
+        this.survey._id = params.id;
     });
 
     if (this.title === 'Edit Survey') {
@@ -45,6 +46,7 @@ export class SurveyDetailsComponent implements OnInit {
   onDetailsPageSubmit(): void {
     switch (this.title) {
       case 'Add Survey':
+      this.survey.userEmail = this.current.email;
         this.surveyListService.addSurvey(this.survey).subscribe(data => {
           if (data.success) {
             this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});

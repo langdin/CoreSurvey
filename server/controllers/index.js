@@ -7,59 +7,9 @@ let jwt = require('jsonwebtoken');
 let DB = require('../config/db');
 
 // define the User Model
+let surveyModel = require('../models/survey');
 let userModel = require("../models/user");
 let User = userModel.User; // alias
-
-/*
-
-module.exports.displayHomePage = (req, res, next) => {
-  res.render("index", {
-    title: "Home",
-    displayName: req.user ? req.user.displayName : ""
-  });
-};
-
-module.exports.displayAboutPage = (req, res, next) => {
-  res.render("index", {
-    title: "About",
-    displayName: req.user ? req.user.displayName : ""
-  });
-};
-
-module.exports.displayProductsPage = (req, res, next) => {
-  res.render("index", {
-    title: "Products",
-    displayName: req.user ? req.user.displayName : ""
-  });
-};
-
-module.exports.displayServicesPage = (req, res, next) => {
-  res.render("index", {
-    title: "Services",
-    displayName: req.user ? req.user.displayName : ""
-  });
-};
-
-module.exports.displayContactPage = (req, res, next) => {
-  res.render("index", {
-    title: "Contact",
-    displayName: req.user ? req.user.displayName : ""
-  });
-};
-
-module.exports.displayLoginPage = (req, res, next) => {
-  // check if user is already logged in
-  if (!req.user) {
-    res.render("auth/login", {
-      title: "Login",
-      messages: req.flash("loginMessage"),
-      displayName: req.user ? req.user.displayName : ""
-    });
-  } else {
-    return res.redirect("/");
-  }
-};
-*/
 
 module.exports.processLoginPage = (req, res, next) => {
   passport.authenticate('local', 
@@ -89,33 +39,15 @@ module.exports.processLoginPage = (req, res, next) => {
         expiresIn: 604800 // 1 Week
       });
 
-
       return res.json({success: true, msg: 'User Logged in Successfully!', user: {
         id: user._id,
         displayName: user.displayName,
         username: user.username,
         email: user.email
       }, token: authToken});
-
-
     });
   })(req, res, next);
 }
-
-/*
-
-module.exports.displayRegisterPage = (req, res, next) => {
-  if (!req.user) {
-    res.render("auth/register", {
-      title: "Register",
-      messages: req.flash("registerMessage"),
-      displayName: req.user ? req.user.displayName : ""
-    });
-  } else {
-    return res.redirect("/");
-  }
-};
-*/
 
 module.exports.processRegisterPage = (req, res, next) => {
   // define a new user object
@@ -146,3 +78,14 @@ module.exports.performLogout = (req, res, next) => {
   req.logout();
   res.json({success: true, msg: 'User Successfully Logged out!'});
 };
+
+module.exports.displayAllSurveyList = (req, res, next) =>{
+  surveyModel.find((err, surveyList) => {
+      if(err) {
+          return console.error(err);
+      }
+      else {
+         res.json({success: true, msg: 'Survey List Displayed Successfully', surveyList: surveyList, user: req.user});
+      }
+  });
+}

@@ -28,7 +28,7 @@
           ><i class="fa fa-lg fa-info"></i> About</a
         >
       </li>
-      <li class="nav-item">
+      <li *ngIf="isLoggedIn()" class="nav-item">
         <a class="nav-link" routerLink="/survey-list"
           ><i class="fa fa-lg fa-briefcase"></i> Surveys</a
         >
