@@ -1,0 +1,14 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn[_ngcontent-c2] {
+  width: 50px;
+  display: inline-block;
+  margin: 3px;
+  background: #17a2b8;
+  color: #fff;
+}

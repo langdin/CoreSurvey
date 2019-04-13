@@ -3,34 +3,38 @@
     <h1 class="display-4 text-center">Surveys</h1>
   <div class="row">
     <div class="col-md-offset-3 col-md-12">
-      <a routerLink="/survey-list/add" class="btn btn-outline-primary" role="button">
+ <!--      <a routerLink="/survey-list/add" class="btn btn-outline-primary" role="button">
         <i class="fa fa-plus-circle"></i>
         Add Survey</a>
-      <br />
-      <table class="table table-bordered table-striped table-hover">
+      <br /> -->
+      <table _ngcontent-c2 class="table table-bordered">
         <!-- Header Row-->
-        <tr>
-          <th class="text-center">Name</th>
-          <th class="text-center">Description</th>
-          <th class="text-center"></th>
-          <th class="text-center"></th>
-        </tr>
+        <thead class="thead-dark">
+          <tr>
+            <th _ngcontent-c2 class="th-sm text-center align-middle">Name</th>
+            <th _ngcontent-c2 class="th-sm text-center align-middle">Description</th>
+            <th _ngcontent-c2 class="th-sm text-center align-middle">
+              <a routerLink="/survey-list/add" class="btn btn-light" role="button">
+              <i class="fa fa-plus-circle"></i> Add a Survey
+            </a>
+          </th>
+          </tr>
+        </thead>
 
         <!-- Repeatable Template Row -->
         <tr *ngFor="let survey of surveys">
-          <td class="text-center">{{ survey.name }}</td>
-          <td class="text-center">{{ survey.description }}</td>
-          <td class="text-center">
-            <a routerLink="/survey-list/edit/{{ survey._id }}" class="btn btn-outline-primary"
-              ><i class="fas fa-pencil-alt"></i>
-              Edit
+          <td class="th-sm text-center align-middle">{{ survey.name }}</td>
+          <td class="th-sm text-center align-middle">{{ survey.description }}</td>
+          <td class="th-sm text-center align-middle">
+              <a routerLink="/survey-list/detail/{{ survey._id }}" _ngcontent-c2 class="btn btn-dark btn-block">
+                <i class="fas fa-eye"></i>
+              </a>
+            <a routerLink="/survey-list/edit/{{ survey._id }}" _ngcontent-c2 class="btn btn-dark btn-block">
+              <i class="fas fa-pencil-alt"></i>
             </a>
-          </td>
-          <td class="text-center">
-            <a routerLink="/survey-list/delete/{{ survey._id }}" (click)="onDeleteClick()" class="btn btn-outline-danger"
-              ><i class="fas fa-trash"></i>
-              Delete
-            </a>
+            <a routerLink="/survey-list/delete/{{ survey._id }}" (click)="onDeleteClick()" _ngcontent-c2 class="btn btn-dark btn-block">
+              <i class="fas fa-trash"></i>
+          </a>
           </td>
         </tr>
       </table>
