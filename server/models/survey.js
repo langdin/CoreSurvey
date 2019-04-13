@@ -11,7 +11,8 @@ let surveySchema = mongoose.Schema({
     question4: String,
     question5: String,
     startDate: Date,
-    endDate: Date
+    endDate: Date,
+    surveyId:String
 },
 {
     collection: "surveys"

@@ -3,7 +3,7 @@ let mongoose = require('mongoose');
 // create a model class
 let answerSchema = mongoose.Schema({
     createdDate: Date,
-    surveyid: String,
+    surveyId: String,
     answer1: String,
     answer2: String,
     answer3: String,
