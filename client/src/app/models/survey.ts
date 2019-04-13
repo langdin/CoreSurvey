@@ -1,5 +1,5 @@
 export class Survey {
-  _id: number;
+  _id: string;
   userEmail: string;
   name: string;
   description: string;
@@ -10,4 +10,5 @@ export class Survey {
   question5: string;
   startDate: Date;
   endDate: Date;
+  userId: string;
 }

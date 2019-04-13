@@ -64,6 +64,7 @@ module.exports.processEditPage = (req, res, next) => {
     let id = req.params.id;
 
     let updatedSurvey = surveyModel({
+        "_id": id,
         "name": req.body.name,
         "description": req.body.description,
         "question1": req.body.question1,

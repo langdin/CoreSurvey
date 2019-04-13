@@ -46,7 +46,7 @@ export class SurveyDetailsComponent implements OnInit {
   onDetailsPageSubmit(): void {
     switch (this.title) {
       case 'Add Survey':
-      this.survey.userEmail = this.current.email;
+      this.survey.userId = this.current._id;
         this.surveyListService.addSurvey(this.survey).subscribe(data => {
           if (data.success) {
             this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});
