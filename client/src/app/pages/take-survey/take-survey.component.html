@@ -3,12 +3,14 @@
   <div class="row">
     <div class="col-md-offset-3 col-md-12">
       <br />
-      <table class="table table-bordered table-striped table-hover">
+      <table class="table table-bordered table-hover">
         <!-- Header Row-->
-        <tr>
-          <th class="text-center">Name</th>
-          <th class="text-center">Description</th>
-        </tr>
+        <thead class="thead-dark">
+          <tr>
+            <th class="text-center">Name</th>
+            <th class="text-center">Description</th>
+          </tr>
+        </thead>
 
         <!-- Repeatable Template Row -->
         <tr *ngFor="let survey of surveys">
