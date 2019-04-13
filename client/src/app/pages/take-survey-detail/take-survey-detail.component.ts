@@ -6,6 +6,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { FlashMessagesService } from 'angular2-flash-messages';
 import { User } from 'src/app/models/user';
 import { Answer } from 'src/app/models/answer';
+import { TakeSurveyService } from 'src/app/services/take-survey.service';
 
 
 @Component({
@@ -21,6 +22,7 @@ export class TakeSurveyDetailComponent implements OnInit {
   constructor(
     private activatedRoute: ActivatedRoute,
     private surveyListService: SurveyListService,
+    private takeSurveyService: TakeSurveyService,
     private flashMessage: FlashMessagesService,
     private router: Router
   ) { }
@@ -45,6 +47,14 @@ export class TakeSurveyDetailComponent implements OnInit {
 
   onDetailsPageSubmit(): void {
     this.answer.surveyId = this.survey.surveyId;
+        this.takeSurveyService.addAnswer(this.answer).subscribe(data => {
+          if (data.success) {
+            this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});
+          } else {
+            this.flashMessage.show('Add Survey Failed', {cssClass: 'alert-danger', timeOut: 3000});
+          }
+          this.router.navigate(['/survey-list']);
+        });
   }
 
 }

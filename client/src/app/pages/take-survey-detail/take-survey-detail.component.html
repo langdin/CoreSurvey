@@ -8,35 +8,35 @@
         </div>
         <div class="form-group">
           <label for="PriorityTextField">{{survey.question1}}</label>
-          <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 1st Question"
-            name="question1" [(ngModel)]="survey.question1" value="{{survey.question1}}" required />
+          <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 1st Answer"
+            name="question1" [(ngModel)]="answer.answer1" value="{{answer.answer1}}" required />
         </div>
         <div class="form-group">
           <label for="PriorityTextField">{{survey.question2}}</label>
-          <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 2nd Question"
-            name="question2" [(ngModel)]="survey.question2" required />
+          <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 2nd Answer"
+            name="question2" [(ngModel)]="answer.answer2" value="{{answer.answer2}}" required />
         </div>
         <div class="form-group">
           <label for="PriorityTextField">{{survey.question3}}</label>
-          <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 3rd Question"
-            name="question3" [(ngModel)]="survey.question3" required />
+          <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 3rd Answer"
+            name="question3" [(ngModel)]="answer.answer3" value="{{answer.answer3}}" required />
         </div>
         <div class="form-group">
           <label for="PriorityTextField">{{survey.question4}}</label>
-          <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 4th Question"
-            name="question4" [(ngModel)]="survey.question4" required />
+          <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 4th Answer"
+            name="question4" [(ngModel)]="answer.answer4" value="{{answer.answer4}}" required />
         </div>
         <div class="form-group">
           <label for="PriorityTextField">{{survey.question5}}</label>
-          <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 5th Question"
-            name="question5" [(ngModel)]="survey.question5" required />
+          <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 5th Answer"
+            name="question5" [(ngModel)]="answer.answer5" value="{{answer.answer5}}" required />
         </div>
         <fieldset class="form-group text-center">
           <button type="submit" class="btn btn-primary"  style="margin: 10px;">
             <i class="fa fa-edit"></i>
-            {{title}}
+            Submit
           </button>
-          <a href="/survey-list" class="btn btn-warning mx-1"  style="margin: 10px;"><i class="fa fa-undo"></i> Cancel</a>
+          <a href="/take-survey" class="btn btn-warning mx-1"  style="margin: 10px;"><i class="fa fa-undo"></i> Cancel</a>
         </fieldset>
       </form>
       <br><br><br>
