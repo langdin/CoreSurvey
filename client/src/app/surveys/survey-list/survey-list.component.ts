@@ -24,7 +24,7 @@ export class SurveyListComponent implements OnInit {
   ngOnInit() {
     this.surveys = new Array<Survey>();
     this.current = JSON.parse(localStorage.getItem('user'));
-
+    console.log(this.current);
     if (this.current == null)
       this.displaySurveyList();
     else
@@ -54,7 +54,7 @@ export class SurveyListComponent implements OnInit {
         console.log(data.surveyList);
         this.searchSurvey = data.surveyList;
         this.searchSurvey.forEach(survey => {
-          if (survey.userId === this.current._id)
+          if (survey.userEmail === this.current.email)
             this.surveys.push(survey);
         });
       } else {
