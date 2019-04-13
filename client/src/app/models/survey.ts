@@ -1,5 +1,5 @@
 export class Survey {
-  _id: number;
+  _id: string;
   userEmail: string;
   name: string;
   description: string;
