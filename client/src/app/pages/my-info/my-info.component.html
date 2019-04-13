@@ -1,6 +1,4 @@
-<app-base-page> </app-base-page>
-
-<li *ngIf="isLoggedIn()" class=" text-success ml-5 mr-5 d-none d-lg-inline">
+<!-- <li *ngIf="isLoggedIn()" class=" text-success ml-5 mr-5 d-none d-lg-inline">
   User name: {{ user.username }}
 </li>
 
@@ -10,5 +8,16 @@
 
 <li *ngIf="isLoggedIn()" class=" text-success ml-5 mr-5 d-none d-lg-inline">
   Your display name: {{ user.displayName }}
-</li>
+</li> -->
+<div class="container" style="padding-top: 2%">
+    <div class="card" style="width: 25rem;">
+        <h5 class="card-header">My Information</h5>
+        <div class="card-body">
+          <h5 *ngIf="isLoggedIn()" class="card-title">Name: {{ user.username }}</h5>
+          <p *ngIf="isLoggedIn()" class="card-text">Email: {{ user.email }}</p>
+          <p *ngIf="isLoggedIn()" class="card-text">Display Name: {{ user.displayName }}</p>
+        </div>
+      </div>
+</div>
+
 
