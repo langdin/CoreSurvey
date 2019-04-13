@@ -28,7 +28,7 @@ export class SurveyDetailsComponent implements OnInit {
     this.current = JSON.parse(localStorage.getItem('user'));
 
     this.activatedRoute.params.subscribe(params => {
-      this.survey._id = params.surveyid;
+      this.survey._id = params.id;
     });
 
     if (this.title === 'Edit Survey') {

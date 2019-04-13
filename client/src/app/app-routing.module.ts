@@ -17,6 +17,7 @@ import { MyInfoComponent } from './pages/my-info/my-info.component';
 import { TakeSurveyComponent } from './pages/take-survey/take-survey.component';
 import { SurveyListComponent } from './surveys/survey-list/survey-list.component';
 import { SurveyDetailsComponent } from './surveys/survey-details/survey-details.component';
+import { SurveyDeleteComponent } from './surveys/survey-delete/survey-delete.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent, data: {title: 'Home'}},
@@ -27,7 +28,7 @@ const routes: Routes = [
   {path: 'survey-list', component: SurveyListComponent, data: {title: 'Survey List'}},
   {path: 'survey-list/add', component: SurveyDetailsComponent, data: {title: 'Add Survey'}},
   {path: 'survey-list/edit/:id', component: SurveyDetailsComponent, data: {title: 'Edit Survey'}},
-  {path: 'survey-list/delete/:id', component: SurveyListComponent, data: {title: 'Delete Survey'}},
+  {path: 'survey-list/delete/:id', component: SurveyDeleteComponent, data: {title: 'Delete Survey'}},
 
   {path: 'contact/contact-list', component: ContactListComponent, data: {title: 'Contact List'}, canActivate: [AuthGuard]},
   {path: 'contact/contact-list/add', component: ContactDetailsComponent, data: {title: 'Add Contact'}, canActivate: [AuthGuard]},
