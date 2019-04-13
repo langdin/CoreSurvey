@@ -5,6 +5,7 @@ import { Survey } from 'src/app/models/survey';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FlashMessagesService } from 'angular2-flash-messages';
 import { User } from 'src/app/models/user';
+import { Answer } from 'src/app/models/answer';
 
 
 @Component({
@@ -15,17 +16,35 @@ import { User } from 'src/app/models/user';
 export class TakeSurveyDetailComponent implements OnInit {
   title: string;
   survey: Survey;
-  current: User;
+  answer: Answer;
 
   constructor(
     private activatedRoute: ActivatedRoute,
+    private surveyListService: SurveyListService,
     private flashMessage: FlashMessagesService,
     private router: Router
-
-
   ) { }
 
   ngOnInit() {
+    this.title = this.activatedRoute.snapshot.data.title;
+
+    this.answer = new Answer();
+
+    this.survey = new Survey();
+    this.activatedRoute.params.subscribe(params => {
+      this.survey._id = params.id;
+    });
+    this.getSurvey(this.survey);
+  }
+
+  private getSurvey(survey: Survey): void {
+    this.surveyListService.getSurvey(survey).subscribe(data => {
+      this.survey = data.survey;
+    });
+  }
+
+  onDetailsPageSubmit(): void {
+    this.answer.surveyId = this.survey.surveyId;
   }
 
 }
