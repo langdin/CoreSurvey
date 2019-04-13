@@ -4,6 +4,8 @@ import { Survey } from 'src/app/models/survey';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FlashMessagesService } from 'angular2-flash-messages';
 import { User } from 'src/app/models/user';
+import {Md5} from 'ts-md5/dist/md5';
+
 
 @Component({
   selector: 'app-survey-details',
@@ -50,6 +52,7 @@ export class SurveyDetailsComponent implements OnInit {
     switch (this.title) {
       case 'Add Survey':
       this.survey.userEmail = this.current.email;
+      this.survey.surveyId = Md5.hashStr(this.current.email).toString();
         this.surveyListService.addSurvey(this.survey).subscribe(data => {
           if (data.success) {
             this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});
