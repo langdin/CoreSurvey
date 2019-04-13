@@ -4,6 +4,8 @@ import { Survey } from 'src/app/models/survey';
 import { FlashMessagesService } from 'angular2-flash-messages';
 import { Router } from '@angular/router';
 import { User } from 'src/app/models/user';
+import { AuthService } from 'src/app/services/auth.service';
+
 
 @Component({
   selector: 'app-survey-list',
@@ -15,20 +17,29 @@ export class SurveyListComponent implements OnInit {
   surveys: Survey[];
   current: User;
 
+
   constructor(
     private surveyListService: SurveyListService,
     private flashMessage: FlashMessagesService,
-    private router: Router
+    private router: Router,
+    private authService: AuthService
+
   ) { }
 
   ngOnInit() {
     this.surveys = new Array<Survey>();
     this.current = JSON.parse(localStorage.getItem('user'));
-    console.log(this.current);
-    if (this.current == null)
-      this.displaySurveyList();
+  
+    
+
+    if (this.isLoggedIn())
+    this.displayUserSurveyList();
+      
     else
-      this.displayUserSurveyList();
+    this.displaySurveyList();
+
+    //alert(this.current.id);
+      
   }
 
   private onDeleteClick(): void {
@@ -54,7 +65,8 @@ export class SurveyListComponent implements OnInit {
         console.log(data.surveyList);
         this.searchSurvey = data.surveyList;
         this.searchSurvey.forEach(survey => {
-          if (survey.userEmail === this.current.email)
+
+          if (survey.userEmail == this.current.email)
             this.surveys.push(survey);
         });
       } else {
@@ -62,4 +74,12 @@ export class SurveyListComponent implements OnInit {
       }
     });
    }
+
+   isLoggedIn(): boolean {
+    const result = this.authService.loggedIn();
+    if (result) {
+      this.current = JSON.parse(localStorage.getItem('user'));
+    }
+    return result;
+  }
 }

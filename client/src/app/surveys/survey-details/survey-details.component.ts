@@ -10,17 +10,20 @@ import { User } from 'src/app/models/user';
   templateUrl: './survey-details.component.html',
   styleUrls: ['./survey-details.component.css']
 })
+
 export class SurveyDetailsComponent implements OnInit {
   title: string;
   survey: Survey;
   current: User;
   user: User;
 
+
   constructor(
     private activatedRoute: ActivatedRoute,
     private surveyListService: SurveyListService,
     private flashMessage: FlashMessagesService,
     private router: Router
+    
   ) { }
 
   ngOnInit() {
