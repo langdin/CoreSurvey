@@ -15,7 +15,7 @@
         <div class="card-body">
           <h5 *ngIf="isLoggedIn()" class="card-title">Name: {{ user.username }}</h5>
           <p *ngIf="isLoggedIn()" class="card-text">Email: {{ user.email }}</p>
-          <p *ngIf="isLoggedIn()" class="card-text">Display Name: {{ user.id }}</p>
+          <p *ngIf="isLoggedIn()" class="card-text">Display Name: {{ user.displayName }}</p>
         </div>
       </div>
 </div>
