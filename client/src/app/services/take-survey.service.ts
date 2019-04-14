@@ -10,7 +10,7 @@ export class TakeSurveyService {
   private authToken: any = null;
 
   //private endpoint = 'https://comp308-w2019-lesson10b.herokuapp.com/api/contact-list/';
-  private endpoint = 'http://localhost:3000/api/take-survey-detail/'; // change endpoint
+  private endpoint = 'http://localhost:3000/api/take-survey/'; // change endpoint
 
   private httpOptions = {
     headers: new HttpHeaders({

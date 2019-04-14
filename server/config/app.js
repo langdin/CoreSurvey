@@ -34,6 +34,7 @@ mongoDB.once('open', ()=> {
 let indexRouter = require('../routes/index');
 let contactRouter = require('../routes/contact');
 let surveyRouter = require('../routes/survey');
+let takeSurveyRouter = require('../routes/take-survey');
 
 
 let app = express();
@@ -97,6 +98,7 @@ passport.use(strategy);
 
 
 app.use('/api', indexRouter);
+app.use('/api/take-survey', takeSurveyRouter);
 app.use('/api/contact-list', passport.authenticate('jwt', {session: false}), contactRouter);
 app.use('/api/survey-list', passport.authenticate('jwt', {session: false}), surveyRouter);
 app.get('*', (req, res) => {

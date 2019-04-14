@@ -47,14 +47,14 @@ export class TakeSurveyDetailComponent implements OnInit {
 
   onDetailsPageSubmit(): void {
     this.answer.surveyId = this.survey.surveyId;
-        this.takeSurveyService.addAnswer(this.answer).subscribe(data => {
-          if (data.success) {
-            this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});
-          } else {
-            this.flashMessage.show('Add Survey Failed', {cssClass: 'alert-danger', timeOut: 3000});
-          }
-          this.router.navigate(['/survey-list']);
-        });
+      this.takeSurveyService.addAnswer(this.answer).subscribe(data => {
+        if (data.success) {
+          this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});
+        } else {
+          this.flashMessage.show('Add Survey Failed', {cssClass: 'alert-danger', timeOut: 3000});
+        }
+        this.router.navigate(['/take-survey']);
+      });
   }
 
 }
