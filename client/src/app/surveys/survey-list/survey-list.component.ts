@@ -29,17 +29,17 @@ export class SurveyListComponent implements OnInit {
   ngOnInit() {
     this.surveys = new Array<Survey>();
     this.current = JSON.parse(localStorage.getItem('user'));
-  
-    
+
+
 
     if (this.isLoggedIn())
     this.displayUserSurveyList();
-      
+
     else
     this.displaySurveyList();
 
     //alert(this.current.id);
-      
+
   }
 
   private onDeleteClick(): void {
@@ -66,7 +66,7 @@ export class SurveyListComponent implements OnInit {
         this.searchSurvey = data.surveyList;
         this.searchSurvey.forEach(survey => {
 
-          if (survey.userEmail == this.current.email)
+          if (survey.userEmail === this.current.email)
             this.surveys.push(survey);
         });
       } else {
