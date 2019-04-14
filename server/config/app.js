@@ -100,7 +100,7 @@ passport.use(strategy);
 app.use('/api', indexRouter);
 app.use('/api/take-survey', takeSurveyRouter);
 app.use('/api/contact-list', passport.authenticate('jwt', {session: false}), contactRouter);
-app.use('/api/survey-list', passport.authenticate('jwt', {session: false}), surveyRouter);
+app.use('/api/survey-list', surveyRouter);
 app.get('*', (req, res) => {
   res.sendfile(path.join(__dirname, '../../public/index.html'));
 });

@@ -23,13 +23,8 @@ export class TakeSurveyService {
   constructor(private http: HttpClient) { }
 
   public addAnswer(answer: Answer): Observable<any> {
-    this.loadToken();
     return this.http.post<any>(this.endpoint + 'add', answer, this.httpOptions);
   }
 
-  private loadToken() {
-    const token = localStorage.getItem('id_token');
-    this.authToken = token;
-    this.httpOptions.headers = this.httpOptions.headers.set('Authorization', this.authToken);
-  }
+
 }

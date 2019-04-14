@@ -24,7 +24,7 @@ router.get('/add', passport.authenticate('jwt', {session: false}), surveyControl
 router.post('/add', passport.authenticate('jwt', {session: false}), surveyController.processAddPage);
 
 /* GET request - display the Edit page */
-router.get('/edit/:id', passport.authenticate('jwt', {session: false}), surveyController.displayEditPage);
+router.get('/edit/:id', surveyController.displayEditPage);
 
 /* POST request - Update the database with data from the Edit Page */
 router.post('/edit/:id', passport.authenticate('jwt', {session: false}), surveyController.processEditPage);

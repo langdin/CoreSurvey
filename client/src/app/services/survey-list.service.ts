@@ -33,7 +33,7 @@ export class SurveyListService {
   }
 
   public getSurvey(survey: Survey): Observable<any> {
-    this.loadToken();
+    //this.loadToken();
     return this.http.get<any>(this.endpoint + 'edit/' + survey._id, this.httpOptions);
   }
 
