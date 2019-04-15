@@ -19,11 +19,24 @@
           <td class="text-center">{{ survey.description }}</td>
           <td class="text-center">{{ survey.startDate | date: 'MM/dd/yyyy' }}</td>
           <td class="text-center">{{ survey.endDate | date: 'MM/dd/yyyy'}}</td>
-          <td class="text-center">
-            <a routerLink="/take-survey-detail/{{ survey._id }}" class="btn btn-outline-primary"
+          <td  class="text-center">
+
+
+        
+            <a *ngIf="survey.status === 'activated'" routerLink="/take-survey-detail/{{ survey._id }}" class="btn btn-outline-primary"
               ><i class="fas fa-pencil-alt"></i>
               Take Survey
             </a>
+
+            <a *ngIf="survey.status === 'out of time'"  class="btn btn-warning"
+            ><i class="fas fa-pencil-alt"></i>
+            Out of time
+          </a>
+
+            
+
+
+
           </td>
         </tr>
       </table>
