@@ -85,8 +85,8 @@ export class SurveyDetailsComponent implements OnInit {
         });
         break;
       case 'Edit Survey':
-        this.survey.startDate = new Date(this.startDate.replace(/-/g, ','));
-        this.survey.endDate = new Date(this.endDate.replace(/-/g, ','));
+        this.survey.startDate = new Date(this.startDate);
+        this.survey.endDate = new Date(this.endDate);
         console.log(this.survey.startDate);
         this.surveyListService.editSurvey(this.survey).subscribe(data => {
           if (data.success) {

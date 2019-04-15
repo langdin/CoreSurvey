@@ -34,7 +34,8 @@ module.exports.processAddPage = (req, res, next) => {
         "question5": req.body.question5,
         "surveyId": req.body.surveyId,
         "startDate": req.body.startDate,
-        "endDate": req.body.endDate
+        "endDate": req.body.endDate,
+        "status":req.body.status
     });
 
     surveyModel.create(newSurvey, (err, surveyModel) => {
