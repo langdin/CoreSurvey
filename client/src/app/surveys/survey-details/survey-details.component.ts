@@ -29,6 +29,7 @@ export class SurveyDetailsComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+
     this.title = this.activatedRoute.snapshot.data.title;
     this.survey = new Survey();
     this.current = JSON.parse(localStorage.getItem('user'));
@@ -43,6 +44,7 @@ export class SurveyDetailsComponent implements OnInit {
   }
 
   private getSurvey(survey: Survey): void {
+
     this.surveyListService.getSurvey(survey).subscribe(data => {
       this.survey = data.survey;
     });

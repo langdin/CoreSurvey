@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { DlDateTimeDateModule, DlDateTimePickerModule } from 'angular-bootstrap-datetimepicker';
+
 
 // Components
 import { AppComponent } from './app.component';
@@ -66,6 +68,8 @@ export function jwtTokenGetter() {
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    DlDateTimeDateModule,  // <--- Determines the data type of the model
+    DlDateTimePickerModule,
     HttpClientModule,
     FlashMessagesModule,
     JwtModule.forRoot({
