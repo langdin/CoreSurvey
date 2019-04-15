@@ -33,7 +33,8 @@ export class TakeSurveyComponent implements OnInit {
         this.surveys = data.surveyList;
       }
     });
-   }
+  }
+
 
   isLoggedIn(): boolean {
     return this.authService.loggedIn();

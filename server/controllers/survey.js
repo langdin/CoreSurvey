@@ -32,9 +32,9 @@ module.exports.processAddPage = (req, res, next) => {
         "question3": req.body.question3,
         "question4": req.body.question4,
         "question5": req.body.question5,
-        "surveyId":req.body.surveyId,
-        "startDate":req.body.startDate,
-        "endDate":req.body.endDate
+        "surveyId": req.body.surveyId,
+        "startDate": req.body.startDate,
+        "endDate": req.body.endDate
     });
 
     surveyModel.create(newSurvey, (err, surveyModel) => {
@@ -74,7 +74,10 @@ module.exports.processEditPage = (req, res, next) => {
         "question2": req.body.question2,
         "question3": req.body.question3,
         "question4": req.body.question4,
-        "question5": req.body.question5
+        "question5": req.body.question5,
+        "surveyId": req.body.surveyId,
+        "startDate": req.body.startDate,
+        "endDate": req.body.endDate
     });
 
     surveyModel.update({_id: id}, updatedSurvey, (err) => {

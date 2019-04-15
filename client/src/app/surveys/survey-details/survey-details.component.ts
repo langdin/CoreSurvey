@@ -18,18 +18,18 @@ export class SurveyDetailsComponent implements OnInit {
   survey: Survey;
   current: User;
   user: User;
-
+  startDate: string;
+  endDate: string;
 
   constructor(
     private activatedRoute: ActivatedRoute,
     private surveyListService: SurveyListService,
     private flashMessage: FlashMessagesService,
     private router: Router
-    
+
   ) { }
 
   ngOnInit() {
-
     this.title = this.activatedRoute.snapshot.data.title;
     this.survey = new Survey();
     this.current = JSON.parse(localStorage.getItem('user'));
@@ -43,18 +43,38 @@ export class SurveyDetailsComponent implements OnInit {
     }
   }
 
+  private formatDate(date) {
+    let d = new Date(date),
+        month = '' + (d.getMonth() + 1),
+        day = '' + d.getDate(),
+        year = d.getFullYear();
+
+    if (month.length < 2) { month = '0' + month; }
+    if (day.length < 2) { day = '0' + day; }
+
+    return [year, month, day].join('-');
+}
+
   private getSurvey(survey: Survey): void {
 
     this.surveyListService.getSurvey(survey).subscribe(data => {
       this.survey = data.survey;
+      this.startDate = this.formatDate(new Date(this.survey.startDate).toDateString());
+      this.endDate = this.formatDate(new Date(this.survey.endDate).toDateString());
     });
   }
 
   onDetailsPageSubmit(): void {
     switch (this.title) {
       case 'Add Survey':
-      this.survey.userEmail = this.current.email;
-      this.survey.surveyId = Md5.hashStr(this.survey.name).toString()+Md5.hashStr(this.survey.description).toString()+Md5.hashStr(this.survey.question1).toString();
+        this.survey.userEmail = this.current.email;
+        this.survey.surveyId = Md5.hashStr(this.survey.name).toString()
+        + Md5.hashStr(this.survey.description).toString()
+        + Md5.hashStr(this.survey.question1).toString();
+
+        this.survey.startDate = new Date(this.startDate.replace(/-/g, ','));
+        this.survey.endDate = new Date(this.endDate.replace(/-/g, ','));
+
         this.surveyListService.addSurvey(this.survey).subscribe(data => {
           if (data.success) {
             this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});
@@ -65,14 +85,17 @@ export class SurveyDetailsComponent implements OnInit {
         });
         break;
       case 'Edit Survey':
-      this.surveyListService.editSurvey(this.survey).subscribe(data => {
-        if (data.success) {
-          this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});
-        } else {
-          this.flashMessage.show('Edit Survey Failed', {cssClass: 'alert-danger', timeOut: 3000});
-        }
-        this.router.navigate(['/survey-list']);
-      });
+        this.survey.startDate = new Date(this.startDate.replace(/-/g, ','));
+        this.survey.endDate = new Date(this.endDate.replace(/-/g, ','));
+        console.log(this.survey.startDate);
+        this.surveyListService.editSurvey(this.survey).subscribe(data => {
+          if (data.success) {
+            this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});
+          } else {
+            this.flashMessage.show('Edit Survey Failed', {cssClass: 'alert-danger', timeOut: 3000});
+          }
+          this.router.navigate(['/survey-list']);
+        });
     }
   }
 
