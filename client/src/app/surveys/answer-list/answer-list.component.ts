@@ -22,7 +22,7 @@ export class AnswerListComponent implements OnInit {
   current: User;
   answers: Answer[];
   answer: Answer;
-  dtAnswer:Answer[];
+  dtAnswer: Answer[];
 
   constructor(
     private surveyListService: SurveyListService,
@@ -31,9 +31,9 @@ export class AnswerListComponent implements OnInit {
     private router: Router,
     private authService: AuthService,
     private answerListService: AnswerListService
-  ) {}
+  ) { }
 
-    //students = new Array<student>();
+  //students = new Array<student>();
 
 
   csvOptions = {
@@ -45,13 +45,12 @@ export class AnswerListComponent implements OnInit {
     title: "Report :",
     useBom: true,
     noDownload: false,
-    headers: ["_id","surveyId", "answer1", "answer2", "answer3", "answer4", "answer5","createdDate"]
+    headers: ["_id", "surveyId", "answer1", "answer2", "answer3", "answer4", "answer5", "createdDate"]
   };
-    ) {}
 
   ngOnInit() {
-    this.dtAnswer=[];
-    
+    this.dtAnswer = [];
+
 
     this.surveys = new Array<Survey>();
     this.current = JSON.parse(localStorage.getItem("user"));
@@ -74,83 +73,36 @@ export class AnswerListComponent implements OnInit {
     //get correct answerlist first
     this.answerListService.getAnswerList(answer).subscribe(data => {
       if (data.success) {
-       // console.log(data);
-       // console.log(data.answerlist)
-        //this.answers=data.answerlist;
-       // console.log(this.answers);
-       //this.searchAnswer = JSON.parse(data);
-       //console.log(this.searchAnswer);
-      //this.dtAnswer = data.answerList;
-     console.log(data.answerList);
-       data.answerList.forEach(ans => {
-        this.dtAnswer.push({"_id":ans._id,
-        "surveyId": ans.surveyId, 
-      "answer1": ans.answer1, 
-      "answer2":ans.answer2, 
-      "answer3": ans.answer3,
-      "answer4":ans.answer4,
-      "answer5":ans.answer5,
-       "createdDate":ans.createdDate})
-      }); 
+        console.log(data.answerList);
+        data.answerList.forEach(ans => {
+          this.dtAnswer.push({
+            "_id": ans._id,
+            "surveyId": ans.surveyId,
+            "answer1": ans.answer1,
+            "answer2": ans.answer2,
+            "answer3": ans.answer3,
+            "answer4": ans.answer4,
+            "answer5": ans.answer5,
+            "createdDate": ans.createdDate
+          })
+        });
 
-
-
-
-
-      // for (let i=0;i<data.answerlist.length;i++){
-         // this.dtAnswer[i]={"_id":data.answerlist[i]._id,
-          //  "surveyId": data.answerlist[i].surveyId.tostring(), 
-         // "answer1": data.answerlist[i].answer1, 
-        //  "answer2":data.answerlist[i].answer2, 
-         // "answer3": data.answerlist[i].answer3,
-         // "answer4":data.answerlist[i].answer4,
-         // "answer5":data.answerlist[i].answer5,
-         //  "createdDate":data.answerlist[i].createdDate}
-        //}
         this.downloadCSV();
 
         this.router.navigate(['/survey-list']);
-
-
-        //now I can see data
-        //this.searchAnswer = data.answerlist;
-
-        //this.searchAnswer.forEach(answer => {
-
-        // if (answer.surveyId === this.answer.surveyId)
-        //  this.answers.push(answer);
-        // console.log(this.answers);
       }
     });
   }
 
 
 
-        this.answerListService.getAnswerList(answer).subscribe(data => {
-          if (data.success) {
-            console.log(data);
-           //now I can see data
-            //this.searchAnswer = data.answerlist;
-
-            //this.searchAnswer.forEach(answer => {
-
-             // if (answer.surveyId === this.answer.surveyId)
-              //  this.answers.push(answer);
-               // console.log(this.answers);
-            };
 
 
 
-
-
-
-
-
-        })}
 
 
   public downloadCSV(){
-    //this.dtHolidays : JSONDATA , HolidayList : CSV file Name, this.csvOptions : file options
-    new  AngularCsv(this.dtAnswer, "yourReport", this.csvOptions);
-  }
+  //this.dtHolidays : JSONDATA , HolidayList : CSV file Name, this.csvOptions : file options
+  new AngularCsv(this.dtAnswer, "yourReport", this.csvOptions);
+}
 }
