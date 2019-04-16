@@ -7,5 +7,5 @@ export class Answer {
   answer4: string;
   answer5: string;
   surveyId: string;
-  static surveyId: string;
+  //static surveyId: string;
 }

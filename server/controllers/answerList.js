@@ -8,12 +8,18 @@ let userModel = require('../models/user');
 let answerModel=require('../models/answer');
 
 module.exports.getAnswers = (req, res, next) =>{
+    let id = req.params.id;
+
+
+
     answerModel.find((err, answerList) => {
+        answerList = answerList.filter(a => a.surveyId == id);
         if(err) {
             return console.error(err);
         }
         else {
-           res.json({success: true, msg: 'Survey List Displayed Successfully', answerList: answerList, surveyId: req.surveyId});
+            
+           res.json({success: true, msg: 'Survey List Displayed Successfully', answerList: answerList});
         }
     });
 }

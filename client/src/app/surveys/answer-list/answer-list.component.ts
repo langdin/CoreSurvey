@@ -16,7 +16,9 @@ import { Answer } from 'src/app/models/answer';
   styleUrls: ['./answer-list.component.css']
 })
 export class AnswerListComponent implements OnInit {
-  searchSurvey: Survey[];
+  searchAnswer: Answer[];
+
+  //searchSurvey: Survey[];
   surveys: Survey[];
   current: User;
   answers:Answer[];
@@ -41,6 +43,7 @@ export class AnswerListComponent implements OnInit {
 
     this.activatedRoute.params.subscribe(params => {
       this.answer.surveyId = params.id;
+     
   });
 
 
@@ -54,10 +57,23 @@ export class AnswerListComponent implements OnInit {
         this.answerListService.getAnswerList(answer).subscribe(data => {
           if (data.success) {
             console.log(data);
-            this.answers = data.answerlist;
-          } else {
-            this.flashMessage.show('User must be logged in', {cssClass: 'alert-danger', timeOut: 3000});
-          }
-        });
-       }
+           //now I can see data
+            //this.searchAnswer = data.answerlist;
+
+            //this.searchAnswer.forEach(answer => {
+
+             // if (answer.surveyId === this.answer.surveyId)
+              //  this.answers.push(answer);
+               // console.log(this.answers); 
+            };
+
+
+
+
+
+
+
+        
+        })}
+
 }
