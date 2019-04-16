@@ -33,15 +33,15 @@ export class AnswerListService {
   //  return this.http.get<any>(this.endpoint, this.httpOptions);
   //}
 
-  public getAnswerList(answers: Answer): Observable<any> {
+  public getAnswerList(answer: Answer): Observable<any> {
     //this.loadToken();
-    return this.http.get<any>(this.endpoint + 'get/' + answers.surveyId, this.httpOptions);
+    return this.http.get<any>(this.endpoint + 'get/' + answer.surveyId, this.httpOptions);
   }
 
 
-  
 
-  
+
+
 
   private loadToken() {
     const token = localStorage.getItem('id_token');

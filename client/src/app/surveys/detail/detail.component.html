@@ -1,48 +1,157 @@
-<div class="container" style="width: 700px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%">
-    <h1 class="display-4 text-center">{{title}}</h1>
-    <div class="row justify-content-center">
-      <div class="col-md-offset-3 col-md-8">
-        <form action="" class="form" (submit)="onDetailsPageSubmit()">
-          <div class="form-group">
-            <label for="NameTextField">Name</label>
-            <input type="text" class="form-control" id="NameTextField" placeholder="Enter Survey Name" name="name"
-              [(ngModel)]="survey.name" value="{{survey.name}}" readonly />
+<div
+  class="container"
+  style="width: 700px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%"
+>
+  <h1 class="display-4 text-center">{{ title }}</h1>
+  <div class="row justify-content-center">
+    <div class="col-md-offset-3 col-md-8">
+      <form action="" class="form">
+        <div class="form-group">
+          <label for="NameTextField">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="NameTextField"
+            placeholder="Enter Survey Name"
+            name="name"
+            [(ngModel)]="survey.name"
+            value="{{ survey.name }}"
+            readonly
+          />
+        </div>
+        <div class="form-group">
+          <label for="DescriptionTextField">Description:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="DescriptionTextField"
+            placeholder="Enter Description"
+            name="description"
+            [(ngModel)]="survey.description"
+            value="{{ survey.description }}"
+            readonly
+          />
+        </div>
+        <div class="form-group">
+          <label for="PriorityTextField">Number Of Respondents</label>
+          <input
+            type="text"
+            class="form-control"
+            id="DescriptionTextField"
+            placeholder="Enter Description"
+            name="description"
+            [(ngModel)]="survey.description"
+            value="{{ answers.length }}"
+            readonly
+          />
+          <br>
+          <label for="PriorityTextField">Answers:</label>
+        </div>
+        <div class="form-group">
+          <p>
+            <a
+              class="btn btn-secondary"
+              data-toggle="collapse"
+              href="#q1"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              {{ survey.question1 }}
+            </a>
+          </p>
+          <div class="collapse" id="q1">
+            <div class="card card-body">
+              {{ q1 }}
+            </div>
           </div>
-          <div class="form-group">
-            <label for="DescriptionTextField">Description</label>
-            <input type="text" class="form-control" id="DescriptionTextField" placeholder="Enter Description"
-              name="description" [(ngModel)]="survey.description" value="{{survey.description}}" readonly />
+        </div>
+        <div class="form-group">
+          <p>
+            <a
+              class="btn btn-secondary"
+              data-toggle="collapse"
+              href="#q2"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              {{ survey.question2 }}
+            </a>
+          </p>
+          <div class="collapse" id="q2">
+            <div class="card card-body">
+              {{ q2 }}
+            </div>
           </div>
-          <div class="form-group">
-            <label for="PriorityTextField">Question 1</label>
-            <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 1st Question"
-              name="question1" [(ngModel)]="survey.question1" value="{{survey.question1}}" readonly />
+        </div>
+        <div class="form-group">
+          <p>
+            <a
+              class="btn btn-secondary"
+              data-toggle="collapse"
+              href="#q3"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              {{ survey.question3 }}
+            </a>
+          </p>
+          <div class="collapse" id="q3">
+            <div class="card card-body">
+              {{ q3 }}
+            </div>
           </div>
-          <div class="form-group">
-            <label for="PriorityTextField">Question 2</label>
-            <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 2nd Question"
-              name="question2" [(ngModel)]="survey.question2" value="{{survey.question2}}" readonly />
+        </div>
+        <div class="form-group">
+          <p>
+            <a
+              class="btn btn-secondary"
+              data-toggle="collapse"
+              href="#q4"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              {{ survey.question4 }}
+            </a>
+          </p>
+          <div class="collapse" id="q4">
+            <div class="card card-body">
+              {{ q4 }}
+            </div>
           </div>
-          <div class="form-group">
-            <label for="PriorityTextField">Question 3</label>
-            <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 3rd Question"
-              name="question3" [(ngModel)]="survey.question3" value="{{survey.question3}}" readonly />
+        </div>
+        <div class="form-group">
+          <p>
+            <a
+              class="btn btn-secondary"
+              data-toggle="collapse"
+              href="#q5"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              {{ survey.question5 }}
+            </a>
+          </p>
+          <div class="collapse" id="q5">
+            <div class="card card-body">
+              {{ q5 }}
+            </div>
           </div>
-          <div class="form-group">
-            <label for="PriorityTextField">Question 4</label>
-            <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 4th Question"
-              name="question4" [(ngModel)]="survey.question4" value="{{survey.question4}}" readonly />
-          </div>
-          <div class="form-group">
-            <label for="PriorityTextField">Question 5</label>
-            <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 5th Question"
-              name="question5" [(ngModel)]="survey.question5" value="{{survey.question5}}" readonly />
-          </div>
-          <fieldset class="form-group text-center">
-            <a href="/survey-list" class="btn btn-warning mx-1"  style="margin: 10px;"><i class="fa fa-undo"></i> Back</a>
-          </fieldset>
-        </form>
-        <br><br><br>
-      </div>
+        </div>
+        <fieldset class="form-group text-center">
+          <a
+            href="/survey-list"
+            class="btn btn-warning mx-1"
+            style="margin: 10px;"
+            ><i class="fa fa-undo"></i> Back</a
+          >
+        </fieldset>
+      </form>
+      <br /><br /><br />
     </div>
   </div>
+</div>

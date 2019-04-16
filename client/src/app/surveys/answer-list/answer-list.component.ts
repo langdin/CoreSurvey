@@ -24,26 +24,23 @@ export class AnswerListComponent implements OnInit {
   answers:Answer[];
   answer:Answer;
 
-  constructor(  private surveyListService: SurveyListService,
+  constructor(
     private activatedRoute: ActivatedRoute,
-
     private flashMessage: FlashMessagesService,
     private router: Router,
     private authService: AuthService,
-    private answerListService:AnswerListService ) { 
-
-
-    }
+    private answerListService: AnswerListService
+    ) {}
 
   ngOnInit() {
     this.surveys = new Array<Survey>();
     this.current = JSON.parse(localStorage.getItem('user'));
-    this.answers=new Array<Answer>()
-    this.answer = new Answer;
+    this.answers = new Array<Answer>();
+    this.answer = new Answer();
 
     this.activatedRoute.params.subscribe(params => {
       this.answer.surveyId = params.id;
-     
+
   });
 
 
@@ -64,7 +61,7 @@ export class AnswerListComponent implements OnInit {
 
              // if (answer.surveyId === this.answer.surveyId)
               //  this.answers.push(answer);
-               // console.log(this.answers); 
+               // console.log(this.answers);
             };
 
 
@@ -73,7 +70,7 @@ export class AnswerListComponent implements OnInit {
 
 
 
-        
+
         })}
 
 }
