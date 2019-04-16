@@ -19,7 +19,7 @@ module.exports.getAnswers = (req, res, next) =>{
         }
         else {
             
-           res.json({success: true, msg: 'Survey List Displayed Successfully', answerList: answerList});
+           res.json({success: true, msg: 'Answer List Displayed Successfully', answerList: answerList});
         }
     });
 }

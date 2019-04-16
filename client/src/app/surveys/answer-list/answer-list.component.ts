@@ -47,6 +47,7 @@ export class AnswerListComponent implements OnInit {
     noDownload: false,
     headers: ["_id","surveyId", "answer1", "answer2", "answer3", "answer4", "answer5","createdDate"]
   };
+    ) {}
 
   ngOnInit() {
     this.dtAnswer=[];
@@ -54,11 +55,13 @@ export class AnswerListComponent implements OnInit {
 
     this.surveys = new Array<Survey>();
     this.current = JSON.parse(localStorage.getItem("user"));
+
     this.answers = new Array<Answer>();
     this.answer = new Answer();
 
     this.activatedRoute.params.subscribe(params => {
       this.answer.surveyId = params.id;
+
     });
 
     this.exportSurveyList(this.answer);
@@ -121,6 +124,29 @@ export class AnswerListComponent implements OnInit {
     });
   }
 
+
+
+        this.answerListService.getAnswerList(answer).subscribe(data => {
+          if (data.success) {
+            console.log(data);
+           //now I can see data
+            //this.searchAnswer = data.answerlist;
+
+            //this.searchAnswer.forEach(answer => {
+
+             // if (answer.surveyId === this.answer.surveyId)
+              //  this.answers.push(answer);
+               // console.log(this.answers);
+            };
+
+
+
+
+
+
+
+
+        })}
 
 
   public downloadCSV(){
