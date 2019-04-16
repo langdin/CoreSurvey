@@ -20,6 +20,9 @@ import { SurveyDetailsComponent } from './surveys/survey-details/survey-details.
 import { SurveyDeleteComponent } from './surveys/survey-delete/survey-delete.component';
 import { DetailComponent } from './surveys/detail/detail.component';
 import { TakeSurveyDetailComponent } from './pages/take-survey-detail/take-survey-detail.component';
+import { AnswerListService } from './services/answer-list.service';
+import { AnswerListComponent } from './surveys/answer-list/answer-list.component';
+//import{}
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent, data: {title: 'Home'}},
@@ -30,6 +33,12 @@ const routes: Routes = [
   {path: 'take-survey-detail/:id', component: TakeSurveyDetailComponent, data: {title: 'Take Survey'}},
 
   {path: 'survey-list', component: SurveyListComponent, data: {title: 'Survey List'}},
+  {path: 'answer-list/:id', component: AnswerListComponent, data: {title: 'Answer List'}},
+
+
+  //{path: 'survey-list/get/:id', component: SurveyListComponent, data: {title: 'Answer List'}},// for answer list
+
+
   {path: 'survey-list/detail/:id', component: DetailComponent, data: {title: 'Survey Detail'}},
   {path: 'survey-list/add', component: SurveyDetailsComponent, data: {title: 'Add Survey'}},
   {path: 'survey-list/edit/:id', component: SurveyDetailsComponent, data: {title: 'Edit Survey'}},

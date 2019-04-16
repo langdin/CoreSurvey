@@ -5,6 +5,8 @@ import { FlashMessagesService } from 'angular2-flash-messages';
 import { Router } from '@angular/router';
 import { User } from 'src/app/models/user';
 import { AuthService } from 'src/app/services/auth.service';
+import { AnswerListService } from 'src/app/services/answer-list.service';
+import { Answer } from 'src/app/models/answer';
 
 
 @Component({
@@ -16,19 +18,24 @@ export class SurveyListComponent implements OnInit {
   searchSurvey: Survey[];
   surveys: Survey[];
   current: User;
+  answers:Answer[];
+  answer:Answer;
 
 
   constructor(
     private surveyListService: SurveyListService,
     private flashMessage: FlashMessagesService,
     private router: Router,
-    private authService: AuthService
+    private authService: AuthService,
+    private answerListService:AnswerListService 
 
   ) { }
 
   ngOnInit() {
     this.surveys = new Array<Survey>();
     this.current = JSON.parse(localStorage.getItem('user'));
+    this.answers=new Array<Answer>()
+    this.answer = new Answer;
 
 
 
@@ -58,6 +65,12 @@ export class SurveyListComponent implements OnInit {
       }
     });
    }
+
+
+
+
+
+
 
    public displayUserSurveyList(): void {
     this.surveyListService.getSurveyList().subscribe(data => {
