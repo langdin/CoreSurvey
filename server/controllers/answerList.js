@@ -13,6 +13,7 @@ module.exports.getAnswers = (req, res, next) =>{
 
 
     answerModel.find((err, answerList) => {
+        answerList = answerList.filter(a => a.surveyId == id);
         if(err) {
             return console.error(err);
         }
