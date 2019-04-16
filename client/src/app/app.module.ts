@@ -30,12 +30,16 @@ import { SurveyListComponent } from './surveys/survey-list/survey-list.component
 // Services
 import { FlashMessagesModule, FlashMessagesService } from 'angular2-flash-messages';
 import { AuthService } from './services/auth.service';
+
 import { JwtModule, JwtHelperService, JwtInterceptor } from '@auth0/angular-jwt';
 
 // Route Guards
 import { AuthGuard } from './guards/auth.guard';
 import { TakeSurveyDetailComponent } from './pages/take-survey-detail/take-survey-detail.component';
 import { DetailComponent } from './surveys/detail/detail.component';
+import { AnswerListComponent } from './surveys/answer-list/answer-list.component';
+//import { AnswerListService } from './services/answer-list.service';
+//import { AnswerListComponent } from './surveys/answer-list/answer-list.component';
 
 export function jwtTokenGetter() {
   return localStorage.getItem('id_token');
@@ -62,7 +66,11 @@ export function jwtTokenGetter() {
     SurveyDeleteComponent,
     SurveyListComponent,
     TakeSurveyDetailComponent,
-    DetailComponent
+    DetailComponent,
+    AnswerListComponent,
+    //AnswerListComponent,
+    //AnswerListService
+
   ],
   imports: [
     BrowserModule,
