@@ -54,7 +54,7 @@ public displayUserSurveyList(): void {
         if (this.id === survey.surveyId)
           this.survey= survey;
 
-          localStorage.setItem("d_survey", this.survey.surveyId);
+          localStorage.setItem("d_survey", JSON.stringify(this.survey));
 
 
       });
