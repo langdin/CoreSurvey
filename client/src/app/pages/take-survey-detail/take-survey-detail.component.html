@@ -1,33 +1,33 @@
 <div class="container" style="width: 700px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%">
-  <h1 class="display-4 text-center">{{survey.name}}</h1>
+  <h1 class="display-4 text-center" style="color: rgb(0,148,193)">{{survey.name}}</h1>
   <div class="row justify-content-center">
     <div class="col-md-offset-3 col-md-8">
       <form action="" class="form" (submit)="onDetailsPageSubmit()">
         <div class="form-group">
-          <label for="DescriptionTextField">{{survey.description}}</label>
+          <label for="DescriptionTextField" style="color: rgb(0,148,193)">{{survey.description}}</label>
         </div>
         <div class="form-group">
-          <label for="PriorityTextField">{{survey.question1}}</label>
+          <label for="PriorityTextField" style="color: rgb(0,148,193)">{{survey.question1}}</label>
           <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 1st Answer"
             name="question1" [(ngModel)]="answer.answer1" value="{{answer.answer1}}" required />
         </div>
         <div class="form-group">
-          <label for="PriorityTextField">{{survey.question2}}</label>
+          <label for="PriorityTextField" style="color: rgb(0,148,193)">{{survey.question2}}</label>
           <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 2nd Answer"
             name="question2" [(ngModel)]="answer.answer2" value="{{answer.answer2}}" required />
         </div>
         <div class="form-group">
-          <label for="PriorityTextField">{{survey.question3}}</label>
+          <label for="PriorityTextField" style="color: rgb(0,148,193)">{{survey.question3}}</label>
           <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 3rd Answer"
             name="question3" [(ngModel)]="answer.answer3" value="{{answer.answer3}}" required />
         </div>
         <div class="form-group">
-          <label for="PriorityTextField">{{survey.question4}}</label>
+          <label for="PriorityTextField" style="color: rgb(0,148,193)">{{survey.question4}}</label>
           <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 4th Answer"
             name="question4" [(ngModel)]="answer.answer4" value="{{answer.answer4}}" required />
         </div>
         <div class="form-group">
-          <label for="PriorityTextField">{{survey.question5}}</label>
+          <label for="PriorityTextField" style="color: rgb(0,148,193)">{{survey.question5}}</label>
           <input type="text" class="form-control" id="PriorityTextField" placeholder="Enter 5th Answer"
             name="question5" [(ngModel)]="answer.answer5" value="{{answer.answer5}}" required />
         </div>
