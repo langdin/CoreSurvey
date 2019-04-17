@@ -22,6 +22,12 @@ import { DetailComponent } from './surveys/detail/detail.component';
 import { TakeSurveyDetailComponent } from './pages/take-survey-detail/take-survey-detail.component';
 import { AnswerListService } from './services/answer-list.service';
 import { AnswerListComponent } from './surveys/answer-list/answer-list.component';
+import{ SurveyPayComponent} from './surveys/survey-pay/survey-pay.component';
+import{ SurveyPaySuccessComponent } from './surveys/survey-pay-success/survey-pay-success.component';
+import{ SurveyPayFailedComponent } from './surveys/survey-pay-failed/survey-pay-failed.component';
+
+
+
 //import{}
 
 const routes: Routes = [
@@ -43,6 +49,11 @@ const routes: Routes = [
   {path: 'survey-list/add', component: SurveyDetailsComponent, data: {title: 'Add Survey'}},
   {path: 'survey-list/edit/:id', component: SurveyDetailsComponent, data: {title: 'Edit Survey'}},
   {path: 'survey-list/delete/:id', component: SurveyDeleteComponent, data: {title: 'Delete Survey'}},
+  {path: 'survey-list/pay/:id', component: SurveyPayComponent, data: {title: 'Pay Survey'}},
+  {path: 'survey-list/pay-success', component: SurveyPaySuccessComponent, data: {title: 'Pay Survey-Success'}},
+  {path: 'survey-list/pay-failed', component: SurveyPayFailedComponent, data: {title: 'Pay Survey-Failed'}},
+
+
 
   {path: 'contact/contact-list', component: ContactListComponent, data: {title: 'Contact List'}, canActivate: [AuthGuard]},
   {path: 'contact/contact-list/add', component: ContactDetailsComponent, data: {title: 'Add Contact'}, canActivate: [AuthGuard]},
