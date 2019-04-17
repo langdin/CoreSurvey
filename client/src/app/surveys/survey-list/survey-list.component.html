@@ -55,7 +55,8 @@ style="width:900px; height: 480px; position: bottom; top: 0px;left: 0px; right: 
       </a>
        </td>
 
-       <td class="th-sm text-center align-middle" style="color: rgb(233,233,233)">{{ survey.payment }}</td>
+       <td *ngIf="survey.payment === 'Gold'" class="th-sm text-center align-middle" style="color: rgb(233,233,233)"><p><i class="fas fa-medal fa-3x" style="color:orange" ></i></p>{{ survey.payment }}</td>
+       <td *ngIf="survey.payment === 'silver'" class="th-sm text-center align-middle" style="color: rgb(233,233,233)"><p></p>{{ survey.payment }}</td>
 
 
       
