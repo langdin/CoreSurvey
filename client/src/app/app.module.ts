@@ -38,6 +38,9 @@ import { AuthGuard } from './guards/auth.guard';
 import { TakeSurveyDetailComponent } from './pages/take-survey-detail/take-survey-detail.component';
 import { DetailComponent } from './surveys/detail/detail.component';
 import { AnswerListComponent } from './surveys/answer-list/answer-list.component';
+import { SurveyPayComponent } from './surveys/survey-pay/survey-pay.component';
+import { SurveyPaySuccessComponent } from './surveys/survey-pay-success/survey-pay-success.component';
+import { SurveyPayFailedComponent } from './surveys/survey-pay-failed/survey-pay-failed.component';
 //import { AnswerListService } from './services/answer-list.service';
 //import { AnswerListComponent } from './surveys/answer-list/answer-list.component';
 
@@ -68,6 +71,9 @@ export function jwtTokenGetter() {
     TakeSurveyDetailComponent,
     DetailComponent,
     AnswerListComponent,
+    SurveyPayComponent,
+    SurveyPaySuccessComponent,
+    SurveyPayFailedComponent,
     //AnswerListComponent,
     //AnswerListService
 

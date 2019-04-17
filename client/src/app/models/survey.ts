@@ -12,4 +12,5 @@ export class Survey {
   endDate: Date;
   surveyId: string;
   status:string;
+  payment:string;
 }

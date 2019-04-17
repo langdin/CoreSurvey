@@ -13,7 +13,9 @@ let surveySchema = mongoose.Schema({
     startDate: Date,
     endDate: Date,
     surveyId:String,
-    status:String
+    status:String,
+    payment:String
+
 },
 {
     collection: "surveys"
