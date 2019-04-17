@@ -1,22 +1,22 @@
 <div class="container" style="width: 400px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%">
-    <h1 class="display-4 text-center">LOGIN</h1>
+    <h1 class="display-4 text-center" style="color: rgb(0,148,193)"><strong>LOGIN</strong></h1>
     <div class="row">
       <div class="container">
         <form autocomplete="off" (submit)="onLoginSubmit()">
           <fieldset class="form-group">
-            <label for="username">Username:</label>
+            <label for="username" style="color: rgb(0,148,193)">Username:</label>
             <input type="text" class="form-control" [(ngModel)]="user.username" name="username"
               placeholder="Enter Username" id="username" required autofocus autocomplete="off">
           </fieldset>
           <fieldset class="form-group">
-            <label for="password">Password:</label>
+            <label for="password" style="color: rgb(0,148,193)">Password:</label>
             <input type="password" class="form-control" [(ngModel)]="user.password" name="password"
-              placeholder="Enter Password" id="password" required autocomplete="off">
-            or
-            <a routerLink="/register">Register Here</a>
+              placeholder="Enter Password" id="password" required autocomplete="off" >
+            <p style="color: rgb(9, 54, 68)">or
+            <a routerLink="/register" style="color: rgb(30,178,255)">Register Here</a></p>
           </fieldset>
           <fieldset class="form-group text-center">
-            <input type="submit" class="btn btn-success" value="Login" style="margin: 10px">
+            <input type="submit" class="btn btn-info" value="Login" style="margin: 10px; background-color: rgb(30,178,255); color:black">
             <a routerLink="/home">
               <input type="button" class="btn btn-warning" value="Cancel" style="margin: 10px">
             </a>
