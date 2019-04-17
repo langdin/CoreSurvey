@@ -67,8 +67,7 @@ export class SurveyPaySuccessComponent implements OnInit {
 
   onPageSubmit(): void {
     this.getSurvey(this.survey);
-    this.survey.startDate = new Date(this.startDate);
-    this.survey.endDate = new Date(this.endDate);
+  
     this.survey.payment="Gold";
 
     console.log(this.survey.startDate);
