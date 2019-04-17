@@ -7,7 +7,7 @@ import { FlashMessagesService } from 'angular2-flash-messages';
 import { User } from 'src/app/models/user';
 import { Answer } from 'src/app/models/answer';
 import { TakeSurveyService } from 'src/app/services/take-survey.service';
-
+import * as moment from "moment";
 
 @Component({
   selector: 'app-take-survey-detail',
@@ -28,6 +28,7 @@ export class TakeSurveyDetailComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+
     this.title = this.activatedRoute.snapshot.data.title;
 
     this.answer = new Answer();
@@ -37,6 +38,26 @@ export class TakeSurveyDetailComponent implements OnInit {
       this.survey._id = params.id;
     });
     this.getSurvey(this.survey);
+    let nowTime = moment().toDate();
+
+    let nowTime1 = moment(nowTime).format("YYYY-MM-DD");
+    let startTime1 = moment(this.survey.startDate).format(
+            "YYYY-MM-DD"
+          );
+    let endTime1 = moment(this.survey.endDate).format("YYYY-MM-DD");
+
+    if (nowTime1 > startTime1) {
+      if (nowTime1 < endTime1) {
+
+      } else {
+        this.survey = null;
+        this.router.navigate(['/take-survey']);
+      }
+    } else {
+      this.survey = null;
+      this.router.navigate(['/take-survey']);
+    }
+
   }
 
   private getSurvey(survey: Survey): void {
