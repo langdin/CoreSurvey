@@ -38,32 +38,31 @@ export class TakeSurveyDetailComponent implements OnInit {
       this.survey._id = params.id;
     });
     this.getSurvey(this.survey);
-    let nowTime = moment().toDate();
 
-    let nowTime1 = moment(nowTime).format("YYYY-MM-DD");
-    let startTime1 = moment(this.survey.startDate).format(
-            "YYYY-MM-DD"
-          );
-    let endTime1 = moment(this.survey.endDate).format("YYYY-MM-DD");
-
-    if (nowTime1 > startTime1) {
-      if (nowTime1 < endTime1) {
-
-      } else {
-        this.survey = null;
-        this.router.navigate(['/take-survey']);
-      }
-    } else {
-      this.survey = null;
-      this.router.navigate(['/take-survey']);
-    }
 
   }
 
   private getSurvey(survey: Survey): void {
     this.surveyListService.getSurvey(survey).subscribe(data => {
       this.survey = data.survey;
+
+      let nowTime = moment().toDate();
+
+      let nowTime1 = moment(nowTime).format("YYYY-MM-DD");
+      let startTime1 = moment(this.survey.startDate).format(
+            "YYYY-MM-DD"
+          );
+      let endTime1 = moment(this.survey.endDate).format("YYYY-MM-DD");
+
+      console.log(nowTime1);
+      console.log(startTime1);
+      console.log(endTime1);
+      if (nowTime1 < startTime1 || nowTime1 > endTime1) {
+        this.survey = null;
+      this.router.navigate(['/take-survey']);
+      }
     });
+
   }
 
   onDetailsPageSubmit(): void {

@@ -58,8 +58,8 @@ export class TakeSurveyComponent implements OnInit {
           //console.log(this.startTime1);
           //console.log(this.endTime1);
 
-          if (this.nowTime1 > this.startTime1) {
-            if (this.nowTime1 < this.endTime1) {
+          if (this.nowTime1 >= this.startTime1) {
+            if (this.nowTime1 <= this.endTime1) {
               this.surveys[i].status = "activated";
             } else {
               this.surveys[i].status = "out of time";
