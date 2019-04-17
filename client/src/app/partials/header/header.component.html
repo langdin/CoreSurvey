@@ -1,8 +1,9 @@
-<div class="flex-column flex-md-row align-items-center px-md-1 mb-3 bg-white border-bottom box-shadow">
-  <nav class="navbar navbar-expand-lg navbar-light">
+<div class="flex-column flex-md-row align-items-center px-md-1 mb-3 box-shadow background-color: url('../assets/bg.jpeg')">
+  <nav class="navbar navbar-expand-lg navbar-dark ">
     <a class="navbar-brand" routerLink="/">
-      <img src="../assets/logo.png" style="width:100px; height:50px">
+      <img src="../assets/logo.png" style="width:180px; height:80px">
     </a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -20,15 +21,15 @@
           <a class="nav-link" routerLink="/survey-list"><i class="fa fa-briefcase"></i> Surveys</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/take-survey"><i class="fa fa-folder-open"></i> Take Survey</a>
+          <a class="nav-link" routerLink="/take-survey"><i class="fa fa-folder-open"></i> TakeSurvey</a>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" routerLink="/contact"><i class="fa fa-phone"></i> Contact</a>
         </li>
 
         <li *ngIf="isLoggedIn()" class="nav-item">
-          <a class="nav-link" routerLink="/my-info"><i class="fas fa-user-secret"></i> My Info</a>
-
+          <a class="nav-link" routerLink="/my-info"><i class="fas fa-user-secret"></i> MyInfo</a>
         </li>
 
         <li *ngIf="isLoggedIn()" class="navbar-text text-success ml-1 mr-1 d-none d-lg-inline">

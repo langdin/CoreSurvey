@@ -1,0 +1,17 @@
+body{
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #000000;
+    }
+    
+   .person {
+    border: 5px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+  }
+  .person:hover {
+    border-color: #000000;
+  }
+  .img-circle {
+  border-radius: 50%;
+  }
