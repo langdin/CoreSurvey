@@ -29,10 +29,8 @@ export class TakeSurveyComponent implements OnInit {
   constructor(
     private authService: AuthService,
     private flashMessage: FlashMessagesService,
-    private router: Router
-  ) //private datePipe:DatePipe,
-
-  {}
+    private router: Router //private datePipe:DatePipe,
+  ) {}
 
   ngOnInit() {
     this.surveys = new Array<Survey>();
@@ -49,34 +47,30 @@ export class TakeSurveyComponent implements OnInit {
         console.log(data);
         this.surveys = data.surveyList;
         for (var i = 0; i < this.surveys.length; i++) {
-          this.nowTime= moment().toDate();
-          
+          this.nowTime = moment().toDate();
+
           this.nowTime1 = moment(this.nowTime).format("YYYY-MM-DD");
-          this.startTime1 = moment(this.surveys[i].startDate).format("YYYY-MM-DD");
+          this.startTime1 = moment(this.surveys[i].startDate).format(
+            "YYYY-MM-DD"
+          );
           this.endTime1 = moment(this.surveys[i].endDate).format("YYYY-MM-DD");
-          console.log(this.nowTime1);
-          console.log(this.startTime1);
-          console.log(this.endTime1);
+          //console.log(this.nowTime1);
+          //console.log(this.startTime1);
+          //console.log(this.endTime1);
 
-        if(this.nowTime1>this.startTime1){
-            if(this.nowTime1<this.endTime1){
-              this.surveys[i].status="activated";
-
-            }else{
-              this.surveys[i].status="out of time";
-
+          if (this.nowTime1 > this.startTime1) {
+            if (this.nowTime1 < this.endTime1) {
+              this.surveys[i].status = "activated";
+            } else {
+              this.surveys[i].status = "out of time";
             }
-        }else{
-          this.surveys[i].status="out of time";
-        }
-               
+          } else {
+            this.surveys[i].status = "out of time";
+          }
         }
       }
     });
   }
-
-
-
 
   isLoggedIn(): boolean {
     return this.authService.loggedIn();
