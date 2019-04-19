@@ -24,10 +24,10 @@ export class MyInfoComponent implements OnInit {
     ) { }
 
   ngOnInit() {
-    this.user = new User();
-    this.user = JSON.parse(localStorage.getItem('user'));
-    this.user._id = this.user['_id'];
-    this.getUser();
+    //this.user = JSON.parse(localStorage.getItem('user'));
+    //this.user._id = this.user['_id'];
+    this.isLoggedIn();
+    //this.getUser();
   }
 
   getUser(): void {
@@ -41,9 +41,10 @@ export class MyInfoComponent implements OnInit {
   isLoggedIn(): boolean {
     const result = this.authService.loggedIn();
     if (result) {
+      this.user = new User();
       this.user = JSON.parse(localStorage.getItem('user'));
-      this.user._id = this.user[Object.keys(this.user)[0].toString()];
-      //console.log(this.user);
+      this.user._id = this.user['id'];
+      console.log(this.user);
     }
     return result;
   }

@@ -25,11 +25,9 @@ export class MyInfoDetailsComponent implements OnInit {
 
   ngOnInit() {
     this.title = this.activatedRoute.snapshot.data.title;
-    this.user  = new User();
-    this.user = JSON.parse(localStorage.getItem('user'));
-    this.user._id = this.user['id'];
+    this.isLoggedIn();
 
-    this.getUser();
+    //this.getUser();
   }
 
 
@@ -58,6 +56,7 @@ export class MyInfoDetailsComponent implements OnInit {
     if (result) {
       this.user = new User();
       this.user = JSON.parse(localStorage.getItem('user'));
+      this.user._id = this.user['id'];
     }
     return result;
   }
