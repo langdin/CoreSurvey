@@ -25,20 +25,18 @@ export class MyInfoDetailsComponent implements OnInit {
 
   ngOnInit() {
     this.title = this.activatedRoute.snapshot.data.title;
-    this.user = new User();
+    this.user  = new User();
+    this.user = JSON.parse(localStorage.getItem('user'));
+    this.user._id = this.user[Object.keys(this.user)[0].toString()];
+    this.getUser();
   }
 
 
-  onDetailsPageSubmit(): void {
-    this.user.username = this.username;
-    this.user.email = this.email;
-    this.user.displayName = this.displayName;
-    console.log(this.email);
-
+  onSaveChanges(): void {
+    console.log(this.user);
     this.authService.editUser(this.user).subscribe(data => {
       if (data.success) {
         this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});
-        //console.log(data.user);
       } else {
         this.flashMessage.show('Edit Info Failed', {cssClass: 'alert-danger', timeOut: 3000});
       }
@@ -46,14 +44,19 @@ export class MyInfoDetailsComponent implements OnInit {
     });
   }
 
+  getUser(): void {
+    this.authService.getUser(this.user).subscribe(data => {
+      if (data.success) {
+        this.user = data.user;
+      }
+    });
+  }
+
   isLoggedIn(): boolean {
     const result = this.authService.loggedIn();
     if (result) {
+      this.user = new User();
       this.user = JSON.parse(localStorage.getItem('user'));
-      this.user._id = this.user[Object.keys(this.user)[0].toString()];
-      this.username = this.user.username;
-      this.email = this.user.email;
-      this.displayName = this.user.displayName;
     }
     return result;
   }

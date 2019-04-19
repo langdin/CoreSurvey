@@ -26,6 +26,13 @@ import { TakeSurveyComponent } from './pages/take-survey/take-survey.component';
 import { SurveyDetailsComponent } from './surveys/survey-details/survey-details.component';
 import { SurveyDeleteComponent } from './surveys/survey-delete/survey-delete.component';
 import { SurveyListComponent } from './surveys/survey-list/survey-list.component';
+import { TakeSurveyDetailComponent } from './pages/take-survey-detail/take-survey-detail.component';
+import { DetailComponent } from './surveys/detail/detail.component';
+import { AnswerListComponent } from './surveys/answer-list/answer-list.component';
+import { SurveyPayComponent } from './surveys/survey-pay/survey-pay.component';
+import { SurveyPaySuccessComponent } from './surveys/survey-pay-success/survey-pay-success.component';
+import { SurveyPayFailedComponent } from './surveys/survey-pay-failed/survey-pay-failed.component';
+import { MyInfoDetailsComponent } from './pages/my-info-details/my-info-details.component';
 
 // Services
 import { FlashMessagesModule, FlashMessagesService } from 'angular2-flash-messages';
@@ -35,13 +42,6 @@ import { JwtModule, JwtHelperService, JwtInterceptor } from '@auth0/angular-jwt'
 
 // Route Guards
 import { AuthGuard } from './guards/auth.guard';
-import { TakeSurveyDetailComponent } from './pages/take-survey-detail/take-survey-detail.component';
-import { DetailComponent } from './surveys/detail/detail.component';
-import { AnswerListComponent } from './surveys/answer-list/answer-list.component';
-import { SurveyPayComponent } from './surveys/survey-pay/survey-pay.component';
-import { SurveyPaySuccessComponent } from './surveys/survey-pay-success/survey-pay-success.component';
-import { SurveyPayFailedComponent } from './surveys/survey-pay-failed/survey-pay-failed.component';
-import { MyInfoDetailsComponent } from './pages/my-info-details/my-info-details.component';
 //import { AnswerListService } from './services/answer-list.service';
 //import { AnswerListComponent } from './surveys/answer-list/answer-list.component';
 
@@ -75,7 +75,7 @@ export function jwtTokenGetter() {
     SurveyPayComponent,
     SurveyPaySuccessComponent,
     SurveyPayFailedComponent,
-    MyInfoDetailsComponent,
+    MyInfoDetailsComponent
     //AnswerListComponent,
     //AnswerListService
 

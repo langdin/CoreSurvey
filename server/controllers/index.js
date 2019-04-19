@@ -103,7 +103,6 @@ module.exports.displayAllSurveyList = (req, res, next) => {
 
 module.exports.editUser = (req, res, next) => {
   let id = req.params.id;
-  let email = req.body.email;
   let updatedUser = User({
     _id: id,
     username: req.body.username,
@@ -120,6 +119,23 @@ module.exports.editUser = (req, res, next) => {
         success: true,
         msg: "Successfully Edited User",
         user: updatedUser
+      });
+    }
+  });
+};
+
+module.exports.getUser = (req, res, next) => {
+  let id = req.params.id;
+
+  User.findById(id, (err, userObj) => {
+    if (err) {
+      console.log(err);
+      res.end(err);
+    } else {
+      res.json({
+        success: true,
+        msg: "Successfully Edited User",
+        user: userObj
       });
     }
   });

@@ -1,22 +1,22 @@
-<div class="container" *ngIf="isLoggedIn()" style="width: 700px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%">
+<div class="container" style="width: 700px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%">
   <h1 class="display-4 text-center" style="color: rgb(0,148,193)">{{title}}</h1>
   <div class="row justify-content-center">
     <div class="col-md-offset-3 col-md-8">
-      <form action="" class="form" (submit)="onDetailsPageSubmit()">
+      <form action="" class="form" (submit)="onSaveChanges()">
         <div class="form-group">
           <label for="UsernameTextField" style="color: rgb(0,148,193)">Username</label>
-          <input type="text" class="form-control" id="UsernameTextField" placeholder="Enter Username"
-            name="username" [(ngModel)]="username" value="{{username}}" required />
+          <input type="text" class="form-control" id="UsernameTextField" placeholder="Enter New Username"
+            name="username" [(ngModel)]="user.username" value="{{user.username}}" />
         </div>
         <div class="form-group">
           <label for="EmailTextField" style="color: rgb(0,148,193)">Email</label>
-          <input type="text" class="form-control" id="EmailTextField" placeholder="Enter Email"
-            name="email" [(ngModel)]="email" value="{{email}}" required />
+          <input type="text" class="form-control" id="EmailTextField" placeholder="Enter New Email"
+            name="email" [(ngModel)]="user.email" value="{{user.email}}"  />
         </div>
         <div class="form-group">
           <label for="DisplayNameTextField" style="color: rgb(0,148,193)">Display Name</label>
-          <input type="text" class="form-control" id="DisplayNameTextField" placeholder="Enter Display Name"
-            name="displayName" [(ngModel)]="displayName" value="{{displayName}}" required />
+          <input type="text" class="form-control" id="DisplayNameTextField" placeholder="Enter New Display Name"
+            name="displayName" [(ngModel)]="user.displayName" value="{{user.displayName}}"/>
         </div>
         <fieldset class="form-group text-center">
           <button type="submit" class="btn btn-primary"  style="margin: 10px;">
@@ -26,7 +26,6 @@
           <a routerLink="/my-info" class="btn btn-warning mx-1"  style="margin: 10px;"><i class="fa fa-undo"></i> Cancel</a>
         </fieldset>
       </form>
-      <br><br><br>
     </div>
   </div>
 </div>

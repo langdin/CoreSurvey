@@ -61,9 +61,15 @@ export class AuthService {
   }
 
   public editUser(user: User): Observable<any> {
-    //this.loadToken();
+    this.loadToken();
     //console.log(user);
-    return this.http.post<any>(this.endpoint + 'edit/' + user._id, user, this.httpOptions);
+    return this.http.post<any>(this.endpoint + 'user/edit/' + user._id, user, this.httpOptions);
+  }
+
+  public getUser(user: User): Observable<any> {
+    this.loadToken();
+    //console.log(user);
+    return this.http.get<any>(this.endpoint + 'user/' + user._id, this.httpOptions);
   }
 
   private loadToken() {
