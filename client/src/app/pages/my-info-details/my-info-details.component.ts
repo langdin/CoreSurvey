@@ -27,7 +27,8 @@ export class MyInfoDetailsComponent implements OnInit {
     this.title = this.activatedRoute.snapshot.data.title;
     this.user  = new User();
     this.user = JSON.parse(localStorage.getItem('user'));
-    this.user._id = this.user['_id'];
+    this.user._id = this.user['id'];
+
     this.getUser();
   }
 
