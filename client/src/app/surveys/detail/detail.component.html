@@ -37,9 +37,9 @@
           <input
             type="text"
             class="form-control"
-            id="DescriptionTextField"
-            placeholder="Enter Description"
-            name="description"
+            id="NumRespondTextField"
+            placeholder="Enter Number Of Respondents"
+            name="numberOfRespondents"
             [(ngModel)]="answers.length"
             value="{{ answers.length }}"
             readonly
@@ -56,7 +56,7 @@
               role="button"
               aria-expanded="false"
               aria-controls="collapseExample"
-            
+
             >
               {{ survey.question1 }}
             </a>

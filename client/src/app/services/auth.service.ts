@@ -59,4 +59,16 @@ export class AuthService {
   public loggedIn(): boolean {
     return !this.jwtService.isTokenExpired(this.authToken);
   }
+
+  public editUser(user: User): Observable<any> {
+    //this.loadToken();
+    //console.log(user);
+    return this.http.post<any>(this.endpoint + 'edit/' + user._id, user, this.httpOptions);
+  }
+
+  private loadToken() {
+    const token = localStorage.getItem('id_token');
+    this.authToken = token;
+    this.httpOptions.headers = this.httpOptions.headers.set('Authorization', this.authToken);
+  }
 }

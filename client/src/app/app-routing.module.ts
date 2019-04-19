@@ -25,6 +25,7 @@ import { AnswerListComponent } from './surveys/answer-list/answer-list.component
 import{ SurveyPayComponent} from './surveys/survey-pay/survey-pay.component';
 import{ SurveyPaySuccessComponent } from './surveys/survey-pay-success/survey-pay-success.component';
 import{ SurveyPayFailedComponent } from './surveys/survey-pay-failed/survey-pay-failed.component';
+import { MyInfoDetailsComponent } from './pages/my-info-details/my-info-details.component';
 
 
 
@@ -62,7 +63,9 @@ const routes: Routes = [
 
   {path: 'register', component: RegisterComponent, data: {title: 'Register'}},
   {path: 'login', component: LoginComponent, data: {title: 'Register'}},
-  {path: 'my-info', component: MyInfoComponent, data: {title: 'my Info'}},
+
+  {path: 'my-info', component: MyInfoComponent, data: {title: 'My Info'}},
+  {path: 'my-info-details', component: MyInfoDetailsComponent, data: {title: 'Edit My Info'}},
 
   {path: 'logout', redirectTo: '/login', pathMatch: 'full'},
 

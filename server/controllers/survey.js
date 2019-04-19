@@ -4,7 +4,6 @@ let jwt = require('jsonwebtoken');
 
 // create a reference to the db schema
 let surveyModel = require('../models/survey');
-let userModel = require('../models/user');
 
 module.exports.displaySurveyList = (req, res, next) =>{
     surveyModel.find((err, surveyList) => {
@@ -83,7 +82,7 @@ module.exports.processEditPage = (req, res, next) => {
         "payment":req.body.payment
     });
 
-    surveyModel.update({_id: id}, updatedSurvey, (err) => {
+    surveyModel.updateOne({_id: id}, updatedSurvey, (err) => {
         if(err) {
             console.log(err);
             res.end(err);

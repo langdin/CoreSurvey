@@ -20,7 +20,7 @@ style="width:900px; height: 480px; position: bottom; top: 0px;left: 0px; right: 
               <a routerLink="/survey-list/add" class="btn btn-light" role="button" style="background-color: rgb(0,0,0); color: rgb(225,225,225)">
                 <i class="fa fa-plus-circle" style="color: rgb(225,225,225)"></i > Add a Survey
               </a>
-  
+
           </th>
           <th _ngcontent-c2 class="th-sm text-center align-middle">Make a payment</th>
           <th _ngcontent-c2 class="th-sm text-center align-middle">Survey Level</th>
@@ -57,9 +57,10 @@ style="width:900px; height: 480px; position: bottom; top: 0px;left: 0px; right: 
 
        <td *ngIf="survey.payment === 'Gold'" class="th-sm text-center align-middle" style="color: rgb(233,233,233)"><p><i class="fas fa-medal fa-3x" style="color:orange" ></i></p>{{ survey.payment }}</td>
        <td *ngIf="survey.payment === 'silver'" class="th-sm text-center align-middle" style="color: rgb(233,233,233)"><p></p>{{ survey.payment }}</td>
+       <td *ngIf="survey.payment != 'silver' && survey.payment != 'Gold'" class="th-sm text-center align-middle" style="color: rgb(233,233,233)"><p></p>{{ survey.payment }}</td>
 
 
-      
+
         </tr>
       </table>
     </div>

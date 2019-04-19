@@ -9,13 +9,16 @@
 <li *ngIf="isLoggedIn()" class=" text-success ml-5 mr-5 d-none d-lg-inline">
   Your display name: {{ user.displayName }}
 </li> -->
-<div class="container" style="padding-top: 2%">
+<div class="container" style="padding-top: 2%" *ngIf="isLoggedIn()">
     <div class="card" style="width: 25rem;">
         <h5 class="card-header">My Information</h5>
         <div class="card-body">
-          <h5 *ngIf="isLoggedIn()" class="card-title">Name: {{ user.username }}</h5>
-          <p *ngIf="isLoggedIn()" class="card-text">Email: {{ user.email }}</p>
-          <p *ngIf="isLoggedIn()" class="card-text">Display Name: {{ user.displayName }}</p>
+          <h5 class="card-title">Username: {{ user.username }}</h5>
+          <p class="card-text">Email: {{ user.email }}</p>
+          <p class="card-text">Display Name: {{ user.displayName }}</p>
+          <a routerLink="/my-info-details" _ngcontent-c2 class="btn btn-dark btn-block">
+            <i class="fas fa-pencil-alt"></i> Edit
+          </a>
         </div>
       </div>
 </div>

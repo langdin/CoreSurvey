@@ -34,13 +34,9 @@ export class AnswerListService {
   //}
 
   public getAnswerList(answer: Answer): Observable<any> {
-    //this.loadToken();
+    this.loadToken();
     return this.http.get<any>(this.endpoint + 'get/' + answer.surveyId, this.httpOptions);
   }
-
-
-
-
 
 
   private loadToken() {
