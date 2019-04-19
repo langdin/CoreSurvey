@@ -21,9 +21,6 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     this.user = new User();
-    this.user = JSON.parse(localStorage.getItem('user'));
-    this.user._id = this.user[Object.keys(this.user)[0].toString()];
-    this.getUser();
   }
 
   onLogoutClick(): void {
@@ -39,14 +36,6 @@ export class HeaderComponent implements OnInit {
       this.user = JSON.parse(localStorage.getItem('user'));
     }
     return result;
-  }
-
-  getUser(): void {
-    this.authService.getUser(this.user).subscribe(data => {
-      if (data.success) {
-        this.user = data.user;
-      }
-    });
   }
 
 }

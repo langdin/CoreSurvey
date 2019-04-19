@@ -26,7 +26,7 @@ export class MyInfoComponent implements OnInit {
   ngOnInit() {
     this.user = new User();
     this.user = JSON.parse(localStorage.getItem('user'));
-    this.user._id = this.user[Object.keys(this.user)[0].toString()];
+    this.user._id = this.user['_id'];
     this.getUser();
   }
 

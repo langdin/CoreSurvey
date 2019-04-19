@@ -27,15 +27,15 @@ export class MyInfoDetailsComponent implements OnInit {
     this.title = this.activatedRoute.snapshot.data.title;
     this.user  = new User();
     this.user = JSON.parse(localStorage.getItem('user'));
-    this.user._id = this.user[Object.keys(this.user)[0].toString()];
+    this.user._id = this.user['_id'];
     this.getUser();
   }
 
 
   onSaveChanges(): void {
-    console.log(this.user);
     this.authService.editUser(this.user).subscribe(data => {
       if (data.success) {
+        localStorage.setItem('user', JSON.stringify(this.user));
         this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});
       } else {
         this.flashMessage.show('Edit Info Failed', {cssClass: 'alert-danger', timeOut: 3000});
