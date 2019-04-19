@@ -1,4 +1,12 @@
-//import { Component, OnInit } from '@angular/core';
+/*
+This Application Made for Emerging Technology COMP308_2019W
+Peiran Liu - 300884514
+Din Khiieu Lanh - 300960476
+Liwen Qiao - 300907835
+Heeyeong Kim - 300954759
+Hyojin Kim - 300950009
+ */
+
 import { Component, OnInit } from '@angular/core';
 import { SurveyListService } from 'src/app/services/survey-list.service';
 import { Survey } from 'src/app/models/survey';
@@ -25,8 +33,8 @@ export class SurveyPayComponent implements OnInit {
   constructor(   private activatedRoute: ActivatedRoute,
     private surveyListService: SurveyListService,
     private flashMessage: FlashMessagesService,
-    private router: Router) 
-    { 
+    private router: Router)
+    {
 
     }
 
@@ -42,7 +50,7 @@ export class SurveyPayComponent implements OnInit {
 
   }
 
-  
+
 
 public displayUserSurveyList(): void {
   this.surveyListService.getSurveyList().subscribe(data => {

@@ -1,5 +1,13 @@
+/*
+This Application Made for Emerging Technology COMP308_2019W
+Peiran Liu - 300884514
+Din Khiieu Lanh - 300960476
+Liwen Qiao - 300907835
+Heeyeong Kim - 300954759
+Hyojin Kim - 300950009
+ */
+
 import { Component, OnInit } from '@angular/core';
-import { Contact } from 'src/app/models/contact';
 import {User} from 'src/app/models/user';
 import { ContactListService } from 'src/app/services/contact-list.service';
 import { FlashMessagesService } from 'angular2-flash-messages';
@@ -38,6 +46,7 @@ export class MyInfoComponent implements OnInit {
     });
   }
 
+  // check if user is logged in and return user data
   isLoggedIn(): boolean {
     const result = this.authService.loggedIn();
     if (result) {

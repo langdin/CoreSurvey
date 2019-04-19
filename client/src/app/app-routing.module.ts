@@ -1,3 +1,12 @@
+/*
+This Application Made for Emerging Technology COMP308_2019W
+Peiran Liu - 300884514
+Din Khiieu Lanh - 300960476
+Liwen Qiao - 300907835
+Heeyeong Kim - 300954759
+Hyojin Kim - 300950009
+ */
+
 // Modules
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -39,20 +48,20 @@ const routes: Routes = [
 
   {path: 'take-survey-detail/:id', component: TakeSurveyDetailComponent, data: {title: 'Take Survey'}},
 
-  {path: 'survey-list', component: SurveyListComponent, data: {title: 'Survey List'}},
+  {path: 'survey-list', component: SurveyListComponent, data: {title: 'Survey List'}, canActivate: [AuthGuard]},
   {path: 'answer-list/:id', component: AnswerListComponent, data: {title: 'Answer List'}},
 
 
   //{path: 'survey-list/get/:id', component: SurveyListComponent, data: {title: 'Answer List'}},// for answer list
 
 
-  {path: 'survey-list/detail/:id', component: DetailComponent, data: {title: 'Survey Detail'}},
-  {path: 'survey-list/add', component: SurveyDetailsComponent, data: {title: 'Add Survey'}},
-  {path: 'survey-list/edit/:id', component: SurveyDetailsComponent, data: {title: 'Edit Survey'}},
-  {path: 'survey-list/delete/:id', component: SurveyDeleteComponent, data: {title: 'Delete Survey'}},
-  {path: 'survey-list/pay/:id', component: SurveyPayComponent, data: {title: 'Pay Survey'}},
-  {path: 'survey-list/pay-success', component: SurveyPaySuccessComponent, data: {title: 'Pay Survey-Success'}},
-  {path: 'survey-list/pay-failed', component: SurveyPayFailedComponent, data: {title: 'Pay Survey-Failed'}},
+  {path: 'survey-list/detail/:id', component: DetailComponent, data: {title: 'Survey Detail'}, canActivate: [AuthGuard]},
+  {path: 'survey-list/add', component: SurveyDetailsComponent, data: {title: 'Add Survey'}, canActivate: [AuthGuard]},
+  {path: 'survey-list/edit/:id', component: SurveyDetailsComponent, data: {title: 'Edit Survey'}, canActivate: [AuthGuard]},
+  {path: 'survey-list/delete/:id', component: SurveyDeleteComponent, data: {title: 'Delete Survey'}, canActivate: [AuthGuard]},
+  {path: 'survey-list/pay/:id', component: SurveyPayComponent, data: {title: 'Pay Survey'}, canActivate: [AuthGuard]},
+  {path: 'survey-list/pay-success', component: SurveyPaySuccessComponent, data: {title: 'Pay Survey-Success'}, canActivate: [AuthGuard]},
+  {path: 'survey-list/pay-failed', component: SurveyPayFailedComponent, data: {title: 'Pay Survey-Failed'}, canActivate: [AuthGuard]},
 
 
 
@@ -64,8 +73,8 @@ const routes: Routes = [
   {path: 'register', component: RegisterComponent, data: {title: 'Register'}},
   {path: 'login', component: LoginComponent, data: {title: 'Register'}},
 
-  {path: 'my-info', component: MyInfoComponent, data: {title: 'My Info'}},
-  {path: 'my-info-details', component: MyInfoDetailsComponent, data: {title: 'Edit My Info'}},
+  {path: 'my-info', component: MyInfoComponent, data: {title: 'My Info'}, canActivate: [AuthGuard]},
+  {path: 'my-info-details', component: MyInfoDetailsComponent, data: {title: 'Edit My Info'}, canActivate: [AuthGuard]},
 
   {path: 'logout', redirectTo: '/login', pathMatch: 'full'},
 

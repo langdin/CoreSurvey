@@ -1,11 +1,17 @@
+/*
+This Application Made for Emerging Technology COMP308_2019W
+Peiran Liu - 300884514
+Din Khiieu Lanh - 300960476
+Liwen Qiao - 300907835
+Heeyeong Kim - 300954759
+Hyojin Kim - 300950009
+ */
+
 import { Component, OnInit } from "@angular/core";
-import { ActivatedRoute } from "@angular/router";
 import { AuthService } from "src/app/services/auth.service";
 import { Survey } from "src/app/models/survey";
 import { FlashMessagesService } from "angular2-flash-messages";
 import { Router } from "@angular/router";
-import { User } from "src/app/models/user";
-import { Time } from "@angular/common";
 //import {DatePipe} from '@angular/common';
 import * as moment from "moment";
 //import moment = require('moment');
@@ -47,17 +53,21 @@ export class TakeSurveyComponent implements OnInit {
         console.log(data);
         this.surveys = data.surveyList;
         for (var i = 0; i < this.surveys.length; i++) {
+          // todays date
           this.nowTime = moment().toDate();
 
           this.nowTime1 = moment(this.nowTime).format("YYYY-MM-DD");
+          // start date
           this.startTime1 = moment(this.surveys[i].startDate).format(
             "YYYY-MM-DD"
           );
+          // end date
           this.endTime1 = moment(this.surveys[i].endDate).format("YYYY-MM-DD");
           //console.log(this.nowTime1);
           //console.log(this.startTime1);
           //console.log(this.endTime1);
 
+          // set status depending on current date
           if (this.nowTime1 >= this.startTime1) {
             if (this.nowTime1 <= this.endTime1) {
               this.surveys[i].status = "activated";

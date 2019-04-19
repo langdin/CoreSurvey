@@ -1,10 +1,19 @@
+/*
+This Application Made for Emerging Technology COMP308_2019W
+Peiran Liu - 300884514
+Din Khiieu Lanh - 300960476
+Liwen Qiao - 300907835
+Heeyeong Kim - 300954759
+Hyojin Kim - 300950009
+ */
+
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders} from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 import { Survey } from '../models/survey';
 import { User } from '../models/user';
-import{ Answer} from '../models/answer'
+import { Answer } from '../models/answer';
 
 @Injectable({
   providedIn: 'root'

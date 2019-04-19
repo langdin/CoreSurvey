@@ -1,3 +1,12 @@
+/*
+This Application Made for Emerging Technology COMP308_2019W
+Peiran Liu - 300884514
+Din Khiieu Lanh - 300960476
+Liwen Qiao - 300907835
+Heeyeong Kim - 300954759
+Hyojin Kim - 300950009
+ */
+
 import { Component, OnInit } from '@angular/core';
 import { User } from 'src/app/models/user';
 import { AuthService } from 'src/app/services/auth.service';
@@ -30,7 +39,7 @@ export class MyInfoDetailsComponent implements OnInit {
     //this.getUser();
   }
 
-
+  // update user
   onSaveChanges(): void {
     this.authService.editUser(this.user).subscribe(data => {
       if (data.success) {
@@ -51,6 +60,7 @@ export class MyInfoDetailsComponent implements OnInit {
     });
   }
 
+  // check if logged in and return user data
   isLoggedIn(): boolean {
     const result = this.authService.loggedIn();
     if (result) {

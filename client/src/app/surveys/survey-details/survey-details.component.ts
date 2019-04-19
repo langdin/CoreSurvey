@@ -1,3 +1,12 @@
+/*
+This Application Made for Emerging Technology COMP308_2019W
+Peiran Liu - 300884514
+Din Khiieu Lanh - 300960476
+Liwen Qiao - 300907835
+Heeyeong Kim - 300954759
+Hyojin Kim - 300950009
+ */
+
 import { Component, OnInit } from '@angular/core';
 import { SurveyListService } from 'src/app/services/survey-list.service';
 import { Survey } from 'src/app/models/survey';
@@ -56,7 +65,6 @@ export class SurveyDetailsComponent implements OnInit {
 }
 
   private getSurvey(survey: Survey): void {
-
     this.surveyListService.getSurvey(survey).subscribe(data => {
       this.survey = data.survey;
       this.startDate = this.formatDate(new Date(this.survey.startDate).toDateString());
@@ -66,6 +74,7 @@ export class SurveyDetailsComponent implements OnInit {
 
   onDetailsPageSubmit(): void {
     switch (this.title) {
+      // add
       case 'Add Survey':
         this.survey.userEmail = this.current.email;
         this.survey.surveyId = Md5.hashStr(this.survey.name).toString()
@@ -84,6 +93,8 @@ export class SurveyDetailsComponent implements OnInit {
           this.router.navigate(['/survey-list']);
         });
         break;
+
+      // edit
       case 'Edit Survey':
         this.survey.startDate = new Date(this.startDate);
         this.survey.endDate = new Date(this.endDate);

@@ -1,3 +1,12 @@
+/*
+This Application Made for Emerging Technology COMP308_2019W
+Peiran Liu - 300884514
+Din Khiieu Lanh - 300960476
+Liwen Qiao - 300907835
+Heeyeong Kim - 300954759
+Hyojin Kim - 300950009
+ */
+
 import { Component, OnInit } from '@angular/core';
 
 import { SurveyListService } from 'src/app/services/survey-list.service';
@@ -43,6 +52,7 @@ export class TakeSurveyDetailComponent implements OnInit {
   }
 
   private getSurvey(survey: Survey): void {
+    // get survey data
     this.surveyListService.getSurvey(survey).subscribe(data => {
       this.survey = data.survey;
 
@@ -57,6 +67,7 @@ export class TakeSurveyDetailComponent implements OnInit {
       console.log(nowTime1);
       console.log(startTime1);
       console.log(endTime1);
+      // survey is out of time then redirect back
       if (nowTime1 < startTime1 || nowTime1 > endTime1) {
         this.survey = null;
       this.router.navigate(['/take-survey']);
@@ -66,6 +77,7 @@ export class TakeSurveyDetailComponent implements OnInit {
   }
 
   onDetailsPageSubmit(): void {
+    // submit survey answer
     this.answer.surveyId = this.survey.surveyId;
       this.takeSurveyService.addAnswer(this.answer).subscribe(data => {
         if (data.success) {
