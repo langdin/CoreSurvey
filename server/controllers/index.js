@@ -95,20 +95,6 @@ module.exports.performLogout = (req, res, next) => {
   res.json({ success: true, msg: "User Successfully Logged out!" });
 };
 
-module.exports.displayAllSurveyList = (req, res, next) => {
-  surveyModel.find((err, surveyList) => {
-    if (err) {
-      return console.error(err);
-    } else {
-      res.json({
-        success: true,
-        msg: "Survey List Displayed Successfully",
-        surveyList: surveyList,
-        user: req.user
-      });
-    }
-  });
-};
 
 module.exports.editUser = (req, res, next) => {
   let id = req.params.id;
