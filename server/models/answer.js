@@ -11,15 +11,15 @@ let mongoose = require('mongoose');
 
 // create a model class
 let answerSchema = mongoose.Schema({
-    surveyId: String,
-    answer1: String,
-    answer2: String,
-    answer3: String,
-    answer4: String,
-    answer5: String
+    surveyId: {type: mongoose.Schema.Types.ObjectId, ref: 'Survey'},
+    answer1: {type: String, required: true},
+    answer2: {type: String, required: true},
+    answer3: {type: String, required: true},
+    answer4: {type: String, required: true},
+    answer5: {type: String, required: true}
 },
 {
     collection: "answers"
 });
 
-module.exports = mongoose.model('answer', answerSchema);
+module.exports = mongoose.model('Answer', answerSchema);

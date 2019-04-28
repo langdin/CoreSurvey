@@ -23,7 +23,10 @@ function requireAuth(req, res, next) {
 }
 
 /* GET Survey List page - READ Operation */
-router.get('/', passport.authenticate('jwt', {session: false}), surveyController.displaySurveyList);
+router.get('/', surveyController.displayAllSurveyList);
+
+/* GET Survey List page - READ Operation */
+router.get('/:id', passport.authenticate('jwt', {session: false}), surveyController.displayUserSurveyList);
 
 /* GET Route for the Add page 
    this will display the Add page */

@@ -14,6 +14,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { FlashMessagesService } from 'angular2-flash-messages';
 import { User } from 'src/app/models/user';
 import {Md5} from 'ts-md5/dist/md5';
+import { AuthService } from 'src/app/services/auth.service';
 @Component({
   selector: 'app-survey-pay',
   templateUrl: './survey-pay.component.html',
@@ -30,18 +31,20 @@ export class SurveyPayComponent implements OnInit {
   id: string;
 
 
-  constructor(   private activatedRoute: ActivatedRoute,
+  constructor(
+    private activatedRoute: ActivatedRoute,
     private surveyListService: SurveyListService,
     private flashMessage: FlashMessagesService,
-    private router: Router)
-    {
+    private router: Router,
+    private authService: AuthService) {
 
     }
 
   ngOnInit() {
     this.title = this.activatedRoute.snapshot.data.title;
     this.survey = new Survey();
-    this.current = JSON.parse(localStorage.getItem('user'));
+    this.current = new User();
+    this.isLoggedIn();
 
     this.activatedRoute.params.subscribe(params => {
         this.id = params.id;
@@ -53,7 +56,7 @@ export class SurveyPayComponent implements OnInit {
 
 
 public displayUserSurveyList(): void {
-  this.surveyListService.getSurveyList().subscribe(data => {
+  this.surveyListService.getUserSurveyList(this.current._id).subscribe(data => {
     if (data.success) {
       console.log(data.surveyList);
       this.searchSurvey = data.surveyList;
@@ -72,7 +75,14 @@ public displayUserSurveyList(): void {
   });
  }
 
-
+ isLoggedIn(): boolean {
+  const result = this.authService.loggedIn();
+  if (result) {
+    this.current = JSON.parse(localStorage.getItem('user'));
+    this.current._id = this.current['id'];
+  }
+  return result;
+}
 
 
 }

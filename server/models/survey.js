@@ -11,23 +11,22 @@ let mongoose = require('mongoose');
 
 // create a model class
 let surveySchema = mongoose.Schema({
-    userEmail: String,
-    name: String,
-    description: String,
-    question1: String,
-    question2: String,
-    question3: String,
-    question4: String,
-    question5: String,
-    startDate: Date,
-    endDate: Date,
-    surveyId:String,
-    status:String,
-    payment:String
+    user: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
+    name: {type: String, required: true},
+    description: {type: String, required: true},
+    question1: {type: String, required: true},
+    question2: {type: String, required: true},
+    question3: {type: String, required: true},
+    question4: {type: String, required: true},
+    question5: {type: String, required: true},
+    startDate: {type: Date, required: true},
+    endDate: {type: Date, required: true},
+    surveyId: {type: String, required: true},
+    payment: {type: String, required: true}
 
 },
 {
     collection: "surveys"
 });
 
-module.exports = mongoose.model('survey', surveySchema);
+module.exports = mongoose.model('Survey', surveySchema);

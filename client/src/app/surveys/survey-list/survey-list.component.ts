@@ -27,32 +27,26 @@ export class SurveyListComponent implements OnInit {
   searchSurvey: Survey[];
   surveys: Survey[];
   current: User;
-  answers:Answer[];
-  answer:Answer;
+  answers: Answer[];
+  answer: Answer;
 
 
   constructor(
     private surveyListService: SurveyListService,
     private flashMessage: FlashMessagesService,
     private router: Router,
-    private authService: AuthService,
-    private answerListService:AnswerListService
-
+    private authService: AuthService
   ) { }
 
   ngOnInit() {
     this.surveys = new Array<Survey>();
-    this.current = JSON.parse(localStorage.getItem('user'));
-    this.answers=new Array<Answer>()
-    this.answer = new Answer;
+    this.current = new User();
+    this.answers = new Array<Answer>();
+    this.answer = new Answer();
 
-
-
-    if (this.isLoggedIn())
+    this.isLoggedIn();
     this.displayUserSurveyList();
 
-    else
-    this.displaySurveyList();
 
     //alert(this.current.id);
 
@@ -64,34 +58,17 @@ export class SurveyListComponent implements OnInit {
     }
   }
 
-  public displaySurveyList(): void {
-    this.surveyListService.getSurveyList().subscribe(data => {
-      if (data.success) {
-        console.log(data);
-        this.surveys = data.surveyList;
-      } else {
-        this.flashMessage.show('User must be logged in', {cssClass: 'alert-danger', timeOut: 3000});
-      }
-    });
-   }
-
-
-
-
-
-
-
-
 
    public displayUserSurveyList(): void {
-    this.surveyListService.getSurveyList().subscribe(data => {
+    this.surveyListService.getUserSurveyList(this.current._id).subscribe(data => {
       if (data.success) {
         console.log(data.surveyList);
         this.searchSurvey = data.surveyList;
         this.searchSurvey.forEach(survey => {
-
-          if (survey.userEmail === this.current.email)
+          // TODO change get survey list
+          if (survey.user === this.current._id) {
             this.surveys.push(survey);
+          }
         });
       } else {
         this.flashMessage.show('User must be logged in', {cssClass: 'alert-danger', timeOut: 3000});
@@ -103,6 +80,7 @@ export class SurveyListComponent implements OnInit {
     const result = this.authService.loggedIn();
     if (result) {
       this.current = JSON.parse(localStorage.getItem('user'));
+      this.current._id = this.current['id'];
     }
     return result;
   }

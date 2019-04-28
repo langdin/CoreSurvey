@@ -13,9 +13,21 @@ let jwt = require('jsonwebtoken');
 
 // create a reference to the db schema
 let surveyModel = require('../models/survey');
+let userModel = require('../models/user');
 
-module.exports.displaySurveyList = (req, res, next) =>{
+module.exports.displayAllSurveyList = (req, res, next) =>{
     surveyModel.find((err, surveyList) => {
+        if(err) {
+            return console.error(err);
+        }
+        else {
+           res.json({success: true, msg: 'Survey List Displayed Successfully', surveyList: surveyList, user: req.user});
+        }
+    });
+}
+
+module.exports.displayUserSurveyList = (req, res, next) =>{
+    surveyModel.find({user: req.params.id },(err, surveyList) => {
         if(err) {
             return console.error(err);
         }
@@ -32,7 +44,7 @@ module.exports.displayAddPage = (req, res, next) => {
 module.exports.processAddPage = (req, res, next) => {
 
     let newSurvey = surveyModel({
-        "userEmail": req.body.userEmail,
+        "user": req.body.user,
         "name": req.body.name,
         "description": req.body.description,
         "question1": req.body.question1,
@@ -43,11 +55,10 @@ module.exports.processAddPage = (req, res, next) => {
         "surveyId": req.body.surveyId,
         "startDate": req.body.startDate,
         "endDate": req.body.endDate,
-        "status": req.body.status,
         "payment": "silver"
     });
 
-    newSurvey.save( (err, surveyModel) => {
+    surveyModel.create(newSurvey, (err, surveyModel) => {
         if(err) {
             console.log(err);
             res.end(err);

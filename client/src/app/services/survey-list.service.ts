@@ -36,9 +36,14 @@ export class SurveyListService {
     this.user = new User();
   }
 
-  public getSurveyList(): Observable<any> {
+  public getAllSurveyList(): Observable<any> {
     this.loadToken();
     return this.http.get<any>(this.endpoint, this.httpOptions);
+  }
+
+  public getUserSurveyList(id: string): Observable<any> {
+    this.loadToken();
+    return this.http.get<any>(this.endpoint + id, this.httpOptions);
   }
 
   public getSurvey(survey: Survey): Observable<any> {

@@ -23,8 +23,6 @@ router.post('/register', indexController.processRegisterPage);
 /* GET - perform user logout */
 router.get('/logout', indexController.performLogout);
 
-/* GET - display all survey list */
-router.get('/survey', indexController.displayAllSurveyList);
 
 /* GET - display userdata */
 router.get('/user/:id',passport.authenticate('jwt', {session: false}), indexController.getUser);

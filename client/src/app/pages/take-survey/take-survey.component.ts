@@ -14,6 +14,7 @@ import { FlashMessagesService } from "angular2-flash-messages";
 import { Router } from "@angular/router";
 //import {DatePipe} from '@angular/common';
 import * as moment from "moment";
+import { SurveyListService } from 'src/app/services/survey-list.service';
 //import moment = require('moment');
 
 @Component({
@@ -34,8 +35,7 @@ export class TakeSurveyComponent implements OnInit {
 
   constructor(
     private authService: AuthService,
-    private flashMessage: FlashMessagesService,
-    private router: Router //private datePipe:DatePipe,
+    private surveyListService: SurveyListService,
   ) {}
 
   ngOnInit() {
@@ -48,7 +48,7 @@ export class TakeSurveyComponent implements OnInit {
   public displaySurveyList(): void {
     console.log(this.nowTime);
 
-    this.authService.getAllSurveyList().subscribe(data => {
+    this.surveyListService.getAllSurveyList().subscribe(data => {
       if (data.success) {
         console.log(data);
         this.surveys = data.surveyList;

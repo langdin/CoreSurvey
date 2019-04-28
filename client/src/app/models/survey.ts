@@ -9,7 +9,7 @@ Hyojin Kim - 300950009
 
 export class Survey {
   _id: string;
-  userEmail: string;
+  user: string;
   name: string;
   description: string;
   question1: string;
@@ -20,6 +20,6 @@ export class Survey {
   startDate: Date;
   endDate: Date;
   surveyId: string;
-  status:string;
-  payment:string;
+  status: string;
+  payment: string;
 }

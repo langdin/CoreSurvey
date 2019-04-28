@@ -76,7 +76,9 @@ export class SurveyDetailsComponent implements OnInit {
     switch (this.title) {
       // add
       case 'Add Survey':
-        this.survey.userEmail = this.current.email;
+        this.user = new User();
+        this.user = JSON.parse(localStorage.getItem('user'));
+        this.survey.user = this.user['id'];
         this.survey.surveyId = Md5.hashStr(this.survey.name).toString()
         + Md5.hashStr(this.survey.description).toString()
         + Md5.hashStr(this.survey.question1).toString();
