@@ -11,7 +11,6 @@ let mongoose = require('mongoose');
 
 // create a model class
 let answerSchema = mongoose.Schema({
-    createdDate: Date,
     surveyId: String,
     answer1: String,
     answer2: String,

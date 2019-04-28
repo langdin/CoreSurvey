@@ -43,11 +43,11 @@ module.exports.processAddPage = (req, res, next) => {
         "surveyId": req.body.surveyId,
         "startDate": req.body.startDate,
         "endDate": req.body.endDate,
-        "status":req.body.status,
-        "payment":"silver"
+        "status": req.body.status,
+        "payment": "silver"
     });
 
-    surveyModel.create(newSurvey, (err, surveyModel) => {
+    newSurvey.save( (err, surveyModel) => {
         if(err) {
             console.log(err);
             res.end(err);

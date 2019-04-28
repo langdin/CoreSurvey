@@ -21,8 +21,8 @@ export class SurveyListService {
   private user: User;
   private authToken: any = null;
 
-  //private endpoint = 'https://comp308-w2019-lesson10b.herokuapp.com/api/contact-list/';
-  private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/survey-list/';
+  private endpoint = 'http://localhost:3000/api/survey-list/';
+  //private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/survey-list/';
 
   private httpOptions = {
     headers: new HttpHeaders({

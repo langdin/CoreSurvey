@@ -1,7 +1,7 @@
 module.exports = {
-   //"URI" : "mongodb://localhost/demo",
+   "URI" : "mongodb://localhost/demo",
     //"URI" : "mongodb://thomas:a123456@ds060977.mlab.com:60977/comp308-w2019-lesson10b",
-    "URI": "mongodb://coresurvey:comp308@ds149201.mlab.com:49201/comp308-w2019-core-survey",
+    //"URI": "mongodb://coresurvey:comp308@ds149201.mlab.com:49201/comp308-w2019-core-survey",
     "secret": "SomeSecret"
 }
 /* 
