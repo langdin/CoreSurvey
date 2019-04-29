@@ -59,7 +59,7 @@ export class DetailComponent implements OnInit {
   private getSurvey(survey: Survey, answer: Answer): void {
     this.surveyListService.getSurvey(survey).subscribe(data => {
       this.survey = data.survey;
-      this.answer.surveyId = this.survey.surveyId;
+      this.answer.surveyId = this.survey._id;
       this.getAnswers(answer);
     });
   }

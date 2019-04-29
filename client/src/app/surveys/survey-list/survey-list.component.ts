@@ -63,13 +63,7 @@ export class SurveyListComponent implements OnInit {
     this.surveyListService.getUserSurveyList(this.current._id).subscribe(data => {
       if (data.success) {
         console.log(data.surveyList);
-        this.searchSurvey = data.surveyList;
-        this.searchSurvey.forEach(survey => {
-          // TODO change get survey list
-          if (survey.user === this.current._id) {
-            this.surveys.push(survey);
-          }
-        });
+        this.surveys = data.surveyList;
       } else {
         this.flashMessage.show('User must be logged in', {cssClass: 'alert-danger', timeOut: 3000});
       }

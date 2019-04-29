@@ -9,8 +9,6 @@ Hyojin Kim - 300950009
 
 let express = require('express');
 let router = express.Router();
-let jwt = require('jsonwebtoken');
-let passport = require('passport');
 
 let takeSurveyController = require('../controllers/take-survey');
 

@@ -67,8 +67,8 @@ export class SurveyDetailsComponent implements OnInit {
   private getSurvey(survey: Survey): void {
     this.surveyListService.getSurvey(survey).subscribe(data => {
       this.survey = data.survey;
-      this.startDate = this.formatDate(new Date(this.survey.startDate).toDateString());
-      this.endDate = this.formatDate(new Date(this.survey.endDate).toDateString());
+      this.startDate = this.formatDate(this.survey.startDate.toString().replace(/-/g, '\/').replace(/T.+/, ''));
+      this.endDate = this.formatDate(this.survey.endDate.toString().replace(/-/g, '\/').replace(/T.+/, ''));
     });
   }
 
@@ -78,13 +78,10 @@ export class SurveyDetailsComponent implements OnInit {
       case 'Add Survey':
         this.user = new User();
         this.user = JSON.parse(localStorage.getItem('user'));
-        this.survey.user = this.user['id'];
-        this.survey.surveyId = Md5.hashStr(this.survey.name).toString()
-        + Md5.hashStr(this.survey.description).toString()
-        + Md5.hashStr(this.survey.question1).toString();
+        this.survey.userId = this.user['id'];
 
-        this.survey.startDate = new Date(this.startDate.replace(/-/g, ','));
-        this.survey.endDate = new Date(this.endDate.replace(/-/g, ','));
+        this.survey.startDate = new Date(this.startDate);//new Date(this.startDate.replace(/-/g, ','));
+        this.survey.endDate = new Date(this.endDate);//new Date(this.endDate.replace(/-/g, ','));
 
         this.surveyListService.addSurvey(this.survey).subscribe(data => {
           if (data.success) {

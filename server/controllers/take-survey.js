@@ -8,8 +8,6 @@ Hyojin Kim - 300950009
  */
 
 let express = require('express');
-let router = express.Router();
-let jwt = require('jsonwebtoken');
 
 // create a reference to the db schema
 let answerModel = require('../models/answer');

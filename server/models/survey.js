@@ -11,7 +11,7 @@ let mongoose = require('mongoose');
 
 // create a model class
 let surveySchema = mongoose.Schema({
-    user: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
+    userId: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
     name: {type: String, required: true},
     description: {type: String, required: true},
     question1: {type: String, required: true},
@@ -21,7 +21,6 @@ let surveySchema = mongoose.Schema({
     question5: {type: String, required: true},
     startDate: {type: Date, required: true},
     endDate: {type: Date, required: true},
-    surveyId: {type: String, required: true},
     payment: {type: String, required: true}
 
 },

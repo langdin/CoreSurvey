@@ -62,7 +62,7 @@ public displayUserSurveyList(): void {
       this.searchSurvey = data.surveyList;
       this.searchSurvey.forEach(survey => {
 
-        if (this.id === survey.surveyId)
+        if (this.id === survey._id)
           this.survey= survey;
 
           localStorage.setItem("d_survey", JSON.stringify(this.survey));

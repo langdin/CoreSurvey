@@ -64,7 +64,7 @@ export class TakeSurveyComponent implements OnInit {
           // end date
           this.endTime1 = moment(this.surveys[i].endDate).format("YYYY-MM-DD");
           //console.log(this.nowTime1);
-          //console.log(this.startTime1);
+          //console.log(this.surveys[i].startDate);
           //console.log(this.endTime1);
 
           // set status depending on current date

@@ -27,7 +27,7 @@ module.exports.displayAllSurveyList = (req, res, next) =>{
 }
 
 module.exports.displayUserSurveyList = (req, res, next) =>{
-    surveyModel.find({user: req.params.id },(err, surveyList) => {
+    surveyModel.find({userId: req.params.id },(err, surveyList) => {
         if(err) {
             return console.error(err);
         }
@@ -44,7 +44,7 @@ module.exports.displayAddPage = (req, res, next) => {
 module.exports.processAddPage = (req, res, next) => {
 
     let newSurvey = surveyModel({
-        "user": req.body.user,
+        "userId": req.body.userId,
         "name": req.body.name,
         "description": req.body.description,
         "question1": req.body.question1,
@@ -52,7 +52,6 @@ module.exports.processAddPage = (req, res, next) => {
         "question3": req.body.question3,
         "question4": req.body.question4,
         "question5": req.body.question5,
-        "surveyId": req.body.surveyId,
         "startDate": req.body.startDate,
         "endDate": req.body.endDate,
         "payment": "silver"
@@ -96,7 +95,6 @@ module.exports.processEditPage = (req, res, next) => {
         "question3": req.body.question3,
         "question4": req.body.question4,
         "question5": req.body.question5,
-        "surveyId": req.body.surveyId,
         "startDate": req.body.startDate,
         "endDate": req.body.endDate,
         "payment":req.body.payment

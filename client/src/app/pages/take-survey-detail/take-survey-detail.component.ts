@@ -13,7 +13,6 @@ import { SurveyListService } from 'src/app/services/survey-list.service';
 import { Survey } from 'src/app/models/survey';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FlashMessagesService } from 'angular2-flash-messages';
-import { User } from 'src/app/models/user';
 import { Answer } from 'src/app/models/answer';
 import { TakeSurveyService } from 'src/app/services/take-survey.service';
 import * as moment from "moment";
@@ -78,7 +77,7 @@ export class TakeSurveyDetailComponent implements OnInit {
 
   onDetailsPageSubmit(): void {
     // submit survey answer
-    this.answer.surveyId = this.survey.surveyId;
+    this.answer.surveyId = this.survey._id;
       this.takeSurveyService.addAnswer(this.answer).subscribe(data => {
         if (data.success) {
           this.flashMessage.show(data.msg, {cssClass: 'alert-success', timeOut: 3000});
