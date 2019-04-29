@@ -32,23 +32,15 @@ style="width:900px; height: 480px; position: bottom; top: 0px;left: 0px; right: 
           <td class="text-center" style="color: rgb(233,233,233)">{{ survey.startDate | date: 'MM/dd/yyyy' }}</td>
           <td class="text-center" style="color: rgb(233,233,233)">{{ survey.endDate | date: 'MM/dd/yyyy'}}</td>
           <td  class="text-center">
-
-
-
             <a *ngIf="survey.status === 'activated'" routerLink="/take-survey-detail/{{ survey._id }}" class="btn btn-outline-info"
               ><i class="fas fa-pencil-alt"></i>
               Take Survey
             </a>
 
             <a *ngIf="survey.status === 'out of time'"  class="btn btn-primary"
-            ><i class="fas fa-pencil-alt"></i>
-            Out of time
-          </a>
-
-
-
-
-
+              ><i class="fas fa-pencil-alt"></i>
+              Out of time
+            </a>
           </td>
         </tr>
       </table>
