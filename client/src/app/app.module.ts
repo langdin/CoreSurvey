@@ -25,11 +25,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
-import { ContactListComponent } from './contacts/contact-list/contact-list.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LoginComponent } from './pages/login/login.component';
-import { ContactDetailsComponent } from './contacts/contact-details/contact-details.component';
-import { ContactDeleteComponent } from './contacts/contact-delete/contact-delete.component';
 import { MyInfoComponent } from './pages/my-info/my-info.component';
 import { TakeSurveyComponent } from './pages/take-survey/take-survey.component';
 import { SurveyDetailsComponent } from './surveys/survey-details/survey-details.component';
@@ -68,11 +65,8 @@ export function jwtTokenGetter() {
     AboutComponent,
     ContactComponent,
     PageNotFoundComponent,
-    ContactListComponent,
     RegisterComponent,
     LoginComponent,
-    ContactDetailsComponent,
-    ContactDeleteComponent,
     MyInfoComponent,
     TakeSurveyComponent,
     SurveyDetailsComponent,

@@ -9,7 +9,6 @@ Hyojin Kim - 300950009
 
 import { Component, OnInit } from '@angular/core';
 import {User} from 'src/app/models/user';
-import { ContactListService } from 'src/app/services/contact-list.service';
 import { FlashMessagesService } from 'angular2-flash-messages';
 import { Router } from '@angular/router';
 import { AuthService } from 'src/app/services/auth.service';
@@ -24,7 +23,6 @@ export class MyInfoComponent implements OnInit {
   user: User;
 
   constructor(
-    private contactListService: ContactListService,
     private flashMessage: FlashMessagesService,
     private router: Router,
     private authService: AuthService

@@ -327,24 +327,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/about/about.component */ "./src/app/pages/about/about.component.ts");
 /* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/contact/contact.component */ "./src/app/pages/contact/contact.component.ts");
 /* harmony import */ var _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/page-not-found/page-not-found.component */ "./src/app/pages/page-not-found/page-not-found.component.ts");
-/* harmony import */ var _contacts_contact_list_contact_list_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./contacts/contact-list/contact-list.component */ "./src/app/contacts/contact-list/contact-list.component.ts");
-/* harmony import */ var _contacts_contact_details_contact_details_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./contacts/contact-details/contact-details.component */ "./src/app/contacts/contact-details/contact-details.component.ts");
-/* harmony import */ var _contacts_contact_delete_contact_delete_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./contacts/contact-delete/contact-delete.component */ "./src/app/contacts/contact-delete/contact-delete.component.ts");
-/* harmony import */ var _pages_register_register_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/register/register.component */ "./src/app/pages/register/register.component.ts");
-/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
-/* harmony import */ var _guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./guards/auth.guard */ "./src/app/guards/auth.guard.ts");
-/* harmony import */ var _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/my-info/my-info.component */ "./src/app/pages/my-info/my-info.component.ts");
-/* harmony import */ var _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/take-survey/take-survey.component */ "./src/app/pages/take-survey/take-survey.component.ts");
-/* harmony import */ var _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./surveys/survey-list/survey-list.component */ "./src/app/surveys/survey-list/survey-list.component.ts");
-/* harmony import */ var _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./surveys/survey-details/survey-details.component */ "./src/app/surveys/survey-details/survey-details.component.ts");
-/* harmony import */ var _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./surveys/survey-delete/survey-delete.component */ "./src/app/surveys/survey-delete/survey-delete.component.ts");
-/* harmony import */ var _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./surveys/detail/detail.component */ "./src/app/surveys/detail/detail.component.ts");
-/* harmony import */ var _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./pages/take-survey-detail/take-survey-detail.component */ "./src/app/pages/take-survey-detail/take-survey-detail.component.ts");
-/* harmony import */ var _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./surveys/answer-list/answer-list.component */ "./src/app/surveys/answer-list/answer-list.component.ts");
-/* harmony import */ var _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./surveys/survey-pay/survey-pay.component */ "./src/app/surveys/survey-pay/survey-pay.component.ts");
-/* harmony import */ var _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./surveys/survey-pay-success/survey-pay-success.component */ "./src/app/surveys/survey-pay-success/survey-pay-success.component.ts");
-/* harmony import */ var _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./surveys/survey-pay-failed/survey-pay-failed.component */ "./src/app/surveys/survey-pay-failed/survey-pay-failed.component.ts");
-/* harmony import */ var _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./pages/my-info-details/my-info-details.component */ "./src/app/pages/my-info-details/my-info-details.component.ts");
+/* harmony import */ var _pages_register_register_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/register/register.component */ "./src/app/pages/register/register.component.ts");
+/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
+/* harmony import */ var _guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./guards/auth.guard */ "./src/app/guards/auth.guard.ts");
+/* harmony import */ var _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/my-info/my-info.component */ "./src/app/pages/my-info/my-info.component.ts");
+/* harmony import */ var _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/take-survey/take-survey.component */ "./src/app/pages/take-survey/take-survey.component.ts");
+/* harmony import */ var _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./surveys/survey-list/survey-list.component */ "./src/app/surveys/survey-list/survey-list.component.ts");
+/* harmony import */ var _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./surveys/survey-details/survey-details.component */ "./src/app/surveys/survey-details/survey-details.component.ts");
+/* harmony import */ var _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./surveys/survey-delete/survey-delete.component */ "./src/app/surveys/survey-delete/survey-delete.component.ts");
+/* harmony import */ var _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./surveys/detail/detail.component */ "./src/app/surveys/detail/detail.component.ts");
+/* harmony import */ var _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/take-survey-detail/take-survey-detail.component */ "./src/app/pages/take-survey-detail/take-survey-detail.component.ts");
+/* harmony import */ var _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./surveys/answer-list/answer-list.component */ "./src/app/surveys/answer-list/answer-list.component.ts");
+/* harmony import */ var _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./surveys/survey-pay/survey-pay.component */ "./src/app/surveys/survey-pay/survey-pay.component.ts");
+/* harmony import */ var _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./surveys/survey-pay-success/survey-pay-success.component */ "./src/app/surveys/survey-pay-success/survey-pay-success.component.ts");
+/* harmony import */ var _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./surveys/survey-pay-failed/survey-pay-failed.component */ "./src/app/surveys/survey-pay-failed/survey-pay-failed.component.ts");
+/* harmony import */ var _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./pages/my-info-details/my-info-details.component */ "./src/app/pages/my-info-details/my-info-details.component.ts");
 /*
 This Application Made for Emerging Technology COMP308_2019W
 Peiran Liu - 300884514
@@ -377,34 +374,27 @@ Hyojin Kim - 300950009
 
 
 
-
-
-
 //import{}
 var routes = [
     { path: 'home', component: _pages_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"], data: { title: 'Home' } },
     { path: 'about', component: _pages_about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"], data: { title: 'About' } },
-    { path: 'take-survey', component: _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_14__["TakeSurveyComponent"], data: { title: 'Take Survey' } },
+    { path: 'take-survey', component: _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_11__["TakeSurveyComponent"], data: { title: 'Take Survey' } },
     { path: 'contact', component: _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_5__["ContactComponent"], data: { title: 'Contact' } },
-    { path: 'take-survey-detail/:id', component: _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_19__["TakeSurveyDetailComponent"], data: { title: 'Take Survey' } },
-    { path: 'survey-list', component: _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_15__["SurveyListComponent"], data: { title: 'Survey List' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'answer-list/:id', component: _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_20__["AnswerListComponent"], data: { title: 'Answer List' } },
+    { path: 'take-survey-detail/:id', component: _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_16__["TakeSurveyDetailComponent"], data: { title: 'Take Survey' } },
+    { path: 'survey-list', component: _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_12__["SurveyListComponent"], data: { title: 'Survey List' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'answer-list/:id', component: _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_17__["AnswerListComponent"], data: { title: 'Answer List' } },
     //{path: 'survey-list/get/:id', component: SurveyListComponent, data: {title: 'Answer List'}},// for answer list
-    { path: 'survey-list/detail/:id', component: _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_18__["DetailComponent"], data: { title: 'Survey Detail' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'survey-list/add', component: _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_16__["SurveyDetailsComponent"], data: { title: 'Add Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'survey-list/edit/:id', component: _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_16__["SurveyDetailsComponent"], data: { title: 'Edit Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'survey-list/delete/:id', component: _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_17__["SurveyDeleteComponent"], data: { title: 'Delete Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'survey-list/pay/:id', component: _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_21__["SurveyPayComponent"], data: { title: 'Pay Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'survey-list/pay-success', component: _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_22__["SurveyPaySuccessComponent"], data: { title: 'Pay Survey-Success' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'survey-list/pay-failed', component: _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_23__["SurveyPayFailedComponent"], data: { title: 'Pay Survey-Failed' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'contact/contact-list', component: _contacts_contact_list_contact_list_component__WEBPACK_IMPORTED_MODULE_7__["ContactListComponent"], data: { title: 'Contact List' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'contact/contact-list/add', component: _contacts_contact_details_contact_details_component__WEBPACK_IMPORTED_MODULE_8__["ContactDetailsComponent"], data: { title: 'Add Contact' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'contact/contact-list/edit/:id', component: _contacts_contact_details_contact_details_component__WEBPACK_IMPORTED_MODULE_8__["ContactDetailsComponent"], data: { title: 'Edit Contact' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'contact/contact-list/delete/:id', component: _contacts_contact_delete_contact_delete_component__WEBPACK_IMPORTED_MODULE_9__["ContactDeleteComponent"], data: { title: 'Add Contact' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'register', component: _pages_register_register_component__WEBPACK_IMPORTED_MODULE_10__["RegisterComponent"], data: { title: 'Register' } },
-    { path: 'login', component: _pages_login_login_component__WEBPACK_IMPORTED_MODULE_11__["LoginComponent"], data: { title: 'Register' } },
-    { path: 'my-info', component: _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_13__["MyInfoComponent"], data: { title: 'My Info' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'my-info-details', component: _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_24__["MyInfoDetailsComponent"], data: { title: 'Edit My Info' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
+    { path: 'survey-list/detail/:id', component: _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_15__["DetailComponent"], data: { title: 'Survey Detail' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'survey-list/add', component: _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_13__["SurveyDetailsComponent"], data: { title: 'Add Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'survey-list/edit/:id', component: _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_13__["SurveyDetailsComponent"], data: { title: 'Edit Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'survey-list/delete/:id', component: _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_14__["SurveyDeleteComponent"], data: { title: 'Delete Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'survey-list/pay/:id', component: _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_18__["SurveyPayComponent"], data: { title: 'Pay Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'survey-list/pay-success', component: _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_19__["SurveyPaySuccessComponent"], data: { title: 'Pay Survey-Success' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'survey-list/pay-failed', component: _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_20__["SurveyPayFailedComponent"], data: { title: 'Pay Survey-Failed' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'register', component: _pages_register_register_component__WEBPACK_IMPORTED_MODULE_7__["RegisterComponent"], data: { title: 'Register' } },
+    { path: 'login', component: _pages_login_login_component__WEBPACK_IMPORTED_MODULE_8__["LoginComponent"], data: { title: 'Register' } },
+    { path: 'my-info', component: _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_10__["MyInfoComponent"], data: { title: 'My Info' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'my-info-details', component: _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_21__["MyInfoDetailsComponent"], data: { title: 'Edit My Info' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
     { path: 'logout', redirectTo: '/login', pathMatch: 'full' },
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: '**', component: _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_6__["PageNotFoundComponent"] }
@@ -505,27 +495,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_about_about_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/about/about.component */ "./src/app/pages/about/about.component.ts");
 /* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/contact/contact.component */ "./src/app/pages/contact/contact.component.ts");
 /* harmony import */ var _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/page-not-found/page-not-found.component */ "./src/app/pages/page-not-found/page-not-found.component.ts");
-/* harmony import */ var _contacts_contact_list_contact_list_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./contacts/contact-list/contact-list.component */ "./src/app/contacts/contact-list/contact-list.component.ts");
-/* harmony import */ var _pages_register_register_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/register/register.component */ "./src/app/pages/register/register.component.ts");
-/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
-/* harmony import */ var _contacts_contact_details_contact_details_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./contacts/contact-details/contact-details.component */ "./src/app/contacts/contact-details/contact-details.component.ts");
-/* harmony import */ var _contacts_contact_delete_contact_delete_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./contacts/contact-delete/contact-delete.component */ "./src/app/contacts/contact-delete/contact-delete.component.ts");
-/* harmony import */ var _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./pages/my-info/my-info.component */ "./src/app/pages/my-info/my-info.component.ts");
-/* harmony import */ var _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./pages/take-survey/take-survey.component */ "./src/app/pages/take-survey/take-survey.component.ts");
-/* harmony import */ var _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./surveys/survey-details/survey-details.component */ "./src/app/surveys/survey-details/survey-details.component.ts");
-/* harmony import */ var _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./surveys/survey-delete/survey-delete.component */ "./src/app/surveys/survey-delete/survey-delete.component.ts");
-/* harmony import */ var _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./surveys/survey-list/survey-list.component */ "./src/app/surveys/survey-list/survey-list.component.ts");
-/* harmony import */ var _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./pages/take-survey-detail/take-survey-detail.component */ "./src/app/pages/take-survey-detail/take-survey-detail.component.ts");
-/* harmony import */ var _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./surveys/detail/detail.component */ "./src/app/surveys/detail/detail.component.ts");
-/* harmony import */ var _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./surveys/answer-list/answer-list.component */ "./src/app/surveys/answer-list/answer-list.component.ts");
-/* harmony import */ var _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./surveys/survey-pay/survey-pay.component */ "./src/app/surveys/survey-pay/survey-pay.component.ts");
-/* harmony import */ var _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./surveys/survey-pay-success/survey-pay-success.component */ "./src/app/surveys/survey-pay-success/survey-pay-success.component.ts");
-/* harmony import */ var _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./surveys/survey-pay-failed/survey-pay-failed.component */ "./src/app/surveys/survey-pay-failed/survey-pay-failed.component.ts");
-/* harmony import */ var _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./pages/my-info-details/my-info-details.component */ "./src/app/pages/my-info-details/my-info-details.component.ts");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_32__);
-/* harmony import */ var _auth0_angular_jwt__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @auth0/angular-jwt */ "./node_modules/@auth0/angular-jwt/index.js");
-/* harmony import */ var _guards_auth_guard__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./guards/auth.guard */ "./src/app/guards/auth.guard.ts");
+/* harmony import */ var _pages_register_register_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./pages/register/register.component */ "./src/app/pages/register/register.component.ts");
+/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
+/* harmony import */ var _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/my-info/my-info.component */ "./src/app/pages/my-info/my-info.component.ts");
+/* harmony import */ var _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./pages/take-survey/take-survey.component */ "./src/app/pages/take-survey/take-survey.component.ts");
+/* harmony import */ var _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./surveys/survey-details/survey-details.component */ "./src/app/surveys/survey-details/survey-details.component.ts");
+/* harmony import */ var _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./surveys/survey-delete/survey-delete.component */ "./src/app/surveys/survey-delete/survey-delete.component.ts");
+/* harmony import */ var _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./surveys/survey-list/survey-list.component */ "./src/app/surveys/survey-list/survey-list.component.ts");
+/* harmony import */ var _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./pages/take-survey-detail/take-survey-detail.component */ "./src/app/pages/take-survey-detail/take-survey-detail.component.ts");
+/* harmony import */ var _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./surveys/detail/detail.component */ "./src/app/surveys/detail/detail.component.ts");
+/* harmony import */ var _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./surveys/answer-list/answer-list.component */ "./src/app/surveys/answer-list/answer-list.component.ts");
+/* harmony import */ var _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./surveys/survey-pay/survey-pay.component */ "./src/app/surveys/survey-pay/survey-pay.component.ts");
+/* harmony import */ var _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./surveys/survey-pay-success/survey-pay-success.component */ "./src/app/surveys/survey-pay-success/survey-pay-success.component.ts");
+/* harmony import */ var _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./surveys/survey-pay-failed/survey-pay-failed.component */ "./src/app/surveys/survey-pay-failed/survey-pay-failed.component.ts");
+/* harmony import */ var _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./pages/my-info-details/my-info-details.component */ "./src/app/pages/my-info-details/my-info-details.component.ts");
+/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
+/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_29__);
+/* harmony import */ var _auth0_angular_jwt__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @auth0/angular-jwt */ "./node_modules/@auth0/angular-jwt/index.js");
+/* harmony import */ var _guards_auth_guard__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./guards/auth.guard */ "./src/app/guards/auth.guard.ts");
 /*
 This Application Made for Emerging Technology COMP308_2019W
 Peiran Liu - 300884514
@@ -543,9 +530,6 @@ Hyojin Kim - 300950009
 
 
 // Components
-
-
-
 
 
 
@@ -592,23 +576,20 @@ var AppModule = /** @class */ (function () {
                 _pages_about_about_component__WEBPACK_IMPORTED_MODULE_12__["AboutComponent"],
                 _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_13__["ContactComponent"],
                 _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_14__["PageNotFoundComponent"],
-                _contacts_contact_list_contact_list_component__WEBPACK_IMPORTED_MODULE_15__["ContactListComponent"],
-                _pages_register_register_component__WEBPACK_IMPORTED_MODULE_16__["RegisterComponent"],
-                _pages_login_login_component__WEBPACK_IMPORTED_MODULE_17__["LoginComponent"],
-                _contacts_contact_details_contact_details_component__WEBPACK_IMPORTED_MODULE_18__["ContactDetailsComponent"],
-                _contacts_contact_delete_contact_delete_component__WEBPACK_IMPORTED_MODULE_19__["ContactDeleteComponent"],
-                _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_20__["MyInfoComponent"],
-                _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_21__["TakeSurveyComponent"],
-                _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_22__["SurveyDetailsComponent"],
-                _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_23__["SurveyDeleteComponent"],
-                _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_24__["SurveyListComponent"],
-                _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_25__["TakeSurveyDetailComponent"],
-                _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_26__["DetailComponent"],
-                _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_27__["AnswerListComponent"],
-                _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_28__["SurveyPayComponent"],
-                _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_29__["SurveyPaySuccessComponent"],
-                _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_30__["SurveyPayFailedComponent"],
-                _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_31__["MyInfoDetailsComponent"]
+                _pages_register_register_component__WEBPACK_IMPORTED_MODULE_15__["RegisterComponent"],
+                _pages_login_login_component__WEBPACK_IMPORTED_MODULE_16__["LoginComponent"],
+                _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_17__["MyInfoComponent"],
+                _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_18__["TakeSurveyComponent"],
+                _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_19__["SurveyDetailsComponent"],
+                _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_20__["SurveyDeleteComponent"],
+                _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_21__["SurveyListComponent"],
+                _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_22__["TakeSurveyDetailComponent"],
+                _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_23__["DetailComponent"],
+                _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_24__["AnswerListComponent"],
+                _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_25__["SurveyPayComponent"],
+                _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_26__["SurveyPaySuccessComponent"],
+                _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_27__["SurveyPayFailedComponent"],
+                _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_28__["MyInfoDetailsComponent"]
                 //AnswerListComponent,
                 //AnswerListService
             ],
@@ -619,312 +600,18 @@ var AppModule = /** @class */ (function () {
                 angular_bootstrap_datetimepicker__WEBPACK_IMPORTED_MODULE_6__["DlDateTimeDateModule"],
                 angular_bootstrap_datetimepicker__WEBPACK_IMPORTED_MODULE_6__["DlDateTimePickerModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"],
-                angular2_flash_messages__WEBPACK_IMPORTED_MODULE_32__["FlashMessagesModule"],
-                _auth0_angular_jwt__WEBPACK_IMPORTED_MODULE_33__["JwtModule"].forRoot({
+                angular2_flash_messages__WEBPACK_IMPORTED_MODULE_29__["FlashMessagesModule"],
+                _auth0_angular_jwt__WEBPACK_IMPORTED_MODULE_30__["JwtModule"].forRoot({
                     config: {
                         tokenGetter: jwtTokenGetter
                     }
                 })
             ],
-            providers: [angular2_flash_messages__WEBPACK_IMPORTED_MODULE_32__["FlashMessagesService"], _guards_auth_guard__WEBPACK_IMPORTED_MODULE_34__["AuthGuard"]],
+            providers: [angular2_flash_messages__WEBPACK_IMPORTED_MODULE_29__["FlashMessagesService"], _guards_auth_guard__WEBPACK_IMPORTED_MODULE_31__["AuthGuard"]],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-delete/contact-delete.component.css":
-/*!**********************************************************************!*\
-  !*** ./src/app/contacts/contact-delete/contact-delete.component.css ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3RzL2NvbnRhY3QtZGVsZXRlL2NvbnRhY3QtZGVsZXRlLmNvbXBvbmVudC5jc3MifQ== */"
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-delete/contact-delete.component.html":
-/*!***********************************************************************!*\
-  !*** ./src/app/contacts/contact-delete/contact-delete.component.html ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-delete/contact-delete.component.ts":
-/*!*********************************************************************!*\
-  !*** ./src/app/contacts/contact-delete/contact-delete.component.ts ***!
-  \*********************************************************************/
-/*! exports provided: ContactDeleteComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactDeleteComponent", function() { return ContactDeleteComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/contact-list.service */ "./src/app/services/contact-list.service.ts");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var src_app_models_contact__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/models/contact */ "./src/app/models/contact.ts");
-
-
-
-
-
-
-var ContactDeleteComponent = /** @class */ (function () {
-    function ContactDeleteComponent(activatedRoute, flashMessage, contactListService, router) {
-        this.activatedRoute = activatedRoute;
-        this.flashMessage = flashMessage;
-        this.contactListService = contactListService;
-        this.router = router;
-    }
-    ContactDeleteComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.title = this.activatedRoute.snapshot.data.title;
-        this.contact = new src_app_models_contact__WEBPACK_IMPORTED_MODULE_5__["Contact"]();
-        this.activatedRoute.params.subscribe(function (params) {
-            _this.contact._id = params.id;
-        });
-        this.deleteContact(this.contact);
-    };
-    ContactDeleteComponent.prototype.deleteContact = function (contact) {
-        var _this = this;
-        this.contactListService.deleteContact(contact).subscribe(function (data) {
-            if (data.success) {
-                _this.flashMessage.show(data.msg, { cssClass: 'alert-warning', timeOut: 3000 });
-                _this.router.navigate(['/contact/contact-list']);
-            }
-            else {
-                _this.flashMessage.show('Delete Contact Failed', { cssClass: 'alert-danger', timeOut: 3000 });
-                _this.router.navigate(['/contact/contact-list']);
-            }
-        });
-    };
-    ContactDeleteComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-contact-delete',
-            template: __webpack_require__(/*! ./contact-delete.component.html */ "./src/app/contacts/contact-delete/contact-delete.component.html"),
-            styles: [__webpack_require__(/*! ./contact-delete.component.css */ "./src/app/contacts/contact-delete/contact-delete.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"],
-            angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__["FlashMessagesService"],
-            src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_2__["ContactListService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]])
-    ], ContactDeleteComponent);
-    return ContactDeleteComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-details/contact-details.component.css":
-/*!************************************************************************!*\
-  !*** ./src/app/contacts/contact-details/contact-details.component.css ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3RzL2NvbnRhY3QtZGV0YWlscy9jb250YWN0LWRldGFpbHMuY29tcG9uZW50LmNzcyJ9 */"
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-details/contact-details.component.html":
-/*!*************************************************************************!*\
-  !*** ./src/app/contacts/contact-details/contact-details.component.html ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = " <!-- Content for the Details Page -->\n<div class=\"container\">\n  <div class=\"row\">\n      <div class=\"col-md-offset-3 col-md-6\">\n          <h1>{{ title }}</h1>\n\n          <form class=\"form\" (submit)=\"onDetailsPageSubmit()\">\n              <div class=\"form-group\">\n                  <label for=\"FirstNameTextField\">First Name</label>\n                  <input type=\"text\" class=\"form-control\"\n                  id=\"FirstNameTextField\"\n                  placeholder=\"Enter First Name\"\n                  name=\"firstName\"\n                  [(ngModel)]=\"contact.firstName\"\n                  value=\"{{ contact.firstName }}\"\n                  required>\n              </div>\n\n              <div class=\"form-group\">\n                  <label for=\"LastNameTextField\">Last Name</label>\n                  <input type=\"text\" class=\"form-control\"\n                  id=\"LastNameTextField\"\n                  placeholder=\"Enter Last Name\"\n                  name=\"lastName\"\n                  [(ngModel)]=\"contact.lastName\"\n                  value=\"{{ contact.lastName }}\"\n                  required>\n              </div>\n\n              <div class=\"form-group\">\n                  <label for=\"AgeTextField\">Age</label>\n                  <input type=\"text\" class=\"form-control\"\n                  id=\"AgeTextField\"\n                  placeholder=\"Enter Age\"\n                  name=\"age\"\n                  [(ngModel)]=\"contact.age\"\n                  value=\"{{ contact.age }}\"\n                  required>\n              </div>\n\n              <button type=\"submit\" class=\"btn btn-primary\">\n              <i class=\"fas fa-edit\"></i> {{ title }}</button>\n              <a routerLink=\"/contact/contact-list\" class=\"btn btn-warning\">\n                  <i class=\"fas fa-undo\"></i> Cancel</a>\n          </form>\n\n\n      </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-details/contact-details.component.ts":
-/*!***********************************************************************!*\
-  !*** ./src/app/contacts/contact-details/contact-details.component.ts ***!
-  \***********************************************************************/
-/*! exports provided: ContactDetailsComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactDetailsComponent", function() { return ContactDetailsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/contact-list.service */ "./src/app/services/contact-list.service.ts");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var src_app_models_contact__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/models/contact */ "./src/app/models/contact.ts");
-
-
-
-
-
-
-var ContactDetailsComponent = /** @class */ (function () {
-    function ContactDetailsComponent(activatedRoute, flashMessage, contactListService, router) {
-        this.activatedRoute = activatedRoute;
-        this.flashMessage = flashMessage;
-        this.contactListService = contactListService;
-        this.router = router;
-    }
-    ContactDetailsComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.title = this.activatedRoute.snapshot.data.title;
-        this.contact = new src_app_models_contact__WEBPACK_IMPORTED_MODULE_5__["Contact"]();
-        this.activatedRoute.params.subscribe(function (params) {
-            _this.contact._id = params.id;
-        });
-        if (this.title === 'Edit Contact') {
-            this.getContact(this.contact);
-        }
-    };
-    ContactDetailsComponent.prototype.getContact = function (contact) {
-        var _this = this;
-        this.contactListService.getContact(contact).subscribe(function (data) {
-            _this.contact = data.contact;
-        });
-    };
-    ContactDetailsComponent.prototype.onDetailsPageSubmit = function () {
-        var _this = this;
-        switch (this.title) {
-            case 'Add Contact':
-                this.contactListService.addContact(this.contact).subscribe(function (data) {
-                    if (data.success) {
-                        _this.flashMessage.show(data.msg, { cssClass: 'alert-success', timeOut: 3000 });
-                        _this.router.navigate(['/contact/contact-list']);
-                    }
-                    else {
-                        _this.flashMessage.show('Add Contact Failed', { cssClass: 'alert-danger', timeOut: 3000 });
-                        _this.router.navigate(['/contact/contact-list']);
-                    }
-                });
-                break;
-            case 'Edit Contact':
-                this.contactListService.editContact(this.contact).subscribe(function (data) {
-                    if (data.success) {
-                        _this.flashMessage.show(data.msg, { cssClass: 'alert-success', timeOut: 3000 });
-                        _this.router.navigate(['/contact/contact-list']);
-                    }
-                    else {
-                        _this.flashMessage.show('Edit Contact Failed', { cssClass: 'alert-danger', timeOut: 3000 });
-                        _this.router.navigate(['/contact/contact-list']);
-                    }
-                });
-                break;
-        }
-    };
-    ContactDetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-contact-details',
-            template: __webpack_require__(/*! ./contact-details.component.html */ "./src/app/contacts/contact-details/contact-details.component.html"),
-            styles: [__webpack_require__(/*! ./contact-details.component.css */ "./src/app/contacts/contact-details/contact-details.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"],
-            angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__["FlashMessagesService"],
-            src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_2__["ContactListService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]])
-    ], ContactDetailsComponent);
-    return ContactDetailsComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-list/contact-list.component.css":
-/*!******************************************************************!*\
-  !*** ./src/app/contacts/contact-list/contact-list.component.css ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3RzL2NvbnRhY3QtbGlzdC9jb250YWN0LWxpc3QuY29tcG9uZW50LmNzcyJ9 */"
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-list/contact-list.component.html":
-/*!*******************************************************************!*\
-  !*** ./src/app/contacts/contact-list/contact-list.component.html ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"container\">\n  <div class=\"row\">\n      <div class=\"col-md-offset-3 col-md-6\">\n          <h1>Contact List</h1>\n          <a class=\"btn btn-primary\" routerLink=\"/contact/contact-list/add\" role=\"button\">\n          <i class=\"fas fa-plus-circle\"></i> Add a Contact</a>\n          <br>\n          <table class=\"table table-bordered table-striped table-hover\">\n              <!-- Header Row-->\n              <tr>\n                  <th class=\"text-center\">First Name</th>\n                  <th class=\"text-center\">Last Name</th>\n                  <th class=\"text-center\">Age</th>\n                  <th class=\"text-center\"></th>\n                  <th class=\"text-center\"></th>\n              </tr>\n\n              <!-- Repeatable Template Row -->\n                  <tr *ngFor=\"let contact of contacts\">\n                      <td class=\"text-center\">{{ contact.firstName }}</td>\n                      <td class=\"text-center\">{{ contact.lastName }}</td>\n                      <td class=\"text-center\">{{ contact.age }}</td>\n\n                      <td class=\"text-center\">\n                      <a routerLink=\"/contact/contact-list/edit/{{ contact._id }}\"\n                          class=\"btn btn-primary\"><i class=\"fas fa-pencil-alt\"></i> Edit</a>\n                      </td>\n\n                      <td class=\"text-center\">\n                              <a routerLink=\"/contact/contact-list/delete/{{ contact._id }}\" (click)=\"onDeleteClick()\"\n                                  class=\"btn btn-danger\"><i class=\"fas fa-trash-alt\"></i> Delete</a>\n                              </td>\n                  </tr>\n          </table>\n\n      </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-list/contact-list.component.ts":
-/*!*****************************************************************!*\
-  !*** ./src/app/contacts/contact-list/contact-list.component.ts ***!
-  \*****************************************************************/
-/*! exports provided: ContactListComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactListComponent", function() { return ContactListComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/contact-list.service */ "./src/app/services/contact-list.service.ts");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-
-
-
-
-
-var ContactListComponent = /** @class */ (function () {
-    function ContactListComponent(contactListService, flashMessage, router) {
-        this.contactListService = contactListService;
-        this.flashMessage = flashMessage;
-        this.router = router;
-    }
-    ContactListComponent.prototype.ngOnInit = function () {
-        this.contacts = new Array();
-        this.displayContactList();
-    };
-    ContactListComponent.prototype.onDeleteClick = function () {
-        if (!confirm('Are You Sure?')) {
-            this.router.navigate(['/contact/contact-list']);
-        }
-    };
-    ContactListComponent.prototype.displayContactList = function () {
-        var _this = this;
-        this.contactListService.getList().subscribe(function (data) {
-            if (data.success) {
-                _this.contacts = data.contactList;
-            }
-            else {
-                _this.flashMessage.show('User must be logged-in', { cssClass: 'alert-danger', timeOut: 3000 });
-            }
-        });
-    };
-    ContactListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-contact-list',
-            template: __webpack_require__(/*! ./contact-list.component.html */ "./src/app/contacts/contact-list/contact-list.component.html"),
-            styles: [__webpack_require__(/*! ./contact-list.component.css */ "./src/app/contacts/contact-list/contact-list.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_2__["ContactListService"],
-            angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__["FlashMessagesService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]])
-    ], ContactListComponent);
-    return ContactListComponent;
 }());
 
 
@@ -999,26 +686,6 @@ var Answer = /** @class */ (function () {
     function Answer() {
     }
     return Answer;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/models/contact.ts":
-/*!***********************************!*\
-  !*** ./src/app/models/contact.ts ***!
-  \***********************************/
-/*! exports provided: Contact */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Contact", function() { return Contact; });
-var Contact = /** @class */ (function () {
-    function Contact() {
-    }
-    return Contact;
 }());
 
 
@@ -1534,11 +1201,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var src_app_models_user__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/models/user */ "./src/app/models/user.ts");
-/* harmony import */ var src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/services/contact-list.service */ "./src/app/services/contact-list.service.ts");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/app/services/auth.service */ "./src/app/services/auth.service.ts");
+/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
+/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/services/auth.service */ "./src/app/services/auth.service.ts");
 /*
 This Application Made for Emerging Technology COMP308_2019W
 Peiran Liu - 300884514
@@ -1553,10 +1219,8 @@ Hyojin Kim - 300950009
 
 
 
-
 var MyInfoComponent = /** @class */ (function () {
-    function MyInfoComponent(contactListService, flashMessage, router, authService) {
-        this.contactListService = contactListService;
+    function MyInfoComponent(flashMessage, router, authService) {
         this.flashMessage = flashMessage;
         this.router = router;
         this.authService = authService;
@@ -1592,10 +1256,9 @@ var MyInfoComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./my-info.component.html */ "./src/app/pages/my-info/my-info.component.html"),
             styles: [__webpack_require__(/*! ./my-info.component.css */ "./src/app/pages/my-info/my-info.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_3__["ContactListService"],
-            angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4__["FlashMessagesService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"],
-            src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_6__["AuthService"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__["FlashMessagesService"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"],
+            src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_5__["AuthService"]])
     ], MyInfoComponent);
     return MyInfoComponent;
 }());
@@ -2238,7 +1901,7 @@ var AnswerListService = /** @class */ (function () {
     function AnswerListService(http) {
         this.http = http;
         this.authToken = null;
-        //private endpoint = 'https://comp308-w2019-lesson10b.herokuapp.com/api/contact-list/';
+        //private endpoint = 'http://localhost:3000/api/answer-list/';
         this.endpoint = 'https://comp308-coresurvey.herokuapp.com/api/answer-list/';
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
@@ -2307,7 +1970,7 @@ var AuthService = /** @class */ (function () {
     function AuthService(http, jwtService) {
         this.http = http;
         this.jwtService = jwtService;
-        //private endpoint = 'https://comp308-w2019-lesson10b.herokuapp.com/api/';
+        //private endpoint = 'http://localhost:3000/api/';
         this.endpoint = 'https://comp308-coresurvey.herokuapp.com/api/';
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
@@ -2371,77 +2034,6 @@ var AuthService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/services/contact-list.service.ts":
-/*!**************************************************!*\
-  !*** ./src/app/services/contact-list.service.ts ***!
-  \**************************************************/
-/*! exports provided: ContactListService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactListService", function() { return ContactListService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _models_user__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../models/user */ "./src/app/models/user.ts");
-
-
-
-
-var ContactListService = /** @class */ (function () {
-    function ContactListService(http) {
-        this.http = http;
-        this.authToken = null;
-        //private endpoint = 'https://comp308-w2019-lesson10b.herokuapp.com/api/contact-list/';
-        this.endpoint = 'http://localhost:3000/api/contact-list/';
-        this.httpOptions = {
-            headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
-                'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': '*',
-                'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
-            })
-        };
-        this.user = new _models_user__WEBPACK_IMPORTED_MODULE_3__["User"]();
-    }
-    ContactListService.prototype.getList = function () {
-        this.loadToken();
-        return this.http.get(this.endpoint, this.httpOptions);
-    };
-    ContactListService.prototype.getContact = function (contact) {
-        this.loadToken();
-        return this.http.get(this.endpoint + 'edit/' + contact._id, this.httpOptions);
-    };
-    ContactListService.prototype.addContact = function (contact) {
-        this.loadToken();
-        return this.http.post(this.endpoint + 'add', contact, this.httpOptions);
-    };
-    ContactListService.prototype.editContact = function (contact) {
-        this.loadToken();
-        return this.http.post(this.endpoint + 'edit/' + contact._id, contact, this.httpOptions);
-    };
-    ContactListService.prototype.deleteContact = function (contact) {
-        this.loadToken();
-        return this.http.get(this.endpoint + 'delete/' + contact._id, this.httpOptions);
-    };
-    ContactListService.prototype.loadToken = function () {
-        var token = localStorage.getItem('id_token');
-        this.authToken = token;
-        this.httpOptions.headers = this.httpOptions.headers.set('Authorization', this.authToken);
-    };
-    ContactListService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
-            providedIn: 'root'
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]])
-    ], ContactListService);
-    return ContactListService;
-}());
-
-
-
-/***/ }),
-
 /***/ "./src/app/services/survey-list.service.ts":
 /*!*************************************************!*\
   !*** ./src/app/services/survey-list.service.ts ***!
@@ -2472,7 +2064,7 @@ var SurveyListService = /** @class */ (function () {
     function SurveyListService(http) {
         this.http = http;
         this.authToken = null;
-        //private endpoint = 'https://comp308-w2019-lesson10b.herokuapp.com/api/contact-list/';
+        //private endpoint = 'http://localhost:3000/api/survey-list/';
         this.endpoint = 'https://comp308-coresurvey.herokuapp.com/api/survey-list/';
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
@@ -2549,7 +2141,7 @@ var TakeSurveyService = /** @class */ (function () {
     function TakeSurveyService(http) {
         this.http = http;
         this.authToken = null;
-        //private endpoint = 'https://comp308-w2019-lesson10b.herokuapp.com/api/contact-list/';
+        //private endpoint = 'http://localhost:3000/api/take-survey/';
         this.endpoint = 'https://comp308-coresurvey.herokuapp.com/api/take-survey/'; // change endpoint
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({

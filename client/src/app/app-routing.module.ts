@@ -16,9 +16,6 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
-import { ContactListComponent } from './contacts/contact-list/contact-list.component';
-import { ContactDetailsComponent } from './contacts/contact-details/contact-details.component';
-import { ContactDeleteComponent } from './contacts/contact-delete/contact-delete.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LoginComponent } from './pages/login/login.component';
 import { AuthGuard } from './guards/auth.guard';
@@ -62,13 +59,6 @@ const routes: Routes = [
   {path: 'survey-list/pay/:id', component: SurveyPayComponent, data: {title: 'Pay Survey'}, canActivate: [AuthGuard]},
   {path: 'survey-list/pay-success', component: SurveyPaySuccessComponent, data: {title: 'Pay Survey-Success'}, canActivate: [AuthGuard]},
   {path: 'survey-list/pay-failed', component: SurveyPayFailedComponent, data: {title: 'Pay Survey-Failed'}, canActivate: [AuthGuard]},
-
-
-
-  {path: 'contact/contact-list', component: ContactListComponent, data: {title: 'Contact List'}, canActivate: [AuthGuard]},
-  {path: 'contact/contact-list/add', component: ContactDetailsComponent, data: {title: 'Add Contact'}, canActivate: [AuthGuard]},
-  {path: 'contact/contact-list/edit/:id', component: ContactDetailsComponent, data: {title: 'Edit Contact'}, canActivate: [AuthGuard]},
-  {path: 'contact/contact-list/delete/:id', component: ContactDeleteComponent, data: {title: 'Add Contact'}, canActivate: [AuthGuard]},
 
   {path: 'register', component: RegisterComponent, data: {title: 'Register'}},
   {path: 'login', component: LoginComponent, data: {title: 'Register'}},
