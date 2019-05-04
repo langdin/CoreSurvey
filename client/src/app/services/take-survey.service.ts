@@ -18,8 +18,8 @@ import { Observable } from 'rxjs';
 export class TakeSurveyService {
   private authToken: any = null;
 
-  private endpoint = 'http://localhost:3000/api/take-survey/';
-  //private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/take-survey/'; // change endpoint
+  //private endpoint = 'http://localhost:3000/api/take-survey/';
+  private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/take-survey/'; // change endpoint
 
   private httpOptions = {
     headers: new HttpHeaders({
