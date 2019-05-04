@@ -14,6 +14,9 @@ style="width:900px; height: 480px; position: bottom; top: 0px;left: 0px; right: 
 
 <div class="container" style="width: 600px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%">
 <h3 class="text-left" style="color: rgb(0,148,193)">Surveys</h3>
+<div class="input-group mb-3">
+  <input type="text" class="form-control" [(ngModel)]="search" placeholder="Search by survey name" >
+</div>
 <div class="row">
     <div class="col-md-offset-3 col-md-12">
  <!--      <a routerLink="/survey-list/add" class="btn btn-outline-primary" role="button">
@@ -39,7 +42,7 @@ style="width:900px; height: 480px; position: bottom; top: 0px;left: 0px; right: 
         </thead>
 
         <!-- Repeatable Template Row -->
-        <tr *ngFor="let survey of surveys">
+        <tr *ngFor="let survey of surveys | searchByName: search.toLowerCase()">
           <td class="th-sm text-center align-middle" style="color: rgb(233,233,233)">{{ survey.name }}</td>
           <td class="th-sm text-center align-middle" style="color: rgb(233,233,233)">{{ survey.description }}</td>
           <td class="th-sm text-center align-middle">

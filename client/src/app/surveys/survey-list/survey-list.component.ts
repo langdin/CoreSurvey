@@ -24,7 +24,7 @@ import { Answer } from 'src/app/models/answer';
   styleUrls: ['./survey-list.component.css']
 })
 export class SurveyListComponent implements OnInit {
-  searchSurvey: Survey[];
+  search: string;
   surveys: Survey[];
   current: User;
   answers: Answer[];
@@ -43,7 +43,7 @@ export class SurveyListComponent implements OnInit {
     this.current = new User();
     this.answers = new Array<Answer>();
     this.answer = new Answer();
-
+    this.search = '';
     this.isLoggedIn();
     this.displayUserSurveyList();
 
@@ -78,4 +78,6 @@ export class SurveyListComponent implements OnInit {
     }
     return result;
   }
+
+
 }

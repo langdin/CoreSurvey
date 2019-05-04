@@ -29,9 +29,11 @@ export class TakeSurveyComponent implements OnInit {
   startTime: Date;
   endTime: Date;
 
-  nowTime1: String;
-  startTime1: String;
-  endTime1: String;
+  nowTime1: string;
+  startTime1: string;
+  endTime1: string;
+
+  search: string;
 
   constructor(
     private authService: AuthService,
@@ -41,7 +43,7 @@ export class TakeSurveyComponent implements OnInit {
   ngOnInit() {
     this.surveys = new Array<Survey>();
     // console.log(this.nowTime);
-
+    this.search = '';
     this.displaySurveyList();
   }
 

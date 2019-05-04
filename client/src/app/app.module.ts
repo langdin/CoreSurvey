@@ -48,6 +48,7 @@ import { JwtModule, JwtHelperService, JwtInterceptor } from '@auth0/angular-jwt'
 
 // Route Guards
 import { AuthGuard } from './guards/auth.guard';
+import { SearchByName } from './pipes/searchByName.pipe';
 //import { AnswerListService } from './services/answer-list.service';
 //import { AnswerListComponent } from './surveys/answer-list/answer-list.component';
 
@@ -78,7 +79,8 @@ export function jwtTokenGetter() {
     SurveyPayComponent,
     SurveyPaySuccessComponent,
     SurveyPayFailedComponent,
-    MyInfoDetailsComponent
+    MyInfoDetailsComponent,
+    SearchByName
     //AnswerListComponent,
     //AnswerListService
 
