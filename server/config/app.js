@@ -41,7 +41,6 @@ mongoDB.once('open', ()=> {
 });
 
 let indexRouter = require('../routes/index');
-let contactRouter = require('../routes/contact');
 let surveyRouter = require('../routes/survey');
 let takeSurveyRouter = require('../routes/take-survey');
 let answerSurveyRouter=require('../routes/answer-list')
@@ -109,8 +108,7 @@ passport.use(strategy);
 
 app.use('/api', indexRouter);
 app.use('/api/take-survey', takeSurveyRouter);
-app.use('/api/answer-list', answerSurveyRouter);
-app.use('/api/contact-list', passport.authenticate('jwt', {session: false}), contactRouter);
+app.use('/api/answer-list', passport.authenticate('jwt', {session: false}), answerSurveyRouter);
 app.use('/api/survey-list', surveyRouter);
 app.get('*', (req, res) => {
   res.sendfile(path.join(__dirname, '../../public/index.html'));
