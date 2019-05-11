@@ -10,9 +10,9 @@ Hyojin Kim - 300950009
 
 -->
 <div
-style="width:900px; height: 480px; position: bottom; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center; background-image: url(../assets/bg1.jpg); ">
+style="max-width:900px; max-height: 480px; position: bottom; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center; background-image: url(../assets/bg1.jpg); ">
 
-<div class="container" style="width: 600px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%">
+<div class="container" style="max-width: 600px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%">
 <h3 class="text-left" style="color: rgb(0,148,193)">Surveys</h3>
 <div class="row">
     <div class="col-md-offset-3 col-md-12">
@@ -52,7 +52,7 @@ style="width:900px; height: 480px; position: bottom; top: 0px;left: 0px; right: 
             <a routerLink="/survey-list/delete/{{ survey._id }}" (click)="onDeleteClick()" _ngcontent-c2 class="btn btn-dark btn-block">
               <i class="fas fa-trash"></i>
           </a>
-          <a routerLink="/answer-list/{{ survey.surveyId}}"   _ngcontent-c2 class="btn btn-dark btn-block">
+          <a routerLink="/answer-list/{{ survey._id}}"   _ngcontent-c2 class="btn btn-dark btn-block">
             <i class="fas fa-cloud-download-alt"></i>
         </a>
        </td>
@@ -60,7 +60,7 @@ style="width:900px; height: 480px; position: bottom; top: 0px;left: 0px; right: 
 
        <td class="th-sm text-center align-middle" style="color: rgb(233,233,233)">
        Upgrade your Survey
-        <a routerLink="/survey-list/pay/{{ survey.surveyId}}"   _ngcontent-c2 class="btn btn-dark btn-block">
+        <a routerLink="/survey-list/pay/{{ survey._id}}"   _ngcontent-c2 class="btn btn-dark btn-block">
           <i class="fab fa-cc-paypal"> </i>
       </a>
        </td>
