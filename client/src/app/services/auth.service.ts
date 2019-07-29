@@ -20,8 +20,8 @@ export class AuthService {
   user: User;
   private authToken: any;
 
-  //private endpoint = 'http://localhost:3000/api/';
-  private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/';
+  private endpoint = 'http://localhost:3000/api/';
+  // private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/';
 
   private httpOptions = {
     headers: new HttpHeaders({
@@ -71,13 +71,13 @@ export class AuthService {
 
   public editUser(user: User): Observable<any> {
     this.loadToken();
-    //console.log(user);
+    // console.log(user);
     return this.http.post<any>(this.endpoint + 'user/edit/' + user._id, user, this.httpOptions);
   }
 
   public getUser(user: User): Observable<any> {
     this.loadToken();
-    //console.log(user);
+    // console.log(user);
     return this.http.get<any>(this.endpoint + 'user/' + user._id, this.httpOptions);
   }
 

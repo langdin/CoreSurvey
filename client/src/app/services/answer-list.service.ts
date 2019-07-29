@@ -22,8 +22,8 @@ export class AnswerListService {
   private user: User;
   private authToken: any = null;
 
-  //private endpoint = 'http://localhost:3000/api/answer-list/';
-  private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/answer-list/';
+   private endpoint = 'http://localhost:3000/api/answer-list/';
+  // private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/answer-list/';
 
   private httpOptions = {
     headers: new HttpHeaders({
@@ -37,10 +37,10 @@ export class AnswerListService {
     this.user = new User();
   }
 
-  //public getSurveyList(): Observable<any> {
+  //  public getSurveyList(): Observable<any> {
   //  this.loadToken();
   //  return this.http.get<any>(this.endpoint, this.httpOptions);
-  //}
+  // }
 
   public getAnswerList(answer: Answer): Observable<any> {
     this.loadToken();

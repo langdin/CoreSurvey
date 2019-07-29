@@ -21,8 +21,8 @@ export class SurveyListService {
   private user: User;
   private authToken: any = null;
 
-  //private endpoint = 'http://localhost:3000/api/survey-list/';
-  private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/survey-list/';
+   private endpoint = 'http://localhost:3000/api/survey-list/';
+  // private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/survey-list/';
 
   private httpOptions = {
     headers: new HttpHeaders({
@@ -42,7 +42,7 @@ export class SurveyListService {
   }
 
   public getSurvey(survey: Survey): Observable<any> {
-    //this.loadToken();
+    // this.loadToken();
     return this.http.get<any>(this.endpoint + 'edit/' + survey._id, this.httpOptions);
   }
 
