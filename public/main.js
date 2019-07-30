@@ -327,24 +327,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/about/about.component */ "./src/app/pages/about/about.component.ts");
 /* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/contact/contact.component */ "./src/app/pages/contact/contact.component.ts");
 /* harmony import */ var _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/page-not-found/page-not-found.component */ "./src/app/pages/page-not-found/page-not-found.component.ts");
-/* harmony import */ var _contacts_contact_list_contact_list_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./contacts/contact-list/contact-list.component */ "./src/app/contacts/contact-list/contact-list.component.ts");
-/* harmony import */ var _contacts_contact_details_contact_details_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./contacts/contact-details/contact-details.component */ "./src/app/contacts/contact-details/contact-details.component.ts");
-/* harmony import */ var _contacts_contact_delete_contact_delete_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./contacts/contact-delete/contact-delete.component */ "./src/app/contacts/contact-delete/contact-delete.component.ts");
-/* harmony import */ var _pages_register_register_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/register/register.component */ "./src/app/pages/register/register.component.ts");
-/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
-/* harmony import */ var _guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./guards/auth.guard */ "./src/app/guards/auth.guard.ts");
-/* harmony import */ var _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/my-info/my-info.component */ "./src/app/pages/my-info/my-info.component.ts");
-/* harmony import */ var _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/take-survey/take-survey.component */ "./src/app/pages/take-survey/take-survey.component.ts");
-/* harmony import */ var _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./surveys/survey-list/survey-list.component */ "./src/app/surveys/survey-list/survey-list.component.ts");
-/* harmony import */ var _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./surveys/survey-details/survey-details.component */ "./src/app/surveys/survey-details/survey-details.component.ts");
-/* harmony import */ var _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./surveys/survey-delete/survey-delete.component */ "./src/app/surveys/survey-delete/survey-delete.component.ts");
-/* harmony import */ var _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./surveys/detail/detail.component */ "./src/app/surveys/detail/detail.component.ts");
-/* harmony import */ var _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./pages/take-survey-detail/take-survey-detail.component */ "./src/app/pages/take-survey-detail/take-survey-detail.component.ts");
-/* harmony import */ var _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./surveys/answer-list/answer-list.component */ "./src/app/surveys/answer-list/answer-list.component.ts");
-/* harmony import */ var _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./surveys/survey-pay/survey-pay.component */ "./src/app/surveys/survey-pay/survey-pay.component.ts");
-/* harmony import */ var _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./surveys/survey-pay-success/survey-pay-success.component */ "./src/app/surveys/survey-pay-success/survey-pay-success.component.ts");
-/* harmony import */ var _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./surveys/survey-pay-failed/survey-pay-failed.component */ "./src/app/surveys/survey-pay-failed/survey-pay-failed.component.ts");
-/* harmony import */ var _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./pages/my-info-details/my-info-details.component */ "./src/app/pages/my-info-details/my-info-details.component.ts");
+/* harmony import */ var _pages_register_register_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/register/register.component */ "./src/app/pages/register/register.component.ts");
+/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
+/* harmony import */ var _guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./guards/auth.guard */ "./src/app/guards/auth.guard.ts");
+/* harmony import */ var _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/my-info/my-info.component */ "./src/app/pages/my-info/my-info.component.ts");
+/* harmony import */ var _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./pages/take-survey/take-survey.component */ "./src/app/pages/take-survey/take-survey.component.ts");
+/* harmony import */ var _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./surveys/survey-list/survey-list.component */ "./src/app/surveys/survey-list/survey-list.component.ts");
+/* harmony import */ var _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./surveys/survey-details/survey-details.component */ "./src/app/surveys/survey-details/survey-details.component.ts");
+/* harmony import */ var _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./surveys/survey-delete/survey-delete.component */ "./src/app/surveys/survey-delete/survey-delete.component.ts");
+/* harmony import */ var _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./surveys/detail/detail.component */ "./src/app/surveys/detail/detail.component.ts");
+/* harmony import */ var _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/take-survey-detail/take-survey-detail.component */ "./src/app/pages/take-survey-detail/take-survey-detail.component.ts");
+/* harmony import */ var _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./surveys/answer-list/answer-list.component */ "./src/app/surveys/answer-list/answer-list.component.ts");
+/* harmony import */ var _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./surveys/survey-pay/survey-pay.component */ "./src/app/surveys/survey-pay/survey-pay.component.ts");
+/* harmony import */ var _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./surveys/survey-pay-success/survey-pay-success.component */ "./src/app/surveys/survey-pay-success/survey-pay-success.component.ts");
+/* harmony import */ var _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./surveys/survey-pay-failed/survey-pay-failed.component */ "./src/app/surveys/survey-pay-failed/survey-pay-failed.component.ts");
+/* harmony import */ var _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./pages/my-info-details/my-info-details.component */ "./src/app/pages/my-info-details/my-info-details.component.ts");
 /*
 This Application Made for Emerging Technology COMP308_2019W
 Peiran Liu - 300884514
@@ -377,34 +374,27 @@ Hyojin Kim - 300950009
 
 
 
-
-
-
 //import{}
 var routes = [
     { path: 'home', component: _pages_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"], data: { title: 'Home' } },
     { path: 'about', component: _pages_about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"], data: { title: 'About' } },
-    { path: 'take-survey', component: _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_14__["TakeSurveyComponent"], data: { title: 'Take Survey' } },
+    { path: 'take-survey', component: _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_11__["TakeSurveyComponent"], data: { title: 'Take Survey' } },
     { path: 'contact', component: _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_5__["ContactComponent"], data: { title: 'Contact' } },
-    { path: 'take-survey-detail/:id', component: _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_19__["TakeSurveyDetailComponent"], data: { title: 'Take Survey' } },
-    { path: 'survey-list', component: _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_15__["SurveyListComponent"], data: { title: 'Survey List' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'answer-list/:id', component: _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_20__["AnswerListComponent"], data: { title: 'Answer List' } },
+    { path: 'take-survey-detail/:id', component: _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_16__["TakeSurveyDetailComponent"], data: { title: 'Take Survey' } },
+    { path: 'survey-list', component: _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_12__["SurveyListComponent"], data: { title: 'Survey List' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'answer-list/:id', component: _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_17__["AnswerListComponent"], data: { title: 'Answer List' } },
     //{path: 'survey-list/get/:id', component: SurveyListComponent, data: {title: 'Answer List'}},// for answer list
-    { path: 'survey-list/detail/:id', component: _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_18__["DetailComponent"], data: { title: 'Survey Detail' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'survey-list/add', component: _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_16__["SurveyDetailsComponent"], data: { title: 'Add Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'survey-list/edit/:id', component: _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_16__["SurveyDetailsComponent"], data: { title: 'Edit Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'survey-list/delete/:id', component: _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_17__["SurveyDeleteComponent"], data: { title: 'Delete Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'survey-list/pay/:id', component: _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_21__["SurveyPayComponent"], data: { title: 'Pay Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'survey-list/pay-success', component: _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_22__["SurveyPaySuccessComponent"], data: { title: 'Pay Survey-Success' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'survey-list/pay-failed', component: _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_23__["SurveyPayFailedComponent"], data: { title: 'Pay Survey-Failed' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'contact/contact-list', component: _contacts_contact_list_contact_list_component__WEBPACK_IMPORTED_MODULE_7__["ContactListComponent"], data: { title: 'Contact List' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'contact/contact-list/add', component: _contacts_contact_details_contact_details_component__WEBPACK_IMPORTED_MODULE_8__["ContactDetailsComponent"], data: { title: 'Add Contact' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'contact/contact-list/edit/:id', component: _contacts_contact_details_contact_details_component__WEBPACK_IMPORTED_MODULE_8__["ContactDetailsComponent"], data: { title: 'Edit Contact' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'contact/contact-list/delete/:id', component: _contacts_contact_delete_contact_delete_component__WEBPACK_IMPORTED_MODULE_9__["ContactDeleteComponent"], data: { title: 'Add Contact' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'register', component: _pages_register_register_component__WEBPACK_IMPORTED_MODULE_10__["RegisterComponent"], data: { title: 'Register' } },
-    { path: 'login', component: _pages_login_login_component__WEBPACK_IMPORTED_MODULE_11__["LoginComponent"], data: { title: 'Register' } },
-    { path: 'my-info', component: _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_13__["MyInfoComponent"], data: { title: 'My Info' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
-    { path: 'my-info-details', component: _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_24__["MyInfoDetailsComponent"], data: { title: 'Edit My Info' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_12__["AuthGuard"]] },
+    { path: 'survey-list/detail/:id', component: _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_15__["DetailComponent"], data: { title: 'Survey Detail' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'survey-list/add', component: _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_13__["SurveyDetailsComponent"], data: { title: 'Add Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'survey-list/edit/:id', component: _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_13__["SurveyDetailsComponent"], data: { title: 'Edit Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'survey-list/delete/:id', component: _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_14__["SurveyDeleteComponent"], data: { title: 'Delete Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'survey-list/pay/:id', component: _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_18__["SurveyPayComponent"], data: { title: 'Pay Survey' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'survey-list/pay-success', component: _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_19__["SurveyPaySuccessComponent"], data: { title: 'Pay Survey-Success' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'survey-list/pay-failed', component: _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_20__["SurveyPayFailedComponent"], data: { title: 'Pay Survey-Failed' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'register', component: _pages_register_register_component__WEBPACK_IMPORTED_MODULE_7__["RegisterComponent"], data: { title: 'Register' } },
+    { path: 'login', component: _pages_login_login_component__WEBPACK_IMPORTED_MODULE_8__["LoginComponent"], data: { title: 'Register' } },
+    { path: 'my-info', component: _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_10__["MyInfoComponent"], data: { title: 'My Info' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
+    { path: 'my-info-details', component: _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_21__["MyInfoDetailsComponent"], data: { title: 'Edit My Info' }, canActivate: [_guards_auth_guard__WEBPACK_IMPORTED_MODULE_9__["AuthGuard"]] },
     { path: 'logout', redirectTo: '/login', pathMatch: 'full' },
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: '**', component: _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_6__["PageNotFoundComponent"] }
@@ -505,27 +495,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_about_about_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./pages/about/about.component */ "./src/app/pages/about/about.component.ts");
 /* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./pages/contact/contact.component */ "./src/app/pages/contact/contact.component.ts");
 /* harmony import */ var _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./pages/page-not-found/page-not-found.component */ "./src/app/pages/page-not-found/page-not-found.component.ts");
-/* harmony import */ var _contacts_contact_list_contact_list_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./contacts/contact-list/contact-list.component */ "./src/app/contacts/contact-list/contact-list.component.ts");
-/* harmony import */ var _pages_register_register_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/register/register.component */ "./src/app/pages/register/register.component.ts");
-/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
-/* harmony import */ var _contacts_contact_details_contact_details_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./contacts/contact-details/contact-details.component */ "./src/app/contacts/contact-details/contact-details.component.ts");
-/* harmony import */ var _contacts_contact_delete_contact_delete_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./contacts/contact-delete/contact-delete.component */ "./src/app/contacts/contact-delete/contact-delete.component.ts");
-/* harmony import */ var _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./pages/my-info/my-info.component */ "./src/app/pages/my-info/my-info.component.ts");
-/* harmony import */ var _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./pages/take-survey/take-survey.component */ "./src/app/pages/take-survey/take-survey.component.ts");
-/* harmony import */ var _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./surveys/survey-details/survey-details.component */ "./src/app/surveys/survey-details/survey-details.component.ts");
-/* harmony import */ var _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./surveys/survey-delete/survey-delete.component */ "./src/app/surveys/survey-delete/survey-delete.component.ts");
-/* harmony import */ var _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./surveys/survey-list/survey-list.component */ "./src/app/surveys/survey-list/survey-list.component.ts");
-/* harmony import */ var _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./pages/take-survey-detail/take-survey-detail.component */ "./src/app/pages/take-survey-detail/take-survey-detail.component.ts");
-/* harmony import */ var _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./surveys/detail/detail.component */ "./src/app/surveys/detail/detail.component.ts");
-/* harmony import */ var _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./surveys/answer-list/answer-list.component */ "./src/app/surveys/answer-list/answer-list.component.ts");
-/* harmony import */ var _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./surveys/survey-pay/survey-pay.component */ "./src/app/surveys/survey-pay/survey-pay.component.ts");
-/* harmony import */ var _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./surveys/survey-pay-success/survey-pay-success.component */ "./src/app/surveys/survey-pay-success/survey-pay-success.component.ts");
-/* harmony import */ var _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./surveys/survey-pay-failed/survey-pay-failed.component */ "./src/app/surveys/survey-pay-failed/survey-pay-failed.component.ts");
-/* harmony import */ var _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./pages/my-info-details/my-info-details.component */ "./src/app/pages/my-info-details/my-info-details.component.ts");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_32__);
-/* harmony import */ var _auth0_angular_jwt__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @auth0/angular-jwt */ "./node_modules/@auth0/angular-jwt/index.js");
-/* harmony import */ var _guards_auth_guard__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./guards/auth.guard */ "./src/app/guards/auth.guard.ts");
+/* harmony import */ var _pages_register_register_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./pages/register/register.component */ "./src/app/pages/register/register.component.ts");
+/* harmony import */ var _pages_login_login_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./pages/login/login.component */ "./src/app/pages/login/login.component.ts");
+/* harmony import */ var _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./pages/my-info/my-info.component */ "./src/app/pages/my-info/my-info.component.ts");
+/* harmony import */ var _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./pages/take-survey/take-survey.component */ "./src/app/pages/take-survey/take-survey.component.ts");
+/* harmony import */ var _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./surveys/survey-details/survey-details.component */ "./src/app/surveys/survey-details/survey-details.component.ts");
+/* harmony import */ var _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./surveys/survey-delete/survey-delete.component */ "./src/app/surveys/survey-delete/survey-delete.component.ts");
+/* harmony import */ var _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./surveys/survey-list/survey-list.component */ "./src/app/surveys/survey-list/survey-list.component.ts");
+/* harmony import */ var _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./pages/take-survey-detail/take-survey-detail.component */ "./src/app/pages/take-survey-detail/take-survey-detail.component.ts");
+/* harmony import */ var _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./surveys/detail/detail.component */ "./src/app/surveys/detail/detail.component.ts");
+/* harmony import */ var _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./surveys/answer-list/answer-list.component */ "./src/app/surveys/answer-list/answer-list.component.ts");
+/* harmony import */ var _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./surveys/survey-pay/survey-pay.component */ "./src/app/surveys/survey-pay/survey-pay.component.ts");
+/* harmony import */ var _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./surveys/survey-pay-success/survey-pay-success.component */ "./src/app/surveys/survey-pay-success/survey-pay-success.component.ts");
+/* harmony import */ var _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./surveys/survey-pay-failed/survey-pay-failed.component */ "./src/app/surveys/survey-pay-failed/survey-pay-failed.component.ts");
+/* harmony import */ var _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./pages/my-info-details/my-info-details.component */ "./src/app/pages/my-info-details/my-info-details.component.ts");
+/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
+/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_29__);
+/* harmony import */ var _auth0_angular_jwt__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @auth0/angular-jwt */ "./node_modules/@auth0/angular-jwt/index.js");
+/* harmony import */ var _guards_auth_guard__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./guards/auth.guard */ "./src/app/guards/auth.guard.ts");
+/* harmony import */ var _pipes_searchByName_pipe__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./pipes/searchByName.pipe */ "./src/app/pipes/searchByName.pipe.ts");
 /*
 This Application Made for Emerging Technology COMP308_2019W
 Peiran Liu - 300884514
@@ -565,13 +553,11 @@ Hyojin Kim - 300950009
 
 
 
-
-
-
 // Services
 
 
 // Route Guards
+
 
 //import { AnswerListService } from './services/answer-list.service';
 //import { AnswerListComponent } from './surveys/answer-list/answer-list.component';
@@ -592,23 +578,21 @@ var AppModule = /** @class */ (function () {
                 _pages_about_about_component__WEBPACK_IMPORTED_MODULE_12__["AboutComponent"],
                 _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_13__["ContactComponent"],
                 _pages_page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_14__["PageNotFoundComponent"],
-                _contacts_contact_list_contact_list_component__WEBPACK_IMPORTED_MODULE_15__["ContactListComponent"],
-                _pages_register_register_component__WEBPACK_IMPORTED_MODULE_16__["RegisterComponent"],
-                _pages_login_login_component__WEBPACK_IMPORTED_MODULE_17__["LoginComponent"],
-                _contacts_contact_details_contact_details_component__WEBPACK_IMPORTED_MODULE_18__["ContactDetailsComponent"],
-                _contacts_contact_delete_contact_delete_component__WEBPACK_IMPORTED_MODULE_19__["ContactDeleteComponent"],
-                _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_20__["MyInfoComponent"],
-                _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_21__["TakeSurveyComponent"],
-                _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_22__["SurveyDetailsComponent"],
-                _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_23__["SurveyDeleteComponent"],
-                _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_24__["SurveyListComponent"],
-                _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_25__["TakeSurveyDetailComponent"],
-                _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_26__["DetailComponent"],
-                _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_27__["AnswerListComponent"],
-                _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_28__["SurveyPayComponent"],
-                _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_29__["SurveyPaySuccessComponent"],
-                _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_30__["SurveyPayFailedComponent"],
-                _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_31__["MyInfoDetailsComponent"]
+                _pages_register_register_component__WEBPACK_IMPORTED_MODULE_15__["RegisterComponent"],
+                _pages_login_login_component__WEBPACK_IMPORTED_MODULE_16__["LoginComponent"],
+                _pages_my_info_my_info_component__WEBPACK_IMPORTED_MODULE_17__["MyInfoComponent"],
+                _pages_take_survey_take_survey_component__WEBPACK_IMPORTED_MODULE_18__["TakeSurveyComponent"],
+                _surveys_survey_details_survey_details_component__WEBPACK_IMPORTED_MODULE_19__["SurveyDetailsComponent"],
+                _surveys_survey_delete_survey_delete_component__WEBPACK_IMPORTED_MODULE_20__["SurveyDeleteComponent"],
+                _surveys_survey_list_survey_list_component__WEBPACK_IMPORTED_MODULE_21__["SurveyListComponent"],
+                _pages_take_survey_detail_take_survey_detail_component__WEBPACK_IMPORTED_MODULE_22__["TakeSurveyDetailComponent"],
+                _surveys_detail_detail_component__WEBPACK_IMPORTED_MODULE_23__["DetailComponent"],
+                _surveys_answer_list_answer_list_component__WEBPACK_IMPORTED_MODULE_24__["AnswerListComponent"],
+                _surveys_survey_pay_survey_pay_component__WEBPACK_IMPORTED_MODULE_25__["SurveyPayComponent"],
+                _surveys_survey_pay_success_survey_pay_success_component__WEBPACK_IMPORTED_MODULE_26__["SurveyPaySuccessComponent"],
+                _surveys_survey_pay_failed_survey_pay_failed_component__WEBPACK_IMPORTED_MODULE_27__["SurveyPayFailedComponent"],
+                _pages_my_info_details_my_info_details_component__WEBPACK_IMPORTED_MODULE_28__["MyInfoDetailsComponent"],
+                _pipes_searchByName_pipe__WEBPACK_IMPORTED_MODULE_32__["SearchByName"]
                 //AnswerListComponent,
                 //AnswerListService
             ],
@@ -619,312 +603,18 @@ var AppModule = /** @class */ (function () {
                 angular_bootstrap_datetimepicker__WEBPACK_IMPORTED_MODULE_6__["DlDateTimeDateModule"],
                 angular_bootstrap_datetimepicker__WEBPACK_IMPORTED_MODULE_6__["DlDateTimePickerModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"],
-                angular2_flash_messages__WEBPACK_IMPORTED_MODULE_32__["FlashMessagesModule"],
-                _auth0_angular_jwt__WEBPACK_IMPORTED_MODULE_33__["JwtModule"].forRoot({
+                angular2_flash_messages__WEBPACK_IMPORTED_MODULE_29__["FlashMessagesModule"],
+                _auth0_angular_jwt__WEBPACK_IMPORTED_MODULE_30__["JwtModule"].forRoot({
                     config: {
                         tokenGetter: jwtTokenGetter
                     }
                 })
             ],
-            providers: [angular2_flash_messages__WEBPACK_IMPORTED_MODULE_32__["FlashMessagesService"], _guards_auth_guard__WEBPACK_IMPORTED_MODULE_34__["AuthGuard"]],
+            providers: [angular2_flash_messages__WEBPACK_IMPORTED_MODULE_29__["FlashMessagesService"], _guards_auth_guard__WEBPACK_IMPORTED_MODULE_31__["AuthGuard"]],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_7__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-delete/contact-delete.component.css":
-/*!**********************************************************************!*\
-  !*** ./src/app/contacts/contact-delete/contact-delete.component.css ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3RzL2NvbnRhY3QtZGVsZXRlL2NvbnRhY3QtZGVsZXRlLmNvbXBvbmVudC5jc3MifQ== */"
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-delete/contact-delete.component.html":
-/*!***********************************************************************!*\
-  !*** ./src/app/contacts/contact-delete/contact-delete.component.html ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-delete/contact-delete.component.ts":
-/*!*********************************************************************!*\
-  !*** ./src/app/contacts/contact-delete/contact-delete.component.ts ***!
-  \*********************************************************************/
-/*! exports provided: ContactDeleteComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactDeleteComponent", function() { return ContactDeleteComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/contact-list.service */ "./src/app/services/contact-list.service.ts");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var src_app_models_contact__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/models/contact */ "./src/app/models/contact.ts");
-
-
-
-
-
-
-var ContactDeleteComponent = /** @class */ (function () {
-    function ContactDeleteComponent(activatedRoute, flashMessage, contactListService, router) {
-        this.activatedRoute = activatedRoute;
-        this.flashMessage = flashMessage;
-        this.contactListService = contactListService;
-        this.router = router;
-    }
-    ContactDeleteComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.title = this.activatedRoute.snapshot.data.title;
-        this.contact = new src_app_models_contact__WEBPACK_IMPORTED_MODULE_5__["Contact"]();
-        this.activatedRoute.params.subscribe(function (params) {
-            _this.contact._id = params.id;
-        });
-        this.deleteContact(this.contact);
-    };
-    ContactDeleteComponent.prototype.deleteContact = function (contact) {
-        var _this = this;
-        this.contactListService.deleteContact(contact).subscribe(function (data) {
-            if (data.success) {
-                _this.flashMessage.show(data.msg, { cssClass: 'alert-warning', timeOut: 3000 });
-                _this.router.navigate(['/contact/contact-list']);
-            }
-            else {
-                _this.flashMessage.show('Delete Contact Failed', { cssClass: 'alert-danger', timeOut: 3000 });
-                _this.router.navigate(['/contact/contact-list']);
-            }
-        });
-    };
-    ContactDeleteComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-contact-delete',
-            template: __webpack_require__(/*! ./contact-delete.component.html */ "./src/app/contacts/contact-delete/contact-delete.component.html"),
-            styles: [__webpack_require__(/*! ./contact-delete.component.css */ "./src/app/contacts/contact-delete/contact-delete.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"],
-            angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__["FlashMessagesService"],
-            src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_2__["ContactListService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]])
-    ], ContactDeleteComponent);
-    return ContactDeleteComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-details/contact-details.component.css":
-/*!************************************************************************!*\
-  !*** ./src/app/contacts/contact-details/contact-details.component.css ***!
-  \************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3RzL2NvbnRhY3QtZGV0YWlscy9jb250YWN0LWRldGFpbHMuY29tcG9uZW50LmNzcyJ9 */"
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-details/contact-details.component.html":
-/*!*************************************************************************!*\
-  !*** ./src/app/contacts/contact-details/contact-details.component.html ***!
-  \*************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = " <!-- Content for the Details Page -->\n<div class=\"container\">\n  <div class=\"row\">\n      <div class=\"col-md-offset-3 col-md-6\">\n          <h1>{{ title }}</h1>\n\n          <form class=\"form\" (submit)=\"onDetailsPageSubmit()\">\n              <div class=\"form-group\">\n                  <label for=\"FirstNameTextField\">First Name</label>\n                  <input type=\"text\" class=\"form-control\"\n                  id=\"FirstNameTextField\"\n                  placeholder=\"Enter First Name\"\n                  name=\"firstName\"\n                  [(ngModel)]=\"contact.firstName\"\n                  value=\"{{ contact.firstName }}\"\n                  required>\n              </div>\n\n              <div class=\"form-group\">\n                  <label for=\"LastNameTextField\">Last Name</label>\n                  <input type=\"text\" class=\"form-control\"\n                  id=\"LastNameTextField\"\n                  placeholder=\"Enter Last Name\"\n                  name=\"lastName\"\n                  [(ngModel)]=\"contact.lastName\"\n                  value=\"{{ contact.lastName }}\"\n                  required>\n              </div>\n\n              <div class=\"form-group\">\n                  <label for=\"AgeTextField\">Age</label>\n                  <input type=\"text\" class=\"form-control\"\n                  id=\"AgeTextField\"\n                  placeholder=\"Enter Age\"\n                  name=\"age\"\n                  [(ngModel)]=\"contact.age\"\n                  value=\"{{ contact.age }}\"\n                  required>\n              </div>\n\n              <button type=\"submit\" class=\"btn btn-primary\">\n              <i class=\"fas fa-edit\"></i> {{ title }}</button>\n              <a routerLink=\"/contact/contact-list\" class=\"btn btn-warning\">\n                  <i class=\"fas fa-undo\"></i> Cancel</a>\n          </form>\n\n\n      </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-details/contact-details.component.ts":
-/*!***********************************************************************!*\
-  !*** ./src/app/contacts/contact-details/contact-details.component.ts ***!
-  \***********************************************************************/
-/*! exports provided: ContactDetailsComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactDetailsComponent", function() { return ContactDetailsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/contact-list.service */ "./src/app/services/contact-list.service.ts");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var src_app_models_contact__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/models/contact */ "./src/app/models/contact.ts");
-
-
-
-
-
-
-var ContactDetailsComponent = /** @class */ (function () {
-    function ContactDetailsComponent(activatedRoute, flashMessage, contactListService, router) {
-        this.activatedRoute = activatedRoute;
-        this.flashMessage = flashMessage;
-        this.contactListService = contactListService;
-        this.router = router;
-    }
-    ContactDetailsComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.title = this.activatedRoute.snapshot.data.title;
-        this.contact = new src_app_models_contact__WEBPACK_IMPORTED_MODULE_5__["Contact"]();
-        this.activatedRoute.params.subscribe(function (params) {
-            _this.contact._id = params.id;
-        });
-        if (this.title === 'Edit Contact') {
-            this.getContact(this.contact);
-        }
-    };
-    ContactDetailsComponent.prototype.getContact = function (contact) {
-        var _this = this;
-        this.contactListService.getContact(contact).subscribe(function (data) {
-            _this.contact = data.contact;
-        });
-    };
-    ContactDetailsComponent.prototype.onDetailsPageSubmit = function () {
-        var _this = this;
-        switch (this.title) {
-            case 'Add Contact':
-                this.contactListService.addContact(this.contact).subscribe(function (data) {
-                    if (data.success) {
-                        _this.flashMessage.show(data.msg, { cssClass: 'alert-success', timeOut: 3000 });
-                        _this.router.navigate(['/contact/contact-list']);
-                    }
-                    else {
-                        _this.flashMessage.show('Add Contact Failed', { cssClass: 'alert-danger', timeOut: 3000 });
-                        _this.router.navigate(['/contact/contact-list']);
-                    }
-                });
-                break;
-            case 'Edit Contact':
-                this.contactListService.editContact(this.contact).subscribe(function (data) {
-                    if (data.success) {
-                        _this.flashMessage.show(data.msg, { cssClass: 'alert-success', timeOut: 3000 });
-                        _this.router.navigate(['/contact/contact-list']);
-                    }
-                    else {
-                        _this.flashMessage.show('Edit Contact Failed', { cssClass: 'alert-danger', timeOut: 3000 });
-                        _this.router.navigate(['/contact/contact-list']);
-                    }
-                });
-                break;
-        }
-    };
-    ContactDetailsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-contact-details',
-            template: __webpack_require__(/*! ./contact-details.component.html */ "./src/app/contacts/contact-details/contact-details.component.html"),
-            styles: [__webpack_require__(/*! ./contact-details.component.css */ "./src/app/contacts/contact-details/contact-details.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"],
-            angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__["FlashMessagesService"],
-            src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_2__["ContactListService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]])
-    ], ContactDetailsComponent);
-    return ContactDetailsComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-list/contact-list.component.css":
-/*!******************************************************************!*\
-  !*** ./src/app/contacts/contact-list/contact-list.component.css ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbnRhY3RzL2NvbnRhY3QtbGlzdC9jb250YWN0LWxpc3QuY29tcG9uZW50LmNzcyJ9 */"
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-list/contact-list.component.html":
-/*!*******************************************************************!*\
-  !*** ./src/app/contacts/contact-list/contact-list.component.html ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div class=\"container\">\n  <div class=\"row\">\n      <div class=\"col-md-offset-3 col-md-6\">\n          <h1>Contact List</h1>\n          <a class=\"btn btn-primary\" routerLink=\"/contact/contact-list/add\" role=\"button\">\n          <i class=\"fas fa-plus-circle\"></i> Add a Contact</a>\n          <br>\n          <table class=\"table table-bordered table-striped table-hover\">\n              <!-- Header Row-->\n              <tr>\n                  <th class=\"text-center\">First Name</th>\n                  <th class=\"text-center\">Last Name</th>\n                  <th class=\"text-center\">Age</th>\n                  <th class=\"text-center\"></th>\n                  <th class=\"text-center\"></th>\n              </tr>\n\n              <!-- Repeatable Template Row -->\n                  <tr *ngFor=\"let contact of contacts\">\n                      <td class=\"text-center\">{{ contact.firstName }}</td>\n                      <td class=\"text-center\">{{ contact.lastName }}</td>\n                      <td class=\"text-center\">{{ contact.age }}</td>\n\n                      <td class=\"text-center\">\n                      <a routerLink=\"/contact/contact-list/edit/{{ contact._id }}\"\n                          class=\"btn btn-primary\"><i class=\"fas fa-pencil-alt\"></i> Edit</a>\n                      </td>\n\n                      <td class=\"text-center\">\n                              <a routerLink=\"/contact/contact-list/delete/{{ contact._id }}\" (click)=\"onDeleteClick()\"\n                                  class=\"btn btn-danger\"><i class=\"fas fa-trash-alt\"></i> Delete</a>\n                              </td>\n                  </tr>\n          </table>\n\n      </div>\n  </div>\n</div>\n"
-
-/***/ }),
-
-/***/ "./src/app/contacts/contact-list/contact-list.component.ts":
-/*!*****************************************************************!*\
-  !*** ./src/app/contacts/contact-list/contact-list.component.ts ***!
-  \*****************************************************************/
-/*! exports provided: ContactListComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactListComponent", function() { return ContactListComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/contact-list.service */ "./src/app/services/contact-list.service.ts");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-
-
-
-
-
-var ContactListComponent = /** @class */ (function () {
-    function ContactListComponent(contactListService, flashMessage, router) {
-        this.contactListService = contactListService;
-        this.flashMessage = flashMessage;
-        this.router = router;
-    }
-    ContactListComponent.prototype.ngOnInit = function () {
-        this.contacts = new Array();
-        this.displayContactList();
-    };
-    ContactListComponent.prototype.onDeleteClick = function () {
-        if (!confirm('Are You Sure?')) {
-            this.router.navigate(['/contact/contact-list']);
-        }
-    };
-    ContactListComponent.prototype.displayContactList = function () {
-        var _this = this;
-        this.contactListService.getList().subscribe(function (data) {
-            if (data.success) {
-                _this.contacts = data.contactList;
-            }
-            else {
-                _this.flashMessage.show('User must be logged-in', { cssClass: 'alert-danger', timeOut: 3000 });
-            }
-        });
-    };
-    ContactListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: 'app-contact-list',
-            template: __webpack_require__(/*! ./contact-list.component.html */ "./src/app/contacts/contact-list/contact-list.component.html"),
-            styles: [__webpack_require__(/*! ./contact-list.component.css */ "./src/app/contacts/contact-list/contact-list.component.css")]
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_2__["ContactListService"],
-            angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__["FlashMessagesService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]])
-    ], ContactListComponent);
-    return ContactListComponent;
 }());
 
 
@@ -1005,26 +695,6 @@ var Answer = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/models/contact.ts":
-/*!***********************************!*\
-  !*** ./src/app/models/contact.ts ***!
-  \***********************************/
-/*! exports provided: Contact */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Contact", function() { return Contact; });
-var Contact = /** @class */ (function () {
-    function Contact() {
-    }
-    return Contact;
-}());
-
-
-
-/***/ }),
-
 /***/ "./src/app/models/survey.ts":
 /*!**********************************!*\
   !*** ./src/app/models/survey.ts ***!
@@ -1088,7 +758,7 @@ var User = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "body{\n    font: 400 15px/1.8 Lato, sans-serif;\n    color: #000000;\n    }\n    \n   .person {\n    border: 5px solid transparent;\n    width: 80%;\n    height: 80%;\n  }\n    \n   .person:hover {\n    border-color: #000000;\n  }\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLG1DQUFtQztJQUNuQyxjQUFjO0lBQ2Q7O0dBRUQ7SUFDQyw2QkFBNkI7SUFDN0IsVUFBVTtJQUNWLFdBQVc7RUFDYjs7R0FDQTtJQUNFLHFCQUFxQjtFQUN2QiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2Fib3V0L2Fib3V0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5e1xuICAgIGZvbnQ6IDQwMCAxNXB4LzEuOCBMYXRvLCBzYW5zLXNlcmlmO1xuICAgIGNvbG9yOiAjMDAwMDAwO1xuICAgIH1cbiAgICBcbiAgIC5wZXJzb24ge1xuICAgIGJvcmRlcjogNXB4IHNvbGlkIHRyYW5zcGFyZW50O1xuICAgIHdpZHRoOiA4MCU7XG4gICAgaGVpZ2h0OiA4MCU7XG4gIH1cbiAgLnBlcnNvbjpob3ZlciB7XG4gICAgYm9yZGVyLWNvbG9yOiAjMDAwMDAwO1xuICB9XG5cbiJdfQ== */"
+module.exports = "body{\n    font: 400 15px/1.8 Lato, sans-serif;\n    color: #000000;\n    }\n\n   .person {\n    border: 5px solid transparent;\n    max-width: 80%;\n    max-height: 80%;\n  }\n\n   .person:hover {\n    border-color: #000000;\n  }\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLG1DQUFtQztJQUNuQyxjQUFjO0lBQ2Q7O0dBRUQ7SUFDQyw2QkFBNkI7SUFDN0IsY0FBYztJQUNkLGVBQWU7RUFDakI7O0dBQ0E7SUFDRSxxQkFBcUI7RUFDdkIiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9hYm91dC9hYm91dC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keXtcbiAgICBmb250OiA0MDAgMTVweC8xLjggTGF0bywgc2Fucy1zZXJpZjtcbiAgICBjb2xvcjogIzAwMDAwMDtcbiAgICB9XG5cbiAgIC5wZXJzb24ge1xuICAgIGJvcmRlcjogNXB4IHNvbGlkIHRyYW5zcGFyZW50O1xuICAgIG1heC13aWR0aDogODAlO1xuICAgIG1heC1oZWlnaHQ6IDgwJTtcbiAgfVxuICAucGVyc29uOmhvdmVyIHtcbiAgICBib3JkZXItY29sb3I6ICMwMDAwMDA7XG4gIH1cblxuIl19 */"
 
 /***/ }),
 
@@ -1099,7 +769,7 @@ module.exports = "body{\n    font: 400 15px/1.8 Lato, sans-serif;\n    color: #0
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<div\n    style=\"width:900px; height: 480px; position: bottom; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center; background-image: url(../assets/bg1.png); \">\n    <br>\n    <br>\n    <h4 style=\"color: rgb(223,223,233)\">Meet Our Team &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;</h4>\n    <br>\n    <br>\n    <br>\n\n    <div class=\"row\">\n        &nbsp;&nbsp;&nbsp;&nbsp;\n        <div class=\"col-sm-2\">\n            <p style=\"color: rgb(0,148,193)\">Full Stack</p>\n            <a href=\"#demo\" data-toggle=\"collapse\">\n                <img src=\"../assets/1.jpeg\" class=\" person\" alt=\"Random Name\" width=\"100\" height=\"150\">\n            </a>\n            <div id=\"demo\" class=\"collapse\">\n                <p style=\"color: rgb(246,198,66)\">Peiran Liu</p>\n                <p></p>\n            </div>\n        </div>\n\n        <div class=\"col-sm-2\">\n            <p style=\"color: rgb(0,148,193)\">DB Admin</p>\n            <a href=\"#demo1\" data-toggle=\"collapse\">\n                <img src=\"../assets/2.png\" class=\" person\" alt=\"Random Name\" width=\"100\" height=\"150\">\n            </a>\n            <div id=\"demo1\" class=\"collapse\">\n                <p style=\"color: rgb(246,198,66)\">Din Khiieu Lanh</p>\n                <p></p>\n            </div>\n        </div>\n        <div class=\"col-sm-2\">\n            <p style=\"color: rgb(0,148,193)\">Web Developer</p>\n            <a href=\"#demo2\" data-toggle=\"collapse\">\n                <img src=\"../assets/3.jpeg\" class=\" person\" alt=\"Random Name\" width=\"100\" height=\"150\">\n            </a>\n            <div id=\"demo2\" class=\"collapse\">\n                <p style=\"color: rgb(246,198,66)\">Heeyeong Kim</p>\n                <p></p>\n            </div>\n        </div>\n        <div class=\"col-sm-2\">\n            <p style=\"color: rgb(0,148,193)\">Web Developer</p>\n            <a href=\"#demo3\" data-toggle=\"collapse\">\n                <img src=\"../assets/4.jpeg\" class=\" person\" alt=\"Random Name\" width=\"100\" height=\"150\">\n            </a>\n            <div id=\"demo3\" class=\"collapse\">\n                <p style=\"color: rgb(246,198,66)\">Hyojin Kim</p>\n                <p></p>\n            </div>\n        </div>\n\n        <div class=\"col-sm-2\">\n            <p style=\"color: rgb(0,148,193)\">UI Desiger</p>\n            <a href=\"#demo4\" data-toggle=\"collapse\">\n                <img src=\"../assets/5.jpg\" class=\" person\" alt=\"Random Name\" width=\"100\" height=\"150\">\n            </a>\n            <div id=\"demo4\" class=\"collapse\">\n                <p style=\"color: rgb(246,198,66)\">Liwen Qiao</p>\n                <p></p>\n            </div>\n        </div>\n    </div>\n</div>\n"
+module.exports = "\n<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<div\n    style=\"max-width:900px; max-height: 480px; position: bottom; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center; background-image: url(../assets/bg1.png); \">\n    <br>\n    <br>\n    <h4 style=\"color: rgb(223,223,233)\">Meet Our Team &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; </h4>\n    <br>\n    <br>\n    <br>\n\n    <div class=\"row\">\n        &nbsp;&nbsp;&nbsp;&nbsp;\n        <div class=\"col-sm-2\">\n            <p style=\"color: rgb(0,148,193)\">Full Stack</p>\n            <a href=\"#demo\" data-toggle=\"collapse\">\n                <img src=\"../assets/1.jpeg\" class=\" person img-fluid\" alt=\"Random Name\" width=\"100\" height=\"150\">\n            </a>\n            <div id=\"demo\" class=\"collapse\">\n                <p style=\"color: rgb(246,198,66)\">Peiran Liu</p>\n                <p></p>\n            </div>\n        </div>\n\n        <div class=\"col-sm-2\">\n            <p style=\"color: rgb(0,148,193)\">DB Admin</p>\n            <a href=\"#demo1\" data-toggle=\"collapse\">\n                <img src=\"../assets/2.png\" class=\" person img-fluid\" alt=\"Random Name\" width=\"100\" height=\"150\">\n            </a>\n            <div id=\"demo1\" class=\"collapse\">\n                <p style=\"color: rgb(246,198,66)\">Din Khiieu Lanh</p>\n                <p></p>\n            </div>\n        </div>\n        <div class=\"col-sm-2\">\n            <p style=\"color: rgb(0,148,193)\">Web Developer</p>\n            <a href=\"#demo2\" data-toggle=\"collapse\">\n                <img src=\"../assets/3.jpeg\" class=\" person img-fluid\" alt=\"Random Name\" width=\"100\" height=\"150\">\n            </a>\n            <div id=\"demo2\" class=\"collapse\">\n                <p style=\"color: rgb(246,198,66)\">Heeyeong Kim</p>\n                <p></p>\n            </div>\n        </div>\n        <div class=\"col-sm-2\">\n            <p style=\"color: rgb(0,148,193)\">Web Developer</p>\n            <a href=\"#demo3\" data-toggle=\"collapse\">\n                <img src=\"../assets/4.jpeg\" class=\" person img-fluid\" alt=\"Random Name\" width=\"100\" height=\"150\">\n            </a>\n            <div id=\"demo3\" class=\"collapse\">\n                <p style=\"color: rgb(246,198,66)\">Hyojin Kim</p>\n                <p></p>\n            </div>\n        </div>\n\n        <div class=\"col-sm-2\">\n            <p style=\"color: rgb(0,148,193)\">UI Desiger</p>\n            <a href=\"#demo4\" data-toggle=\"collapse\">\n                <img src=\"../assets/5.jpg\" class=\" person img-fluid\" alt=\"Random Name\" width=\"100\" height=\"150\">\n            </a>\n            <div id=\"demo4\" class=\"collapse\">\n                <p style=\"color: rgb(246,198,66)\">Liwen Qiao</p>\n                <p></p>\n            </div>\n        </div>\n    </div>\n</div>\n"
 
 /***/ }),
 
@@ -1169,7 +839,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<!--\nThis Application Made for Emerging Technology COMP308_2019W\nHeeyeong Kim\nHyojin Kim\nDin Khiieu Lanh\nPeiran Liu\nLiwen Qiao\n\n-->\n<div\n  style=\"width:900px; height: 480px; position: bottom; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center; background-image: url(../assets/bg2.jpg); \">\n  <div id=\"contact\" class=\"container\">\n    <br>\n    <br>\n    <h3 style=\"color: rgb(0,148,193)\">Contact</h3>\n    <br>\n    <p style=\"color: rgb(223,223,223)\"><em>We love our fans!</em></p>\n    <br>\n    <div style=\"width:700px; height: 300px; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center;\">\n      <div class=\"row\">\n        <div class=\"col-sm-4 form-group\">\n          <input class=\"form-control\" id=\"name\" name=\"name\" placeholder=\"Name\" type=\"text\" required>\n        </div>\n        <div class=\"col-sm-8 form-group\">\n          <input class=\"form-control\" id=\"email\" name=\"email\" placeholder=\"Email\" type=\"email\" required>\n        </div>\n      </div>\n      <textarea class=\"form-control\" id=\"comments\" name=\"comments\" placeholder=\"Comment\" rows=\"5\"></textarea>\n      <br>\n      <div class=\"row\">\n        <div class=\"col-md-12 form-group\">\n          <button class=\"btn pull-right\" type=\"submit\" style=\"background-color:rgb(0,148,193)\">Send</button>\n        </div>\n      </div>\n    </div>\n  </div>\n"
+module.exports = "\n<!--\nThis Application Made for Emerging Technology COMP308_2019W\nHeeyeong Kim\nHyojin Kim\nDin Khiieu Lanh\nPeiran Liu\nLiwen Qiao\n\n-->\n<div\n  style=\"max-width:900px; max-height: 480px; position: bottom; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center; background-image: url(../assets/bg2.jpg); \">\n  <div id=\"contact\" class=\"container\">\n    <br>\n    <br>\n    <h3 style=\"color: rgb(0,148,193)\">Contact</h3>\n    <br>\n    <p style=\"color: rgb(223,223,223)\"><em>We love our fans!</em></p>\n    <br>\n    <div style=\"max-width:700px; max-height: 300px; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center;\">\n      <div class=\"row\">\n        <div class=\"col-sm-4 form-group\">\n          <input class=\"form-control\" id=\"name\" name=\"name\" placeholder=\"Name\" type=\"text\" required>\n        </div>\n        <div class=\"col-sm-8 form-group\">\n          <input class=\"form-control\" id=\"email\" name=\"email\" placeholder=\"Email\" type=\"email\" required>\n        </div>\n      </div>\n      <textarea class=\"form-control\" id=\"comments\" name=\"comments\" placeholder=\"Comment\" rows=\"5\"></textarea>\n      <br>\n      <div class=\"row\">\n        <div class=\"col-md-12 form-group\">\n          <button class=\"btn pull-right\" type=\"submit\" style=\"background-color:rgb(0,148,193)\">Send</button>\n        </div>\n      </div>\n    </div>\n  </div>\n"
 
 /***/ }),
 
@@ -1239,7 +909,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<div style=\"width:600px; height: 375px; position: center; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center\">\n    <img src=\"../assets/1.png\" width=\"100%\" height=\"100%\">\n</div>\n<div style=\"width:800px; height: 100px; position: end; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: end\">\n    <h5 style=\"color: rgb(0,148,193)\">Help development &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>\n    <h4 style=\"color: rgb(0,148,193)\">by sharing your thoughts!</h4>\n</div>\n\n"
+module.exports = "\n<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<div style=\"max-width:600px; position: center; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center\">\n    <img src=\"../assets/1.png\" class=\"img-fluid\" width=\"100%\" height=\"100%\">\n</div>\n<div style=\"max-width:800px; max-height: 100px; position: end; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: end\">\n    <h5 style=\"color: rgb(0,148,193)\">Help development &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>\n    <h4 style=\"color: rgb(0,148,193)\">by sharing your thoughts!</h4>\n</div>\n\n"
 
 /***/ }),
 
@@ -1402,7 +1072,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<div class=\"container\" style=\"width: 700px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\">\n  <h2 class=\" text-center\" style=\"color: rgb(0,148,193)\">{{title}}</h2>\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-offset-3 col-md-8\">\n      <form action=\"\" class=\"form\" (submit)=\"onSaveChanges()\">\n        <div class=\"form-group\">\n          <label for=\"UsernameTextField\" style=\"color: rgb(0,148,193)\">Username</label>\n          <input type=\"text\" class=\"form-control\" id=\"UsernameTextField\" placeholder=\"Enter New Username\"\n            name=\"username\" [(ngModel)]=\"user.username\" value=\"{{user.username}}\" />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"EmailTextField\" style=\"color: rgb(0,148,193)\">Email</label>\n          <input type=\"text\" class=\"form-control\" id=\"EmailTextField\" placeholder=\"Enter New Email\"\n            name=\"email\" [(ngModel)]=\"user.email\" value=\"{{user.email}}\"  />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"DisplayNameTextField\" style=\"color: rgb(0,148,193)\">Display Name</label>\n          <input type=\"text\" class=\"form-control\" id=\"DisplayNameTextField\" placeholder=\"Enter New Display Name\"\n            name=\"displayName\" [(ngModel)]=\"user.displayName\" value=\"{{user.displayName}}\"/>\n        </div>\n        <fieldset class=\"form-group text-center\">\n          <button type=\"submit\" class=\"btn btn-primary\"  style=\"margin: 10px;\">\n            <i class=\"fa fa-edit\"></i>\n            Save Changes\n          </button>\n          <a routerLink=\"/my-info\" class=\"btn btn-warning mx-1\"  style=\"margin: 10px;\"><i class=\"fa fa-undo\"></i> Cancel</a>\n        </fieldset>\n      </form>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<div class=\"container\" style=\"max-width: 700px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\">\n  <h2 class=\" text-center\" style=\"color: rgb(0,148,193)\">{{title}}</h2>\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-offset-3 col-md-8\">\n      <form action=\"\" class=\"form\" (submit)=\"onSaveChanges()\">\n        <div class=\"form-group\">\n          <label for=\"UsernameTextField\" style=\"color: rgb(0,148,193)\">Username</label>\n          <input type=\"text\" class=\"form-control\" id=\"UsernameTextField\" placeholder=\"Enter New Username\"\n            name=\"username\" [(ngModel)]=\"user.username\" value=\"{{user.username}}\" />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"EmailTextField\" style=\"color: rgb(0,148,193)\">Email</label>\n          <input type=\"text\" class=\"form-control\" id=\"EmailTextField\" placeholder=\"Enter New Email\"\n            name=\"email\" [(ngModel)]=\"user.email\" value=\"{{user.email}}\"  />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"DisplayNameTextField\" style=\"color: rgb(0,148,193)\">Display Name</label>\n          <input type=\"text\" class=\"form-control\" id=\"DisplayNameTextField\" placeholder=\"Enter New Display Name\"\n            name=\"displayName\" [(ngModel)]=\"user.displayName\" value=\"{{user.displayName}}\"/>\n        </div>\n        <fieldset class=\"form-group text-center\">\n          <button type=\"submit\" class=\"btn btn-primary\"  style=\"margin: 10px;\">\n            <i class=\"fa fa-edit\"></i>\n            Save Changes\n          </button>\n          <a routerLink=\"/my-info\" class=\"btn btn-warning mx-1\"  style=\"margin: 10px;\"><i class=\"fa fa-undo\"></i> Cancel</a>\n        </fieldset>\n      </form>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1534,11 +1204,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var src_app_models_user__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/models/user */ "./src/app/models/user.ts");
-/* harmony import */ var src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/services/contact-list.service */ "./src/app/services/contact-list.service.ts");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/app/services/auth.service */ "./src/app/services/auth.service.ts");
+/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
+/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/services/auth.service */ "./src/app/services/auth.service.ts");
 /*
 This Application Made for Emerging Technology COMP308_2019W
 Peiran Liu - 300884514
@@ -1553,10 +1222,8 @@ Hyojin Kim - 300950009
 
 
 
-
 var MyInfoComponent = /** @class */ (function () {
-    function MyInfoComponent(contactListService, flashMessage, router, authService) {
-        this.contactListService = contactListService;
+    function MyInfoComponent(flashMessage, router, authService) {
         this.flashMessage = flashMessage;
         this.router = router;
         this.authService = authService;
@@ -1592,10 +1259,9 @@ var MyInfoComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./my-info.component.html */ "./src/app/pages/my-info/my-info.component.html"),
             styles: [__webpack_require__(/*! ./my-info.component.css */ "./src/app/pages/my-info/my-info.component.css")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_services_contact_list_service__WEBPACK_IMPORTED_MODULE_3__["ContactListService"],
-            angular2_flash_messages__WEBPACK_IMPORTED_MODULE_4__["FlashMessagesService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"],
-            src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_6__["AuthService"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__["FlashMessagesService"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"],
+            src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_5__["AuthService"]])
     ], MyInfoComponent);
     return MyInfoComponent;
 }());
@@ -1770,7 +1436,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n\n<div class=\"container\" style=\"width: 700px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\">\n  <h1 class=\"display-4 text-center\" style=\"color: rgb(0,148,193)\">{{survey.name}}</h1>\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-offset-3 col-md-8\">\n      <form action=\"\" class=\"form\" (submit)=\"onDetailsPageSubmit()\">\n        <div class=\"form-group\">\n          <label for=\"DescriptionTextField\" style=\"color: rgb(0,148,193)\">{{survey.description}}</label>\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">{{survey.question1}}</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 1st Answer\"\n            name=\"question1\" [(ngModel)]=\"answer.answer1\" value=\"{{answer.answer1}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">{{survey.question2}}</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 2nd Answer\"\n            name=\"question2\" [(ngModel)]=\"answer.answer2\" value=\"{{answer.answer2}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">{{survey.question3}}</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 3rd Answer\"\n            name=\"question3\" [(ngModel)]=\"answer.answer3\" value=\"{{answer.answer3}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">{{survey.question4}}</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 4th Answer\"\n            name=\"question4\" [(ngModel)]=\"answer.answer4\" value=\"{{answer.answer4}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">{{survey.question5}}</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 5th Answer\"\n            name=\"question5\" [(ngModel)]=\"answer.answer5\" value=\"{{answer.answer5}}\" required />\n        </div>\n        <fieldset class=\"form-group text-center\">\n          <button type=\"submit\" class=\"btn btn-primary\"  style=\"margin: 10px;\">\n            <i class=\"fa fa-edit\"></i>\n            Submit\n          </button>\n          <a routerLink=\"/take-survey\" class=\"btn btn-warning mx-1\"  style=\"margin: 10px;\"><i class=\"fa fa-undo\"></i> Cancel</a>\n        </fieldset>\n      </form>\n      <br><br><br>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n\n<div class=\"container\" style=\"max-width: 700px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\">\n  <h1 class=\"display-4 text-center\" style=\"color: rgb(0,148,193)\">{{survey.name}}</h1>\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-offset-3 col-md-8\">\n      <form action=\"\" class=\"form\" (submit)=\"onDetailsPageSubmit()\">\n        <div class=\"form-group\">\n          <label for=\"DescriptionTextField\" style=\"color: rgb(0,148,193)\">{{survey.description}}</label>\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">{{survey.question1}}</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 1st Answer\"\n            name=\"question1\" [(ngModel)]=\"answer.answer1\" value=\"{{answer.answer1}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">{{survey.question2}}</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 2nd Answer\"\n            name=\"question2\" [(ngModel)]=\"answer.answer2\" value=\"{{answer.answer2}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">{{survey.question3}}</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 3rd Answer\"\n            name=\"question3\" [(ngModel)]=\"answer.answer3\" value=\"{{answer.answer3}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">{{survey.question4}}</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 4th Answer\"\n            name=\"question4\" [(ngModel)]=\"answer.answer4\" value=\"{{answer.answer4}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">{{survey.question5}}</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 5th Answer\"\n            name=\"question5\" [(ngModel)]=\"answer.answer5\" value=\"{{answer.answer5}}\" required />\n        </div>\n        <fieldset class=\"form-group text-center\">\n          <button type=\"submit\" class=\"btn btn-primary\"  style=\"margin: 10px;\">\n            <i class=\"fa fa-edit\"></i>\n            Submit\n          </button>\n          <a routerLink=\"/take-survey\" class=\"btn btn-warning mx-1\"  style=\"margin: 10px;\"><i class=\"fa fa-undo\"></i> Cancel</a>\n        </fieldset>\n      </form>\n      <br><br><br>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1852,7 +1518,7 @@ var TakeSurveyDetailComponent = /** @class */ (function () {
     TakeSurveyDetailComponent.prototype.onDetailsPageSubmit = function () {
         var _this = this;
         // submit survey answer
-        this.answer.surveyId = this.survey.surveyId;
+        this.answer.surveyId = this.survey._id;
         this.takeSurveyService.addAnswer(this.answer).subscribe(function (data) {
             if (data.success) {
                 _this.flashMessage.show(data.msg, { cssClass: 'alert-success', timeOut: 3000 });
@@ -1900,7 +1566,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<div\nstyle=\"width:900px; height: 480px; position: bottom; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center; background-image: url(../assets/bg1.jpg); \">\n<div class=\"container\" style=\"width: 600px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\">\n<h3 class=\"text-left\" style=\"color: rgb(0,148,193)\">Choose Survey</h3>\n<div class=\"row\">\n    <div class=\"col-md-offset-3 col-md-12\" >\n      <br>\n      <table class=\"table table-bordered table-hover \" style=\"border:2px; border-radius:25px\">\n        <thead class=\"thead-dark\">\n          <tr>\n            <th class=\"text-center\">Name</th>\n            <th class=\"text-center\">Description</th>\n            <th>Start Time</th><th>End Time</th><th>Survey Status</th>\n          </tr>\n        </thead>\n\n        <!-- Repeatable Template Row -->\n        <tr *ngFor=\"let survey of surveys\">\n          <td class=\"text-center\" style=\"color: rgb(233,233,233)\">{{ survey.name }}</td>\n          <td class=\"text-center\" style=\"color: rgb(233,233,233)\">{{ survey.description }}</td>\n          <td class=\"text-center\" style=\"color: rgb(233,233,233)\">{{ survey.startDate | date: 'MM/dd/yyyy' }}</td>\n          <td class=\"text-center\" style=\"color: rgb(233,233,233)\">{{ survey.endDate | date: 'MM/dd/yyyy'}}</td>\n          <td  class=\"text-center\">\n\n\n\n            <a *ngIf=\"survey.status === 'activated'\" routerLink=\"/take-survey-detail/{{ survey._id }}\" class=\"btn btn-outline-info\"\n              ><i class=\"fas fa-pencil-alt\"></i>\n              Take Survey\n            </a>\n\n            <a *ngIf=\"survey.status === 'out of time'\"  class=\"btn btn-primary\"\n            ><i class=\"fas fa-pencil-alt\"></i>\n            Out of time\n          </a>\n\n\n\n\n\n          </td>\n        </tr>\n      </table>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<div\nstyle=\"max-width:900px; max-height: 480px; position: bottom; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center; background-image: url(../assets/bg1.jpg); \">\n<div class=\"container\" style=\"max-width: 600px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\">\n<h3 class=\"text-left\" style=\"color: rgb(0,148,193)\">Choose Survey</h3>\n<div class=\"input-group mb-3\">\n  <input type=\"text\" class=\"form-control\" [(ngModel)]=\"search\" placeholder=\"Search by survey name\" >\n</div>\n<div class=\"row\">\n    <div class=\"col-md-offset-3 col-md-12\" >\n      <br>\n      <table class=\"table table-bordered table-hover table-responsive\" style=\"border:2px; border-radius:25px\">\n        <thead class=\"thead-dark\">\n          <tr>\n            <th class=\"text-center\">Name</th>\n            <th class=\"text-center\">Description</th>\n            <th>Start Time</th><th>End Time</th><th>Survey Status</th>\n          </tr>\n        </thead>\n\n        <!-- Repeatable Template Row -->\n        <tr *ngFor=\"let survey of surveys | searchByName: search\">\n          <td class=\"text-center\" style=\"color: rgb(233,233,233)\">{{ survey.name }}</td>\n          <td class=\"text-center\" style=\"color: rgb(233,233,233)\">{{ survey.description }}</td>\n          <td class=\"text-center\" style=\"color: rgb(233,233,233)\">{{ survey.startDate | date: 'MM/dd/yyyy' }}</td>\n          <td class=\"text-center\" style=\"color: rgb(233,233,233)\">{{ survey.endDate | date: 'MM/dd/yyyy'}}</td>\n          <td  class=\"text-center\">\n            <a *ngIf=\"survey.status === 'activated'\" routerLink=\"/take-survey-detail/{{ survey._id }}\" class=\"btn btn-outline-info\"\n              ><i class=\"fas fa-pencil-alt\"></i>\n              Take Survey\n            </a>\n\n            <a *ngIf=\"survey.status === 'out of time'\"  class=\"btn btn-primary\"\n              ><i class=\"fas fa-pencil-alt\"></i>\n              Out of time\n            </a>\n          </td>\n        </tr>\n      </table>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1917,11 +1583,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! src/app/services/auth.service */ "./src/app/services/auth.service.ts");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
-/* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var src_app_services_survey_list_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/services/survey-list.service */ "./src/app/services/survey-list.service.ts");
 /*
 This Application Made for Emerging Technology COMP308_2019W
 Peiran Liu - 300884514
@@ -1933,40 +1597,38 @@ Hyojin Kim - 300950009
 
 
 
-
-
 //import {DatePipe} from '@angular/common';
+
 
 //import moment = require('moment');
 var TakeSurveyComponent = /** @class */ (function () {
-    function TakeSurveyComponent(authService, flashMessage, router //private datePipe:DatePipe,
-    ) {
+    function TakeSurveyComponent(authService, surveyListService) {
         this.authService = authService;
-        this.flashMessage = flashMessage;
-        this.router = router;
+        this.surveyListService = surveyListService;
     }
     TakeSurveyComponent.prototype.ngOnInit = function () {
         this.surveys = new Array();
         // console.log(this.nowTime);
+        this.search = '';
         this.displaySurveyList();
     };
     TakeSurveyComponent.prototype.displaySurveyList = function () {
         var _this = this;
         console.log(this.nowTime);
-        this.authService.getAllSurveyList().subscribe(function (data) {
+        this.surveyListService.getAllSurveyList().subscribe(function (data) {
             if (data.success) {
                 console.log(data);
                 _this.surveys = data.surveyList;
                 for (var i = 0; i < _this.surveys.length; i++) {
                     // todays date
-                    _this.nowTime = moment__WEBPACK_IMPORTED_MODULE_5__().toDate();
-                    _this.nowTime1 = moment__WEBPACK_IMPORTED_MODULE_5__(_this.nowTime).format("YYYY-MM-DD");
+                    _this.nowTime = moment__WEBPACK_IMPORTED_MODULE_3__().toDate();
+                    _this.nowTime1 = moment__WEBPACK_IMPORTED_MODULE_3__(_this.nowTime).format("YYYY-MM-DD");
                     // start date
-                    _this.startTime1 = moment__WEBPACK_IMPORTED_MODULE_5__(_this.surveys[i].startDate).format("YYYY-MM-DD");
+                    _this.startTime1 = moment__WEBPACK_IMPORTED_MODULE_3__(_this.surveys[i].startDate).format("YYYY-MM-DD");
                     // end date
-                    _this.endTime1 = moment__WEBPACK_IMPORTED_MODULE_5__(_this.surveys[i].endDate).format("YYYY-MM-DD");
+                    _this.endTime1 = moment__WEBPACK_IMPORTED_MODULE_3__(_this.surveys[i].endDate).format("YYYY-MM-DD");
                     //console.log(this.nowTime1);
-                    //console.log(this.startTime1);
+                    //console.log(this.surveys[i].startDate);
                     //console.log(this.endTime1);
                     // set status depending on current date
                     if (_this.nowTime1 >= _this.startTime1) {
@@ -1994,9 +1656,7 @@ var TakeSurveyComponent = /** @class */ (function () {
             styles: [__webpack_require__(/*! ./take-survey.component.css */ "./src/app/pages/take-survey/take-survey.component.css")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_2__["AuthService"],
-            angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__["FlashMessagesService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"] //private datePipe:DatePipe,
-        ])
+            src_app_services_survey_list_service__WEBPACK_IMPORTED_MODULE_4__["SurveyListService"]])
     ], TakeSurveyComponent);
     return TakeSurveyComponent;
 }());
@@ -2208,6 +1868,38 @@ var HeaderComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/pipes/searchByName.pipe.ts":
+/*!********************************************!*\
+  !*** ./src/app/pipes/searchByName.pipe.ts ***!
+  \********************************************/
+/*! exports provided: SearchByName */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchByName", function() { return SearchByName; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var SearchByName = /** @class */ (function () {
+    function SearchByName() {
+    }
+    SearchByName.prototype.transform = function (surveys, name) {
+        return surveys.filter(function (survey) { return survey.name.toLowerCase().indexOf(name) !== -1; });
+    };
+    SearchByName = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Pipe"])({
+            name: 'searchByName'
+        })
+    ], SearchByName);
+    return SearchByName;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/services/answer-list.service.ts":
 /*!*************************************************!*\
   !*** ./src/app/services/answer-list.service.ts ***!
@@ -2238,8 +1930,8 @@ var AnswerListService = /** @class */ (function () {
     function AnswerListService(http) {
         this.http = http;
         this.authToken = null;
-        //private endpoint = 'https://comp308-w2019-lesson10b.herokuapp.com/api/contact-list/';
-        this.endpoint = 'https://comp308-coresurvey.herokuapp.com/api/answer-list/';
+        this.endpoint = 'http://localhost:3000/api/answer-list/';
+        //private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/answer-list/';
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
                 'Content-Type': 'application/json',
@@ -2307,8 +1999,8 @@ var AuthService = /** @class */ (function () {
     function AuthService(http, jwtService) {
         this.http = http;
         this.jwtService = jwtService;
-        //private endpoint = 'https://comp308-w2019-lesson10b.herokuapp.com/api/';
-        this.endpoint = 'https://comp308-coresurvey.herokuapp.com/api/';
+        this.endpoint = 'http://localhost:3000/api/';
+        //private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/';
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
                 'Content-Type': 'application/json',
@@ -2371,77 +2063,6 @@ var AuthService = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/services/contact-list.service.ts":
-/*!**************************************************!*\
-  !*** ./src/app/services/contact-list.service.ts ***!
-  \**************************************************/
-/*! exports provided: ContactListService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactListService", function() { return ContactListService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _models_user__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../models/user */ "./src/app/models/user.ts");
-
-
-
-
-var ContactListService = /** @class */ (function () {
-    function ContactListService(http) {
-        this.http = http;
-        this.authToken = null;
-        //private endpoint = 'https://comp308-w2019-lesson10b.herokuapp.com/api/contact-list/';
-        this.endpoint = 'http://localhost:3000/api/contact-list/';
-        this.httpOptions = {
-            headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
-                'Content-Type': 'application/json',
-                'Access-Control-Allow-Origin': '*',
-                'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
-            })
-        };
-        this.user = new _models_user__WEBPACK_IMPORTED_MODULE_3__["User"]();
-    }
-    ContactListService.prototype.getList = function () {
-        this.loadToken();
-        return this.http.get(this.endpoint, this.httpOptions);
-    };
-    ContactListService.prototype.getContact = function (contact) {
-        this.loadToken();
-        return this.http.get(this.endpoint + 'edit/' + contact._id, this.httpOptions);
-    };
-    ContactListService.prototype.addContact = function (contact) {
-        this.loadToken();
-        return this.http.post(this.endpoint + 'add', contact, this.httpOptions);
-    };
-    ContactListService.prototype.editContact = function (contact) {
-        this.loadToken();
-        return this.http.post(this.endpoint + 'edit/' + contact._id, contact, this.httpOptions);
-    };
-    ContactListService.prototype.deleteContact = function (contact) {
-        this.loadToken();
-        return this.http.get(this.endpoint + 'delete/' + contact._id, this.httpOptions);
-    };
-    ContactListService.prototype.loadToken = function () {
-        var token = localStorage.getItem('id_token');
-        this.authToken = token;
-        this.httpOptions.headers = this.httpOptions.headers.set('Authorization', this.authToken);
-    };
-    ContactListService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
-            providedIn: 'root'
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"]])
-    ], ContactListService);
-    return ContactListService;
-}());
-
-
-
-/***/ }),
-
 /***/ "./src/app/services/survey-list.service.ts":
 /*!*************************************************!*\
   !*** ./src/app/services/survey-list.service.ts ***!
@@ -2472,8 +2093,8 @@ var SurveyListService = /** @class */ (function () {
     function SurveyListService(http) {
         this.http = http;
         this.authToken = null;
-        //private endpoint = 'https://comp308-w2019-lesson10b.herokuapp.com/api/contact-list/';
-        this.endpoint = 'https://comp308-coresurvey.herokuapp.com/api/survey-list/';
+        this.endpoint = 'http://localhost:3000/api/survey-list/';
+        //private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/survey-list/';
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
                 'Content-Type': 'application/json',
@@ -2483,9 +2104,13 @@ var SurveyListService = /** @class */ (function () {
         };
         this.user = new _models_user__WEBPACK_IMPORTED_MODULE_3__["User"]();
     }
-    SurveyListService.prototype.getSurveyList = function () {
+    SurveyListService.prototype.getAllSurveyList = function () {
         this.loadToken();
         return this.http.get(this.endpoint, this.httpOptions);
+    };
+    SurveyListService.prototype.getUserSurveyList = function (id) {
+        this.loadToken();
+        return this.http.get(this.endpoint + id, this.httpOptions);
     };
     SurveyListService.prototype.getSurvey = function (survey) {
         //this.loadToken();
@@ -2549,8 +2174,8 @@ var TakeSurveyService = /** @class */ (function () {
     function TakeSurveyService(http) {
         this.http = http;
         this.authToken = null;
-        //private endpoint = 'https://comp308-w2019-lesson10b.herokuapp.com/api/contact-list/';
-        this.endpoint = 'https://comp308-coresurvey.herokuapp.com/api/take-survey/'; // change endpoint
+        this.endpoint = 'http://localhost:3000/api/take-survey/';
+        //private endpoint = 'https://comp308-coresurvey.herokuapp.com/api/take-survey/'; // change endpoint
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
                 'Content-Type': 'application/json',
@@ -2645,22 +2270,22 @@ var AnswerListComponent = /** @class */ (function () {
         this.answerListService = answerListService;
         //students = new Array<student>();
         this.csvOptions = {
-            fieldSeparator: ",",
-            quoteStrings: '"',
-            decimalseparator: ".",
+            fieldSeparator: ',',
+            quoteStrings: '\'',
+            decimalseparator: '.',
             showLabels: true,
             showTitle: true,
-            title: "Report :",
+            title: 'Report :',
             useBom: true,
             noDownload: false,
-            headers: ["_id", "surveyId", "answer1", "answer2", "answer3", "answer4", "answer5", "createdDate"]
+            headers: ['_id', 'surveyId', 'answer1', 'answer2', 'answer3', 'answer4', 'answer5']
         };
     }
     AnswerListComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.dtAnswer = [];
         this.surveys = new Array();
-        this.current = JSON.parse(localStorage.getItem("user"));
+        this.current = JSON.parse(localStorage.getItem('user'));
         this.answers = new Array();
         this.answer = new src_app_models_answer__WEBPACK_IMPORTED_MODULE_7__["Answer"]();
         this.activatedRoute.params.subscribe(function (params) {
@@ -2675,17 +2300,17 @@ var AnswerListComponent = /** @class */ (function () {
         //get correct answerlist first
         this.answerListService.getAnswerList(answer).subscribe(function (data) {
             if (data.success) {
+                _this.flashMessage.show('Report successfully generated', { cssClass: 'alert-success', timeOut: 3000 });
                 console.log(data.answerList);
                 data.answerList.forEach(function (ans) {
                     _this.dtAnswer.push({
-                        "_id": ans._id,
-                        "surveyId": ans.surveyId,
-                        "answer1": ans.answer1,
-                        "answer2": ans.answer2,
-                        "answer3": ans.answer3,
-                        "answer4": ans.answer4,
-                        "answer5": ans.answer5,
-                        "createdDate": ans.createdDate
+                        _id: ans._id,
+                        surveyId: ans.surveyId,
+                        answer1: ans.answer1,
+                        answer2: ans.answer2,
+                        answer3: ans.answer3,
+                        answer4: ans.answer4,
+                        answer5: ans.answer5
                     });
                 });
                 // download csv and return to survey list
@@ -2695,12 +2320,12 @@ var AnswerListComponent = /** @class */ (function () {
         });
     };
     AnswerListComponent.prototype.downloadCSV = function () {
-        //this.dtHolidays : JSONDATA , HolidayList : CSV file Name, this.csvOptions : file options
-        new angular7_csv_dist_Angular_csv__WEBPACK_IMPORTED_MODULE_8__["AngularCsv"](this.dtAnswer, "yourReport", this.csvOptions);
+        // this.dtHolidays : JSONDATA , HolidayList : CSV file Name, this.csvOptions : file options
+        new angular7_csv_dist_Angular_csv__WEBPACK_IMPORTED_MODULE_8__["AngularCsv"](this.dtAnswer, 'yourReport', this.csvOptions);
     };
     AnswerListComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-            selector: "app-answer-list",
+            selector: 'app-answer-list',
             template: __webpack_require__(/*! ./answer-list.component.html */ "./src/app/surveys/answer-list/answer-list.component.html"),
             styles: [__webpack_require__(/*! ./answer-list.component.css */ "./src/app/surveys/answer-list/answer-list.component.css")]
         }),
@@ -2736,7 +2361,7 @@ module.exports = ".btn {\n  width: 100%;\n}\n\n/*# sourceMappingURL=data:applica
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n\n<div\n  class=\"container\"\n  style=\"width: 700px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\"\n>\n  <h4 class=\" text-center\" style=\"color: rgb(0,148,193)\">{{ title }}</h4>\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-offset-3 col-md-8\">\n      <form action=\"\" class=\"form\">\n        <div class=\"form-group\">\n          <label for=\"NameTextField\"  style=\"color: rgb(0,148,193)\" >Name</label>\n          <input\n            type=\"text\"\n            class=\"form-control\"\n            id=\"NameTextField\"\n            placeholder=\"Enter Survey Name\"\n            name=\"name\"\n            [(ngModel)]=\"survey.name\"\n            value=\"{{ survey.name }}\"\n            readonly\n          />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"DescriptionTextField\" style=\"color: rgb(0,148,193)\">Description:</label>\n          <input\n            type=\"text\"\n            class=\"form-control\"\n            id=\"DescriptionTextField\"\n            placeholder=\"Enter Description\"\n            name=\"description\"\n            [(ngModel)]=\"survey.description\"\n            value=\"{{ survey.description }}\"\n            readonly\n          />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Number Of Respondents</label>\n          <input\n            type=\"text\"\n            class=\"form-control\"\n            id=\"NumRespondTextField\"\n            placeholder=\"Enter Number Of Respondents\"\n            name=\"numberOfRespondents\"\n            [(ngModel)]=\"answers.length\"\n            value=\"{{ answers.length }}\"\n            readonly\n          />\n          <br>\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Answers:</label>\n        </div>\n        <div class=\"form-group\">\n          <p>\n            <a\n              class=\"btn btn-secondary\"\n              data-toggle=\"collapse\"\n              href=\"#q1\"\n              role=\"button\"\n              aria-expanded=\"false\"\n              aria-controls=\"collapseExample\"\n\n            >\n              {{ survey.question1 }}\n            </a>\n          </p>\n          <div class=\"collapse\" id=\"q1\">\n            <div class=\"card card-body\">\n              {{ q1 }}\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group\">\n          <p>\n            <a\n              class=\"btn btn-secondary\"\n              data-toggle=\"collapse\"\n              href=\"#q2\"\n              role=\"button\"\n              aria-expanded=\"false\"\n              aria-controls=\"collapseExample\"\n            >\n              {{ survey.question2 }}\n            </a>\n          </p>\n          <div class=\"collapse\" id=\"q2\">\n            <div class=\"card card-body\">\n              {{ q2 }}\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group\">\n          <p>\n            <a\n              class=\"btn btn-secondary\"\n              data-toggle=\"collapse\"\n              href=\"#q3\"\n              role=\"button\"\n              aria-expanded=\"false\"\n              aria-controls=\"collapseExample\"\n            >\n              {{ survey.question3 }}\n            </a>\n          </p>\n          <div class=\"collapse\" id=\"q3\">\n            <div class=\"card card-body\">\n              {{ q3 }}\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group\">\n          <p>\n            <a\n              class=\"btn btn-secondary\"\n              data-toggle=\"collapse\"\n              href=\"#q4\"\n              role=\"button\"\n              aria-expanded=\"false\"\n              aria-controls=\"collapseExample\"\n            >\n              {{ survey.question4 }}\n            </a>\n          </p>\n          <div class=\"collapse\" id=\"q4\">\n            <div class=\"card card-body\">\n              {{ q4 }}\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group\">\n          <p>\n            <a\n              class=\"btn btn-secondary\"\n              data-toggle=\"collapse\"\n              href=\"#q5\"\n              role=\"button\"\n              aria-expanded=\"false\"\n              aria-controls=\"collapseExample\"\n            >\n              {{ survey.question5 }}\n            </a>\n          </p>\n          <div class=\"collapse\" id=\"q5\">\n            <div class=\"card card-body\">\n              {{ q5 }}\n            </div>\n          </div>\n        </div>\n        <fieldset class=\"form-group text-center\">\n          <a\n            href=\"/survey-list\"\n            class=\"btn btn-warning mx-1\"\n            style=\"margin: 10px;\"\n            ><i class=\"fa fa-undo\"></i> Back</a\n          >\n        </fieldset>\n      </form>\n      <br /><br /><br />\n    </div>\n  </div>\n</div>\n"
+module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n\n<div\n  class=\"container\"\n  style=\"max-width: 700px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\"\n>\n  <h4 class=\" text-center\" style=\"color: rgb(0,148,193)\">{{ title }}</h4>\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-offset-3 col-md-8\">\n      <form action=\"\" class=\"form\">\n        <div class=\"form-group\">\n          <label for=\"NameTextField\"  style=\"color: rgb(0,148,193)\" >Name</label>\n          <input\n            type=\"text\"\n            class=\"form-control\"\n            id=\"NameTextField\"\n            placeholder=\"Enter Survey Name\"\n            name=\"name\"\n            [(ngModel)]=\"survey.name\"\n            value=\"{{ survey.name }}\"\n            readonly\n          />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"DescriptionTextField\" style=\"color: rgb(0,148,193)\">Description:</label>\n          <input\n            type=\"text\"\n            class=\"form-control\"\n            id=\"DescriptionTextField\"\n            placeholder=\"Enter Description\"\n            name=\"description\"\n            [(ngModel)]=\"survey.description\"\n            value=\"{{ survey.description }}\"\n            readonly\n          />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Number Of Respondents</label>\n          <input\n            type=\"text\"\n            class=\"form-control\"\n            id=\"NumRespondTextField\"\n            placeholder=\"Enter Number Of Respondents\"\n            name=\"numberOfRespondents\"\n            [(ngModel)]=\"answers.length\"\n            value=\"{{ answers.length }}\"\n            readonly\n          />\n          <br>\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Answers:</label>\n        </div>\n        <div class=\"form-group\">\n          <p>\n            <a\n              class=\"btn btn-secondary\"\n              data-toggle=\"collapse\"\n              href=\"#q1\"\n              role=\"button\"\n              aria-expanded=\"false\"\n              aria-controls=\"collapseExample\"\n\n            >\n              {{ survey.question1 }}\n            </a>\n          </p>\n          <div class=\"collapse\" id=\"q1\">\n            <div class=\"card card-body\">\n              {{ q1 }}\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group\">\n          <p>\n            <a\n              class=\"btn btn-secondary\"\n              data-toggle=\"collapse\"\n              href=\"#q2\"\n              role=\"button\"\n              aria-expanded=\"false\"\n              aria-controls=\"collapseExample\"\n            >\n              {{ survey.question2 }}\n            </a>\n          </p>\n          <div class=\"collapse\" id=\"q2\">\n            <div class=\"card card-body\">\n              {{ q2 }}\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group\">\n          <p>\n            <a\n              class=\"btn btn-secondary\"\n              data-toggle=\"collapse\"\n              href=\"#q3\"\n              role=\"button\"\n              aria-expanded=\"false\"\n              aria-controls=\"collapseExample\"\n            >\n              {{ survey.question3 }}\n            </a>\n          </p>\n          <div class=\"collapse\" id=\"q3\">\n            <div class=\"card card-body\">\n              {{ q3 }}\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group\">\n          <p>\n            <a\n              class=\"btn btn-secondary\"\n              data-toggle=\"collapse\"\n              href=\"#q4\"\n              role=\"button\"\n              aria-expanded=\"false\"\n              aria-controls=\"collapseExample\"\n            >\n              {{ survey.question4 }}\n            </a>\n          </p>\n          <div class=\"collapse\" id=\"q4\">\n            <div class=\"card card-body\">\n              {{ q4 }}\n            </div>\n          </div>\n        </div>\n        <div class=\"form-group\">\n          <p>\n            <a\n              class=\"btn btn-secondary\"\n              data-toggle=\"collapse\"\n              href=\"#q5\"\n              role=\"button\"\n              aria-expanded=\"false\"\n              aria-controls=\"collapseExample\"\n            >\n              {{ survey.question5 }}\n            </a>\n          </p>\n          <div class=\"collapse\" id=\"q5\">\n            <div class=\"card card-body\">\n              {{ q5 }}\n            </div>\n          </div>\n        </div>\n        <fieldset class=\"form-group text-center\">\n          <a\n            href=\"/survey-list\"\n            class=\"btn btn-warning mx-1\"\n            style=\"margin: 10px;\"\n            ><i class=\"fa fa-undo\"></i> Back</a\n          >\n        </fieldset>\n      </form>\n      <br /><br /><br />\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -2804,7 +2429,7 @@ var DetailComponent = /** @class */ (function () {
         var _this = this;
         this.surveyListService.getSurvey(survey).subscribe(function (data) {
             _this.survey = data.survey;
-            _this.answer.surveyId = _this.survey.surveyId;
+            _this.answer.surveyId = _this.survey._id;
             _this.getAnswers(answer);
         });
     };
@@ -2950,7 +2575,7 @@ var SurveyDeleteComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3N1cnZleXMvc3VydmV5LWRldGFpbHMvc3VydmV5LWRldGFpbHMuY29tcG9uZW50LmNzcyJ9 */"
+module.exports = "td {\n  word-break: break-all;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc3VydmV5cy9zdXJ2ZXktZGV0YWlscy9zdXJ2ZXktZGV0YWlscy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UscUJBQXFCO0FBQ3ZCIiwiZmlsZSI6InNyYy9hcHAvc3VydmV5cy9zdXJ2ZXktZGV0YWlscy9zdXJ2ZXktZGV0YWlscy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsidGQge1xuICB3b3JkLWJyZWFrOiBicmVhay1hbGw7XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -2961,7 +2586,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<script src=\"//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js\"></script>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment-with-locales.js\"></script>\n<script src=\"//cdn.rawgit.com/indrimuska/angular-moment-picker/master/dist/angular-moment-picker.min.js\"></script>\n<link href=\"//cdn.rawgit.com/indrimuska/angular-moment-picker/master/dist/angular-moment-picker.min.css\"\n  rel=\"stylesheet\">\n\n<div class=\"container\" style=\"width: 700px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\">\n  <h3 class=\"text-center\" style=\"color: rgb(0,148,193)\" >{{title}}</h3>\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-offset-3 col-md-8\">\n      <form action=\"\" class=\"form\" (submit)=\"onDetailsPageSubmit()\">\n        <div class=\"form-group\">\n          <label for=\"NameTextField\" style=\"color: rgb(0,148,193)\">Name</label>\n          <input type=\"text\" class=\"form-control\" id=\"NameTextField\" placeholder=\"Enter Survey Name\" name=\"name\"\n            [(ngModel)]=\"survey.name\" value=\"{{survey.name}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"DescriptionTextField\" style=\"color: rgb(0,148,193)\">Description</label>\n          <input type=\"text\" class=\"form-control\" id=\"DescriptionTextField\" placeholder=\"Enter Description\"\n            name=\"description\" [(ngModel)]=\"survey.description\" value=\"{{survey.description}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Question 1</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 1st Question\"\n            name=\"question1\" [(ngModel)]=\"survey.question1\" value=\"{{survey.question1}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Question 2</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 2nd Question\"\n            name=\"question2\" [(ngModel)]=\"survey.question2\" value=\"{{survey.question2}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Question 3</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 3rd Question\"\n            name=\"question3\" [(ngModel)]=\"survey.question3\" value=\"{{survey.question3}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Question 4</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 4th Question\"\n            name=\"question4\" [(ngModel)]=\"survey.question4\" value=\"{{survey.question4}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Question 5</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 5th Question\"\n            name=\"question5\" [(ngModel)]=\"survey.question5\" value=\"{{survey.question5}}\" required />\n        </div>\n\n\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Survey Start Date</label>\n          <input id=\"startDate\" name=\"startDate\" [(ngModel)]=\"startDate\" value=\"{{startDate}}\" type=\"date\"\n            class=\"form-control \"  >\n\n\n        </div>\n\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Survey end Date</label>\n          <input id=\"endDate\" name=\"endDate\" [(ngModel)]=\"endDate\" type=\"date\" value=\"{{endDate}}\"\n            class=\"form-control\">\n        </div>\n\n\n\n\n\n        <fieldset class=\"form-group text-center\">\n          <button type=\"submit\" class=\"btn btn-primary\" style=\"margin: 10px;background-color: rgb(0,148,193)\">\n            <i class=\"fa fa-edit\"></i>\n            {{title}}\n          </button>\n          <a href=\"/survey-list\" class=\"btn btn-warning mx-1\" style=\"margin: 10px; background-color:rgb(246,198,66)\"><i class=\"fa fa-undo\"></i>\n            Cancel</a>\n\n\n        </fieldset>\n      </form>\n      <br><br><br>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<script src=\"//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js\"></script>\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment-with-locales.js\"></script>\n<script src=\"//cdn.rawgit.com/indrimuska/angular-moment-picker/master/dist/angular-moment-picker.min.js\"></script>\n<link href=\"//cdn.rawgit.com/indrimuska/angular-moment-picker/master/dist/angular-moment-picker.min.css\"\n  rel=\"stylesheet\">\n\n<div class=\"container\" style=\"max-width: 700px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\">\n  <h3 class=\"text-center\" style=\"color: rgb(0,148,193)\" >{{title}}</h3>\n  <div class=\"row justify-content-center\">\n    <div class=\"col-md-offset-3 col-md-8\">\n      <form action=\"\" class=\"form\" (submit)=\"onDetailsPageSubmit()\">\n        <div class=\"form-group\">\n          <label for=\"NameTextField\" style=\"color: rgb(0,148,193)\">Name</label>\n          <input type=\"text\" class=\"form-control\" id=\"NameTextField\" placeholder=\"Enter Survey Name\" name=\"name\"\n            [(ngModel)]=\"survey.name\" value=\"{{survey.name}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"DescriptionTextField\" style=\"color: rgb(0,148,193)\">Description</label>\n          <input type=\"text\" class=\"form-control\" id=\"DescriptionTextField\" placeholder=\"Enter Description\"\n            name=\"description\" [(ngModel)]=\"survey.description\" value=\"{{survey.description}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Question 1</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 1st Question\"\n            name=\"question1\" [(ngModel)]=\"survey.question1\" value=\"{{survey.question1}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Question 2</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 2nd Question\"\n            name=\"question2\" [(ngModel)]=\"survey.question2\" value=\"{{survey.question2}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Question 3</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 3rd Question\"\n            name=\"question3\" [(ngModel)]=\"survey.question3\" value=\"{{survey.question3}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Question 4</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 4th Question\"\n            name=\"question4\" [(ngModel)]=\"survey.question4\" value=\"{{survey.question4}}\" required />\n        </div>\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Question 5</label>\n          <input type=\"text\" class=\"form-control\" id=\"PriorityTextField\" placeholder=\"Enter 5th Question\"\n            name=\"question5\" [(ngModel)]=\"survey.question5\" value=\"{{survey.question5}}\" required />\n        </div>\n\n\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Survey Start Date</label>\n          <input id=\"startDate\" name=\"startDate\" [(ngModel)]=\"startDate\" value=\"{{startDate}}\" type=\"date\"\n            class=\"form-control \"  >\n\n\n        </div>\n\n        <div class=\"form-group\">\n          <label for=\"PriorityTextField\" style=\"color: rgb(0,148,193)\">Survey end Date</label>\n          <input id=\"endDate\" name=\"endDate\" [(ngModel)]=\"endDate\" type=\"date\" value=\"{{endDate}}\"\n            class=\"form-control\">\n        </div>\n\n\n\n\n\n        <fieldset class=\"form-group text-center\">\n          <button type=\"submit\" class=\"btn btn-primary\" style=\"margin: 10px;background-color: rgb(0,148,193)\">\n            <i class=\"fa fa-edit\"></i>\n            {{title}}\n          </button>\n          <a href=\"/survey-list\" class=\"btn btn-warning mx-1\" style=\"margin: 10px; background-color:rgb(246,198,66)\"><i class=\"fa fa-undo\"></i>\n            Cancel</a>\n\n\n        </fieldset>\n      </form>\n      <br><br><br>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -2982,8 +2607,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var ts_md5_dist_md5__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ts-md5/dist/md5 */ "./node_modules/ts-md5/dist/md5.js");
-/* harmony import */ var ts_md5_dist_md5__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(ts_md5_dist_md5__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var src_app_models_user__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/app/models/user */ "./src/app/models/user.ts");
 /*
 This Application Made for Emerging Technology COMP308_2019W
 Peiran Liu - 300884514
@@ -3032,8 +2656,8 @@ var SurveyDetailsComponent = /** @class */ (function () {
         var _this = this;
         this.surveyListService.getSurvey(survey).subscribe(function (data) {
             _this.survey = data.survey;
-            _this.startDate = _this.formatDate(new Date(_this.survey.startDate).toDateString());
-            _this.endDate = _this.formatDate(new Date(_this.survey.endDate).toDateString());
+            _this.startDate = _this.formatDate(_this.survey.startDate.toString().replace(/-/g, '\/').replace(/T.+/, ''));
+            _this.endDate = _this.formatDate(_this.survey.endDate.toString().replace(/-/g, '\/').replace(/T.+/, ''));
         });
     };
     SurveyDetailsComponent.prototype.onDetailsPageSubmit = function () {
@@ -3041,12 +2665,11 @@ var SurveyDetailsComponent = /** @class */ (function () {
         switch (this.title) {
             // add
             case 'Add Survey':
-                this.survey.userEmail = this.current.email;
-                this.survey.surveyId = ts_md5_dist_md5__WEBPACK_IMPORTED_MODULE_6__["Md5"].hashStr(this.survey.name).toString()
-                    + ts_md5_dist_md5__WEBPACK_IMPORTED_MODULE_6__["Md5"].hashStr(this.survey.description).toString()
-                    + ts_md5_dist_md5__WEBPACK_IMPORTED_MODULE_6__["Md5"].hashStr(this.survey.question1).toString();
-                this.survey.startDate = new Date(this.startDate.replace(/-/g, ','));
-                this.survey.endDate = new Date(this.endDate.replace(/-/g, ','));
+                this.user = new src_app_models_user__WEBPACK_IMPORTED_MODULE_6__["User"]();
+                this.user = JSON.parse(localStorage.getItem('user'));
+                this.survey.userId = this.user['id'];
+                this.survey.startDate = new Date(this.startDate); //new Date(this.startDate.replace(/-/g, ','));
+                this.survey.endDate = new Date(this.endDate); //new Date(this.endDate.replace(/-/g, ','));
                 this.surveyListService.addSurvey(this.survey).subscribe(function (data) {
                     if (data.success) {
                         _this.flashMessage.show(data.msg, { cssClass: 'alert-success', timeOut: 3000 });
@@ -3109,7 +2732,7 @@ module.exports = ".container {\n  padding-right: 15px;\n  padding-left: 15px;\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<div\nstyle=\"width:900px; height: 480px; position: bottom; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center; background-image: url(../assets/bg1.jpg); \">\n\n<div class=\"container\" style=\"width: 600px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\">\n<h3 class=\"text-left\" style=\"color: rgb(0,148,193)\">Surveys</h3>\n<div class=\"row\">\n    <div class=\"col-md-offset-3 col-md-12\">\n <!--      <a routerLink=\"/survey-list/add\" class=\"btn btn-outline-primary\" role=\"button\">\n        <i class=\"fa fa-plus-circle\"></i>\n        Add Survey</a>\n      <br /> -->\n      <table _ngcontent-c2 class=\"table table-bordered\">\n        <!-- Header Row-->\n        <thead class=\"thead-dark\">\n          <tr>\n            <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Name</th>\n            <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Description</th>\n            <th _ngcontent-c2 class=\"th-sm text-center align-middle\">\n              <a routerLink=\"/survey-list/add\" class=\"btn btn-light\" role=\"button\" style=\"background-color: rgb(0,0,0); color: rgb(225,225,225)\">\n                <i class=\"fa fa-plus-circle\" style=\"color: rgb(225,225,225)\"></i > Add a Survey\n              </a>\n\n          </th>\n          <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Make a payment</th>\n          <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Survey Level</th>\n\n        </tr>\n        </thead>\n\n        <!-- Repeatable Template Row -->\n        <tr *ngFor=\"let survey of surveys\">\n          <td class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\">{{ survey.name }}</td>\n          <td class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\">{{ survey.description }}</td>\n          <td class=\"th-sm text-center align-middle\">\n              <a routerLink=\"/survey-list/detail/{{ survey._id }}\" _ngcontent-c2 class=\"btn btn-dark btn-block\">\n                <i class=\"fas fa-eye\"></i>\n              </a>\n            <a routerLink=\"/survey-list/edit/{{ survey._id }}\" _ngcontent-c2 class=\"btn btn-dark btn-block\">\n              <i class=\"fas fa-pencil-alt\"></i>\n            </a>\n            <a routerLink=\"/survey-list/delete/{{ survey._id }}\" (click)=\"onDeleteClick()\" _ngcontent-c2 class=\"btn btn-dark btn-block\">\n              <i class=\"fas fa-trash\"></i>\n          </a>\n          <a routerLink=\"/answer-list/{{ survey.surveyId}}\"   _ngcontent-c2 class=\"btn btn-dark btn-block\">\n            <i class=\"fas fa-cloud-download-alt\"></i>\n        </a>\n       </td>\n\n\n       <td class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\">\n       Upgrade your Survey\n        <a routerLink=\"/survey-list/pay/{{ survey.surveyId}}\"   _ngcontent-c2 class=\"btn btn-dark btn-block\">\n          <i class=\"fab fa-cc-paypal\"> </i>\n      </a>\n       </td>\n\n       <td *ngIf=\"survey.payment === 'Gold'\" class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\"><p><i class=\"fas fa-medal fa-3x\" style=\"color:orange\" ></i></p>{{ survey.payment }}</td>\n       <td *ngIf=\"survey.payment === 'silver'\" class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\"><p></p>{{ survey.payment }}</td>\n       <td *ngIf=\"survey.payment != 'silver' && survey.payment != 'Gold'\" class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\"><p></p>{{ survey.payment }}</td>\n\n\n\n        </tr>\n      </table>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<div\nstyle=\"max-width:900px; max-height: 480px; position: bottom; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center; background-image: url(../assets/bg1.jpg); \">\n\n<div class=\"container\" style=\"max-width: 600px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\">\n<h3 class=\"text-left\" style=\"color: rgb(0,148,193)\">Surveys</h3>\n<div class=\"input-group mb-3\">\n  <input type=\"text\" class=\"form-control\" [(ngModel)]=\"search\" placeholder=\"Search by survey name\" >\n</div>\n<div class=\"row\">\n    <div class=\"col-md-offset-3 col-md-12\">\n <!--      <a routerLink=\"/survey-list/add\" class=\"btn btn-outline-primary\" role=\"button\">\n        <i class=\"fa fa-plus-circle\"></i>\n        Add Survey</a>\n      <br /> -->\n      <table _ngcontent-c2 class=\"table table-bordered table-responsive\">\n        <!-- Header Row-->\n        <thead class=\"thead-dark\">\n          <tr>\n            <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Name</th>\n            <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Description</th>\n            <th _ngcontent-c2 class=\"th-sm text-center align-middle\">\n              <a routerLink=\"/survey-list/add\" class=\"btn btn-light\" role=\"button\" style=\"background-color: rgb(0,0,0); color: rgb(225,225,225)\">\n                <i class=\"fa fa-plus-circle\" style=\"color: rgb(225,225,225)\"></i > Add a Survey\n              </a>\n\n          </th>\n          <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Make a payment</th>\n          <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Survey Level</th>\n\n        </tr>\n        </thead>\n\n        <!-- Repeatable Template Row -->\n        <tr *ngFor=\"let survey of surveys | searchByName: search.toLowerCase()\">\n          <td class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\">{{ survey.name }}</td>\n          <td class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\">{{ survey.description }}</td>\n          <td class=\"th-sm text-center align-middle\">\n              <a routerLink=\"/survey-list/detail/{{ survey._id }}\" _ngcontent-c2 class=\"btn btn-dark btn-block\">\n                <i class=\"fas fa-eye\"></i>\n              </a>\n            <a routerLink=\"/survey-list/edit/{{ survey._id }}\" _ngcontent-c2 class=\"btn btn-dark btn-block\">\n              <i class=\"fas fa-pencil-alt\"></i>\n            </a>\n            <a routerLink=\"/survey-list/delete/{{ survey._id }}\" (click)=\"onDeleteClick()\" _ngcontent-c2 class=\"btn btn-dark btn-block\">\n              <i class=\"fas fa-trash\"></i>\n          </a>\n          <a routerLink=\"/answer-list/{{ survey.surveyId }}\"   _ngcontent-c2 class=\"btn btn-dark btn-block\">\n            <i class=\"fas fa-cloud-download-alt\"></i>\n        </a>\n       </td>\n\n\n       <td class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\">\n       Upgrade your Survey\n        <a routerLink=\"/survey-list/pay/{{ survey.surveyId }\"   _ngcontent-c2 class=\"btn btn-dark btn-block\">\n          <i class=\"fab fa-cc-paypal\"> </i>\n      </a>\n       </td>\n\n       <td *ngIf=\"survey.payment === 'Gold'\" class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\"><p><i class=\"fas fa-medal fa-3x\" style=\"color:orange\" ></i></p>{{ survey.payment }}</td>\n       <td *ngIf=\"survey.payment === 'silver'\" class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\"><p></p>{{ survey.payment }}</td>\n       <td *ngIf=\"survey.payment != 'silver' && survey.payment != 'Gold'\" class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\"><p></p>{{ survey.payment }}</td>\n\n\n\n        </tr>\n      </table>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -3129,8 +2752,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/services/auth.service */ "./src/app/services/auth.service.ts");
-/* harmony import */ var src_app_services_answer_list_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/app/services/answer-list.service */ "./src/app/services/answer-list.service.ts");
+/* harmony import */ var src_app_models_user__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/app/models/user */ "./src/app/models/user.ts");
+/* harmony import */ var src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/app/services/auth.service */ "./src/app/services/auth.service.ts");
 /* harmony import */ var src_app_models_answer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/models/answer */ "./src/app/models/answer.ts");
 /*
 This Application Made for Emerging Technology COMP308_2019W
@@ -3149,22 +2772,20 @@ Hyojin Kim - 300950009
 
 
 var SurveyListComponent = /** @class */ (function () {
-    function SurveyListComponent(surveyListService, flashMessage, router, authService, answerListService) {
+    function SurveyListComponent(surveyListService, flashMessage, router, authService) {
         this.surveyListService = surveyListService;
         this.flashMessage = flashMessage;
         this.router = router;
         this.authService = authService;
-        this.answerListService = answerListService;
     }
     SurveyListComponent.prototype.ngOnInit = function () {
         this.surveys = new Array();
-        this.current = JSON.parse(localStorage.getItem('user'));
+        this.current = new src_app_models_user__WEBPACK_IMPORTED_MODULE_5__["User"]();
         this.answers = new Array();
-        this.answer = new src_app_models_answer__WEBPACK_IMPORTED_MODULE_7__["Answer"];
-        if (this.isLoggedIn())
-            this.displayUserSurveyList();
-        else
-            this.displaySurveyList();
+        this.answer = new src_app_models_answer__WEBPACK_IMPORTED_MODULE_7__["Answer"]();
+        this.search = '';
+        this.isLoggedIn();
+        this.displayUserSurveyList();
         //alert(this.current.id);
     };
     SurveyListComponent.prototype.onDeleteClick = function () {
@@ -3172,28 +2793,12 @@ var SurveyListComponent = /** @class */ (function () {
             this.router.navigate(['/survey-list']);
         }
     };
-    SurveyListComponent.prototype.displaySurveyList = function () {
-        var _this = this;
-        this.surveyListService.getSurveyList().subscribe(function (data) {
-            if (data.success) {
-                console.log(data);
-                _this.surveys = data.surveyList;
-            }
-            else {
-                _this.flashMessage.show('User must be logged in', { cssClass: 'alert-danger', timeOut: 3000 });
-            }
-        });
-    };
     SurveyListComponent.prototype.displayUserSurveyList = function () {
         var _this = this;
-        this.surveyListService.getSurveyList().subscribe(function (data) {
+        this.surveyListService.getUserSurveyList(this.current._id).subscribe(function (data) {
             if (data.success) {
                 console.log(data.surveyList);
-                _this.searchSurvey = data.surveyList;
-                _this.searchSurvey.forEach(function (survey) {
-                    if (survey.userEmail === _this.current.email)
-                        _this.surveys.push(survey);
-                });
+                _this.surveys = data.surveyList;
             }
             else {
                 _this.flashMessage.show('User must be logged in', { cssClass: 'alert-danger', timeOut: 3000 });
@@ -3204,6 +2809,7 @@ var SurveyListComponent = /** @class */ (function () {
         var result = this.authService.loggedIn();
         if (result) {
             this.current = JSON.parse(localStorage.getItem('user'));
+            this.current._id = this.current['id'];
         }
         return result;
     };
@@ -3216,8 +2822,7 @@ var SurveyListComponent = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_services_survey_list_service__WEBPACK_IMPORTED_MODULE_2__["SurveyListService"],
             angular2_flash_messages__WEBPACK_IMPORTED_MODULE_3__["FlashMessagesService"],
             _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"],
-            src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_5__["AuthService"],
-            src_app_services_answer_list_service__WEBPACK_IMPORTED_MODULE_6__["AnswerListService"]])
+            src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_6__["AuthService"]])
     ], SurveyListComponent);
     return SurveyListComponent;
 }());
@@ -3427,7 +3032,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h2 class=\"text-center\"style=\"color: rgb(20,148,193)\">Select your Donation function</h2>\n\n\n\n    <Form action=\"https://www.sandbox.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\" class=\"text-center\">\n      <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" />\n      <input type=\"hidden\" name=\"hosted_button_id\" value=\"RXRWDS47KYDHA\" />\n      <input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\"  (click)=\"form.submit()\" title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\" />\n      <img alt=\"\"  src=\"https://www.sandbox.paypal.com/en_CA/i/scr/pixel.gif\" width=\"1\" height=\"1\" />\n      </Form>\n      \n\n\n\n  "
+module.exports = "<h2 class=\"text-center\"style=\"color: rgb(20,148,193)\">Select your Donation function</h2>\n\n\n\n    <Form action=\"https://www.sandbox.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\" class=\"text-center\">\n      <input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\" />\n      <input type=\"hidden\" name=\"hosted_button_id\" value=\"RXRWDS47KYDHA\" />\n      <input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\"  title=\"PayPal - The safer, easier way to pay online!\" alt=\"Donate with PayPal button\" />\n      <img alt=\"\"  src=\"https://www.sandbox.paypal.com/en_CA/i/scr/pixel.gif\" width=\"1\" height=\"1\" />\n      </Form>\n\n\n\n\n"
 
 /***/ }),
 
@@ -3448,6 +3053,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! angular2-flash-messages */ "./node_modules/angular2-flash-messages/module/index.js");
 /* harmony import */ var angular2_flash_messages__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(angular2_flash_messages__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var src_app_models_user__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/app/models/user */ "./src/app/models/user.ts");
+/* harmony import */ var src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/app/services/auth.service */ "./src/app/services/auth.service.ts");
 /*
 This Application Made for Emerging Technology COMP308_2019W
 Peiran Liu - 300884514
@@ -3462,18 +3069,22 @@ Hyojin Kim - 300950009
 
 
 
+
+
 var SurveyPayComponent = /** @class */ (function () {
-    function SurveyPayComponent(activatedRoute, surveyListService, flashMessage, router) {
+    function SurveyPayComponent(activatedRoute, surveyListService, flashMessage, router, authService) {
         this.activatedRoute = activatedRoute;
         this.surveyListService = surveyListService;
         this.flashMessage = flashMessage;
         this.router = router;
+        this.authService = authService;
     }
     SurveyPayComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.title = this.activatedRoute.snapshot.data.title;
         this.survey = new src_app_models_survey__WEBPACK_IMPORTED_MODULE_3__["Survey"]();
-        this.current = JSON.parse(localStorage.getItem('user'));
+        this.current = new src_app_models_user__WEBPACK_IMPORTED_MODULE_6__["User"]();
+        this.isLoggedIn();
         this.activatedRoute.params.subscribe(function (params) {
             _this.id = params.id;
         });
@@ -3481,12 +3092,12 @@ var SurveyPayComponent = /** @class */ (function () {
     };
     SurveyPayComponent.prototype.displayUserSurveyList = function () {
         var _this = this;
-        this.surveyListService.getSurveyList().subscribe(function (data) {
+        this.surveyListService.getUserSurveyList(this.current._id).subscribe(function (data) {
             if (data.success) {
                 console.log(data.surveyList);
                 _this.searchSurvey = data.surveyList;
                 _this.searchSurvey.forEach(function (survey) {
-                    if (_this.id === survey.surveyId)
+                    if (_this.id === survey._id)
                         _this.survey = survey;
                     localStorage.setItem("d_survey", JSON.stringify(_this.survey));
                 });
@@ -3495,6 +3106,14 @@ var SurveyPayComponent = /** @class */ (function () {
                 _this.flashMessage.show('User must be logged in', { cssClass: 'alert-danger', timeOut: 3000 });
             }
         });
+    };
+    SurveyPayComponent.prototype.isLoggedIn = function () {
+        var result = this.authService.loggedIn();
+        if (result) {
+            this.current = JSON.parse(localStorage.getItem('user'));
+            this.current._id = this.current['id'];
+        }
+        return result;
     };
     SurveyPayComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -3505,7 +3124,8 @@ var SurveyPayComponent = /** @class */ (function () {
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"],
             src_app_services_survey_list_service__WEBPACK_IMPORTED_MODULE_2__["SurveyListService"],
             angular2_flash_messages__WEBPACK_IMPORTED_MODULE_5__["FlashMessagesService"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]])
+            _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"],
+            src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_7__["AuthService"]])
     ], SurveyPayComponent);
     return SurveyPayComponent;
 }());
