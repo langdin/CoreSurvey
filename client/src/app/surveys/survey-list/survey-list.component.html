@@ -55,7 +55,7 @@ style="max-width:900px; max-height: 480px; position: bottom; top: 0px;left: 0px;
             <a routerLink="/survey-list/delete/{{ survey._id }}" (click)="onDeleteClick()" _ngcontent-c2 class="btn btn-dark btn-block">
               <i class="fas fa-trash"></i>
           </a>
-          <a routerLink="/answer-list/{{ survey._id}}"   _ngcontent-c2 class="btn btn-dark btn-block">
+          <a routerLink="/answer-list/{{ survey.surveyId }}"   _ngcontent-c2 class="btn btn-dark btn-block">
             <i class="fas fa-cloud-download-alt"></i>
         </a>
        </td>
@@ -63,7 +63,7 @@ style="max-width:900px; max-height: 480px; position: bottom; top: 0px;left: 0px;
 
        <td class="th-sm text-center align-middle" style="color: rgb(233,233,233)">
        Upgrade your Survey
-        <a routerLink="/survey-list/pay/{{ survey._id}}"   _ngcontent-c2 class="btn btn-dark btn-block">
+        <a routerLink="/survey-list/pay/{{ survey.surveyId }"   _ngcontent-c2 class="btn btn-dark btn-block">
           <i class="fab fa-cc-paypal"> </i>
       </a>
        </td>
