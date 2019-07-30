@@ -2245,7 +2245,15 @@ var AnswerListComponent = /** @class */ (function () {
             title: "Report :",
             useBom: true,
             noDownload: false,
-            headers: ["_id", "surveyId", "answer1", "answer2", "answer3", "answer4", "answer5", "createdDate"]
+            headers: [
+                "_id",
+                "surveyId",
+                "answer1",
+                "answer2",
+                "answer3",
+                "answer4",
+                "answer5"
+            ]
         };
     }
     AnswerListComponent.prototype.ngOnInit = function () {
@@ -2270,19 +2278,18 @@ var AnswerListComponent = /** @class */ (function () {
                 console.log(data.answerList);
                 data.answerList.forEach(function (ans) {
                     _this.dtAnswer.push({
-                        "_id": ans._id,
-                        "surveyId": ans.surveyId,
-                        "answer1": ans.answer1,
-                        "answer2": ans.answer2,
-                        "answer3": ans.answer3,
-                        "answer4": ans.answer4,
-                        "answer5": ans.answer5,
-                        "createdDate": ans.createdDate
+                        _id: ans._id,
+                        surveyId: ans.surveyId,
+                        answer1: ans.answer1,
+                        answer2: ans.answer2,
+                        answer3: ans.answer3,
+                        answer4: ans.answer4,
+                        answer5: ans.answer5
                     });
                 });
                 // download csv and return to survey list
                 _this.downloadCSV();
-                _this.router.navigate(['/survey-list']);
+                _this.router.navigate(["/survey-list"]);
             }
         });
     };
@@ -2701,7 +2708,7 @@ module.exports = ".container {\n  padding-right: 15px;\n  padding-left: 15px;\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<div\nstyle=\"max-width:900px; max-height: 480px; position: bottom; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center; background-image: url(../assets/bg1.jpg); \">\n\n<div class=\"container\" style=\"max-width: 600px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\">\n<h3 class=\"text-left\" style=\"color: rgb(0,148,193)\">Surveys</h3>\n<div class=\"row\">\n    <div class=\"col-md-offset-3 col-md-12\">\n <!--      <a routerLink=\"/survey-list/add\" class=\"btn btn-outline-primary\" role=\"button\">\n        <i class=\"fa fa-plus-circle\"></i>\n        Add Survey</a>\n      <br /> -->\n      <table _ngcontent-c2 class=\"table table-bordered table-responsive\">\n        <!-- Header Row-->\n        <thead class=\"thead-dark\">\n          <tr>\n            <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Name</th>\n            <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Description</th>\n            <th _ngcontent-c2 class=\"th-sm text-center align-middle\">\n              <a routerLink=\"/survey-list/add\" class=\"btn btn-light\" role=\"button\" style=\"background-color: rgb(0,0,0); color: rgb(225,225,225)\">\n                <i class=\"fa fa-plus-circle\" style=\"color: rgb(225,225,225)\"></i > Add a Survey\n              </a>\n\n          </th>\n          <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Make a payment</th>\n          <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Survey Level</th>\n\n        </tr>\n        </thead>\n\n        <!-- Repeatable Template Row -->\n        <tr *ngFor=\"let survey of surveys\">\n          <td class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\">{{ survey.name }}</td>\n          <td class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\">{{ survey.description }}</td>\n          <td class=\"th-sm text-center align-middle\">\n              <a routerLink=\"/survey-list/detail/{{ survey._id }}\" _ngcontent-c2 class=\"btn btn-dark btn-block\">\n                <i class=\"fas fa-eye\"></i>\n              </a>\n            <a routerLink=\"/survey-list/edit/{{ survey._id }}\" _ngcontent-c2 class=\"btn btn-dark btn-block\">\n              <i class=\"fas fa-pencil-alt\"></i>\n            </a>\n            <a routerLink=\"/survey-list/delete/{{ survey._id }}\" (click)=\"onDeleteClick()\" _ngcontent-c2 class=\"btn btn-dark btn-block\">\n              <i class=\"fas fa-trash\"></i>\n          </a>\n          <a routerLink=\"/answer-list/{{ survey._id}}\"   _ngcontent-c2 class=\"btn btn-dark btn-block\">\n            <i class=\"fas fa-cloud-download-alt\"></i>\n        </a>\n       </td>\n\n\n       <td class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\">\n       Upgrade your Survey\n        <a routerLink=\"/survey-list/pay/{{ survey._id}}\"   _ngcontent-c2 class=\"btn btn-dark btn-block\">\n          <i class=\"fab fa-cc-paypal\"> </i>\n      </a>\n       </td>\n\n       <td *ngIf=\"survey.payment === 'Gold'\" class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\"><p><i class=\"fas fa-medal fa-3x\" style=\"color:orange\" ></i></p>{{ survey.payment }}</td>\n       <td *ngIf=\"survey.payment === 'silver'\" class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\"><p></p>{{ survey.payment }}</td>\n       <td *ngIf=\"survey.payment != 'silver' && survey.payment != 'Gold'\" class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\"><p></p>{{ survey.payment }}</td>\n\n\n\n        </tr>\n      </table>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<!--\n/*\nThis Application Made for Emerging Technology COMP308_2019W\nPeiran Liu - 300884514\nDin Khiieu Lanh - 300960476\nLiwen Qiao - 300907835\nHeeyeong Kim - 300954759\nHyojin Kim - 300950009\n */\n\n-->\n<div\nstyle=\"max-width:900px; max-height: 480px; position: bottom; top: 0px;left: 0px; right: 0px; bottom: 0px; margin: auto; text-align: center; background-image: url(../assets/bg1.jpg); \">\n\n<div class=\"container\" style=\"max-width: 600px; margin: 0 auto; padding-top: 2%; padding-bottom: 5%\">\n<h3 class=\"text-left\" style=\"color: rgb(0,148,193)\">Surveys</h3>\n<div class=\"row\">\n    <div class=\"col-md-offset-3 col-md-12\">\n <!--      <a routerLink=\"/survey-list/add\" class=\"btn btn-outline-primary\" role=\"button\">\n        <i class=\"fa fa-plus-circle\"></i>\n        Add Survey</a>\n      <br /> -->\n      <table _ngcontent-c2 class=\"table table-bordered table-responsive\">\n        <!-- Header Row-->\n        <thead class=\"thead-dark\">\n          <tr>\n            <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Name</th>\n            <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Description</th>\n            <th _ngcontent-c2 class=\"th-sm text-center align-middle\">\n              <a routerLink=\"/survey-list/add\" class=\"btn btn-light\" role=\"button\" style=\"background-color: rgb(0,0,0); color: rgb(225,225,225)\">\n                <i class=\"fa fa-plus-circle\" style=\"color: rgb(225,225,225)\"></i > Add a Survey\n              </a>\n\n          </th>\n          <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Make a payment</th>\n          <th _ngcontent-c2 class=\"th-sm text-center align-middle\">Survey Level</th>\n\n        </tr>\n        </thead>\n\n        <!-- Repeatable Template Row -->\n        <tr *ngFor=\"let survey of surveys\">\n          <td class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\">{{ survey.name }}</td>\n          <td class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\">{{ survey.description }}</td>\n          <td class=\"th-sm text-center align-middle\">\n              <a routerLink=\"/survey-list/detail/{{ survey._id }}\" _ngcontent-c2 class=\"btn btn-dark btn-block\">\n                <i class=\"fas fa-eye\"></i>\n              </a>\n            <a routerLink=\"/survey-list/edit/{{ survey._id }}\" _ngcontent-c2 class=\"btn btn-dark btn-block\">\n              <i class=\"fas fa-pencil-alt\"></i>\n            </a>\n            <a routerLink=\"/survey-list/delete/{{ survey._id }}\" (click)=\"onDeleteClick()\" _ngcontent-c2 class=\"btn btn-dark btn-block\">\n              <i class=\"fas fa-trash\"></i>\n            </a>\n            <a routerLink=\"/answer-list/{{ survey.surveyId }}\"   _ngcontent-c2 class=\"btn btn-dark btn-block\">\n              <i class=\"fas fa-cloud-download-alt\"></i>\n            </a>\n       </td>\n\n\n       <td class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\">\n       Upgrade your Survey\n        <a routerLink=\"/survey-list/pay/{{ survey.surveyId}}\"   _ngcontent-c2 class=\"btn btn-dark btn-block\">\n          <i class=\"fab fa-cc-paypal\"> </i>\n      </a>\n       </td>\n\n       <td *ngIf=\"survey.payment === 'Gold'\" class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\"><p><i class=\"fas fa-medal fa-3x\" style=\"color:orange\" ></i></p>{{ survey.payment }}</td>\n       <td *ngIf=\"survey.payment === 'silver'\" class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\"><p></p>{{ survey.payment }}</td>\n       <td *ngIf=\"survey.payment != 'silver' && survey.payment != 'Gold'\" class=\"th-sm text-center align-middle\" style=\"color: rgb(233,233,233)\"><p></p>{{ survey.payment }}</td>\n\n\n\n        </tr>\n      </table>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -2752,12 +2759,12 @@ var SurveyListComponent = /** @class */ (function () {
         this.surveys = new Array();
         this.current = JSON.parse(localStorage.getItem('user'));
         this.answers = new Array();
-        this.answer = new src_app_models_answer__WEBPACK_IMPORTED_MODULE_7__["Answer"];
+        this.answer = new src_app_models_answer__WEBPACK_IMPORTED_MODULE_7__["Answer"]();
         if (this.isLoggedIn())
             this.displayUserSurveyList();
         else
             this.displaySurveyList();
-        //alert(this.current.id);
+        // alert(this.current.id);
     };
     SurveyListComponent.prototype.onDeleteClick = function () {
         if (!confirm('Are you sure?')) {
