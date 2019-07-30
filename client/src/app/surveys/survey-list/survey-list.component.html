@@ -51,10 +51,10 @@ style="max-width:900px; max-height: 480px; position: bottom; top: 0px;left: 0px;
             </a>
             <a routerLink="/survey-list/delete/{{ survey._id }}" (click)="onDeleteClick()" _ngcontent-c2 class="btn btn-dark btn-block">
               <i class="fas fa-trash"></i>
-          </a>
-          <a routerLink="/answer-list/{{ survey._id}}"   _ngcontent-c2 class="btn btn-dark btn-block">
-            <i class="fas fa-cloud-download-alt"></i>
-        </a>
+            </a>
+            <a routerLink="/answer-list/{{ survey.surveyId }}"   _ngcontent-c2 class="btn btn-dark btn-block">
+              <i class="fas fa-cloud-download-alt"></i>
+            </a>
        </td>
 
 

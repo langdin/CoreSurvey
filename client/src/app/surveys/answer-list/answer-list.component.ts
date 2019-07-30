@@ -40,10 +40,9 @@ export class AnswerListComponent implements OnInit {
     private router: Router,
     private authService: AuthService,
     private answerListService: AnswerListService
-  ) { }
+  ) {}
 
   //students = new Array<student>();
-
 
   csvOptions = {
     fieldSeparator: ",",
@@ -54,12 +53,19 @@ export class AnswerListComponent implements OnInit {
     title: "Report :",
     useBom: true,
     noDownload: false,
-    headers: ["_id", "surveyId", "answer1", "answer2", "answer3", "answer4", "answer5", "createdDate"]
+    headers: [
+      "_id",
+      "surveyId",
+      "answer1",
+      "answer2",
+      "answer3",
+      "answer4",
+      "answer5"
+    ]
   };
 
   ngOnInit() {
     this.dtAnswer = [];
-
 
     this.surveys = new Array<Survey>();
     this.current = JSON.parse(localStorage.getItem("user"));
@@ -69,7 +75,6 @@ export class AnswerListComponent implements OnInit {
 
     this.activatedRoute.params.subscribe(params => {
       this.answer.surveyId = params.id;
-
     });
 
     this.exportSurveyList(this.answer);
@@ -85,33 +90,26 @@ export class AnswerListComponent implements OnInit {
         console.log(data.answerList);
         data.answerList.forEach(ans => {
           this.dtAnswer.push({
-            "_id": ans._id,
-            "surveyId": ans.surveyId,
-            "answer1": ans.answer1,
-            "answer2": ans.answer2,
-            "answer3": ans.answer3,
-            "answer4": ans.answer4,
-            "answer5": ans.answer5,
-            "createdDate": ans.createdDate
-          })
+            _id: ans._id,
+            surveyId: ans.surveyId,
+            answer1: ans.answer1,
+            answer2: ans.answer2,
+            answer3: ans.answer3,
+            answer4: ans.answer4,
+            answer5: ans.answer5
+          });
         });
+
         // download csv and return to survey list
         this.downloadCSV();
 
-        this.router.navigate(['/survey-list']);
+        this.router.navigate(["/survey-list"]);
       }
     });
   }
 
-
-
-
-
-
-
-
-  public downloadCSV(){
-  //this.dtHolidays : JSONDATA , HolidayList : CSV file Name, this.csvOptions : file options
-  new AngularCsv(this.dtAnswer, "yourReport", this.csvOptions);
-}
+  public downloadCSV() {
+    //this.dtHolidays : JSONDATA , HolidayList : CSV file Name, this.csvOptions : file options
+    new AngularCsv(this.dtAnswer, "yourReport", this.csvOptions);
+  }
 }

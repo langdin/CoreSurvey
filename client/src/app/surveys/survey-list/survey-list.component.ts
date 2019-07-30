@@ -27,8 +27,8 @@ export class SurveyListComponent implements OnInit {
   searchSurvey: Survey[];
   surveys: Survey[];
   current: User;
-  answers:Answer[];
-  answer:Answer;
+  answers: Answer[];
+  answer: Answer;
 
 
   constructor(
@@ -36,25 +36,25 @@ export class SurveyListComponent implements OnInit {
     private flashMessage: FlashMessagesService,
     private router: Router,
     private authService: AuthService,
-    private answerListService:AnswerListService
+    private answerListService: AnswerListService
 
   ) { }
 
   ngOnInit() {
     this.surveys = new Array<Survey>();
     this.current = JSON.parse(localStorage.getItem('user'));
-    this.answers=new Array<Answer>()
-    this.answer = new Answer;
+    this.answers = new Array<Answer> ();
+    this.answer = new Answer();
 
 
 
     if (this.isLoggedIn())
-    this.displayUserSurveyList();
+      this.displayUserSurveyList();
 
     else
-    this.displaySurveyList();
+      this.displaySurveyList();
 
-    //alert(this.current.id);
+    // alert(this.current.id);
 
   }
 

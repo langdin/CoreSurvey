@@ -9,7 +9,6 @@ Hyojin Kim - 300950009
 
 export class Answer {
   _id: string;
-  createdDate: Date;
   answer1: string;
   answer2: string;
   answer3: string;
