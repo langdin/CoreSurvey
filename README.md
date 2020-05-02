@@ -9,7 +9,7 @@ This Web Application helps Users to register, take and create surveys, download 
 * [Mongoose](https://mongoosejs.com/)
 #### Client-side
 * [Angular](https://angular.io/)
-* [Bootstrap](https://getbootstrap.com/
+* [Bootstrap](https://getbootstrap.com/)
 * [PayPal](https://developer.paypal.com/classic-home/)
 
 ## Authors
