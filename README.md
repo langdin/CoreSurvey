@@ -1,6 +1,10 @@
 # CoreSurvey
 This Web Application helps Users to register, take and create surveys, download reports for surveys in .csv format, and utilize PayPal services.
 
+![screenshot2](https://github.com/langdin/CoreSurvey/blob/master/client/src/assets/coresurvey2.PNG)
+
+![screenshot1](https://github.com/langdin/CoreSurvey/blob/master/client/src/assets/coresurvey1.PNG)
+
 ## Technologies
 #### Server-side
 * [Node.js](https://nodejs.org/en/)
